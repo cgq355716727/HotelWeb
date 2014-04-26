@@ -1,0 +1,19 @@
+#flowername{ color : red ; font-size : 20px ;font-family: "ËÎÌו" }
+#flowerid{ color : lightseagreen ; font-size : 12px ;}
+#flowerdetail{ color : dimgray ; }
+#imageborder{ border-color : gainsboro ;}
+#pricedetail{ color : #ff33cc; }
+#show{ color : darkorange; }
+.name { border: #FF0000 solid; height: 0px; color: #0066FF; border-width: 0px 0px 1px;text-decoration:none;}
+.name:hover {  border: solid; height: 0px; color: #red; border-width: 0px 0px 1px; border-color: #00FF00 #00FF00 #00FF33 #00FF33;text-decoration:none;}
+a { font-family: "ËÎÌו";font-size: 12px; text-decoration: none}
+a:active  { text-decoration : underline ; color : red ;}
+a:visited { text-decoration : underline ; color : red ;}
+a:link {color: #000000; text-decoration:none;}
+a:visited {color: #000000;text-decoration:none;} 
+a:hover {color: #ff0000;text-decoration:underline;} 
+.price{ color : hotpink ; font-size : 12px ;}
+#ordertd{ color : red ;}
+#order{ background-color : lightpink ; }
+.font{font-size:24px}
+table,td,tr,th{font-size:12px;}

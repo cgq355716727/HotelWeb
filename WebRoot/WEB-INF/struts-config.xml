@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+   <!-- 配置表单VO类。form-beans配置多个表单VO -->
+    <form-beans>
+    	<!-- 配置用户业务表单提交时，对应的表单VO类
+    		name:名字，唯一， type:表单的处理类
+    	 -->
+    	<form-bean name="userVo" type="com.vo.UserVo"/>
+    	<form-bean name="adminVo" type="com.vo.AdminVo" />
+    	<form-bean type="com.vo.MsgVo" name="msgVo"/>
+    	<form-bean name="RoomTypeVo" type="com.vo.RoomTypeVo"/>
+    	<form-bean name="guestVo" type="com.vo.GuestVo"/>
+    	
+    </form-beans>
+
+   <!-- 配置客户端请求的路径对应的处理类
+   action-mapping:管理当前系统中所有的请求路径与处理类的关联
+   
+   path:客户端请求的路径   user.action   唯一
+   type:对应的action处理类的路径 
+   parameter:一个action类处理不同的业务，指点传递的方法值对应的属性名
+    user.action?aaa=login name:指定封装表单的VO类。对应form-bean中的
+     name属性值
+    -->
+	<action-mapping>
+		<action path="user" 
+				type="com.action.impl.UserAction"
+				parameter="method"
+				name="userVo">
+				
+			<!-- 处理转发或重定向   redirect默认为false,转发
+			name:唯一标识   path:转向的资源  redirect:是否重定向
+			-->
+			<forward name="success" path="/success.jsp" redirect="false"/>
+
+			<forward name="error" path="/Error404.jsp"/>
+		</action>
+
+		<action path="guest"  type="com.action.impl.GuestAction"
+				parameter="method"
+				name="guestVo">
+				
+			<!-- 处理转发或重定向   redirect默认为false,转发
+			name:唯一标识   path:转向的资源  redirect:是否重定向
+			-->
+			<!--  -->
+			
+			<forward name="myorder" path="/my_order.jsp" redirect="false"/>
+			 <forward name="success" path="/my_order.jsp" redirect="false"/>
+			<forward name="showorderlist" path="/guest.action?method=showOrderList" redirect="false"/>
+			<forward name="error" path="/Error404.jsp"/>
+		</action>
+		
+		<action path="admin"
+				type="com.action.impl.AdminAction"
+				parameter="method"
+				name="adminVo">
+		     <forward name="error" path="/admin/login.jsp"/>
+		     <forward name="success" path="/admin/index.html"/>
+		      <forward name="login" path="/admin.action?method=login" redirect="false"/>
+		</action>
+		
+		<action path="order"
+				type="com.action.impl.OrderAction"
+				parameter="method"
+				name="OrderVo">
+		     <forward name="error" path="//Error404.jsp"/>
+		     <forward name="success" path="order.action?method=search"/>
+		     <forward name="addReserve" path="/admin/add_reserve.jsp" />
+		</action>
+	
+	<action path="innorder" type="com.action.impl.InnOrderAction" parameter="method" name="OrderVo">
+		     <forward name="error" path="/Error404.jsp"/>
+		     <forward name="success" path="/guest.action?method=showOrderList"/>
+	</action>
+	
+		<action path="hotellist"  type="com.action.impl.HotelAction" parameter="method" name="hotelVo">
+				
+			<!-- 处理转发或重定向   redirect默认为false,转发
+			name:唯一标识   path:转向的资源  redirect:是否重定向
+			-->
+			<forward name="success" path="/hotellistinfo.jsp" redirect="false"/>
+			<forward name="page" path="/page.jsp" redirect="false"/>
+			<forward name="innorder" path="/inn_order.jsp" redirect="false"/>
+			<forward name="inn_order_confirm" path="/inn_order_confirm.jsp" redirect="false"/>
+			<forward name="error" path="/Error404.jsp"/>
+			
+		</action>
+		<action path="msg" type="com.action.impl.MsgAction" parameter="method" name="msgVo">
+			<forward name ="success" path="/showMsg.jsp" />		
+			<forward name="showMsg"  path="/msg.action?method=showMsg&amp;jumpPage=1"/>
+			<forward name="error" path="/Error404.jsp" />
+		</action>
+		
+
+			<action path="roomType"
+				type="com.action.impl.RoomTypeAction"
+				parameter="method"
+				name="RoomTypeVo">
+			<forward name ="success" path="/admin/addroomtype.jsp" />	
+			<forward name ="showAllTypes" path="roomType.action?method=showAllTypes" />	
+			<forward name="addReserve" path="/admin/add_reserve.jsp" />
+			<forward name="shortstop_checkin" path="/admin/shortstop_checkin.jsp" />
+		</action>
+		
+		<action path="room"
+				type="com.action.impl.RoomAction"
+				parameter="method"
+				name="RoomVo">
+			<forward name ="showRooms" path="/admin/roomList.jsp" />	
+		</action>
+		
+	</action-mapping>
+</struts-config>

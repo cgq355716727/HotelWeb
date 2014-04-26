@@ -1,0 +1,2957 @@
+/*分店房态查询*/
+/****北上广深*****/
+.fdbj_main {
+	background-image: url(http://img1.7daysinn.cn/images/fd/fdbj_new.jpg);
+	background-repeat: no-repeat;
+	padding-top: 230px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+}
+.fdsh_main {
+	background-image: url(http://img1.7daysinn.cn/images/fd/fdsh_new.jpg);
+	background-repeat: no-repeat;
+	padding-top: 230px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+}
+.fdsz_main {
+	background-image: url(http://img1.7daysinn.cn/images/fd/fdsz_new.jpg);
+	background-repeat: no-repeat;
+	padding-top: 230px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+}
+.fdgz_main {
+	background-image: url(http://img1.7daysinn.cn/images/fd/fdgz_new.jpg);
+	background-repeat: no-repeat;
+	padding-top: 230px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+}
+
+.fd_search{ width:855px; height:37px; background-image:url(http://img1.7daysinn.cn/images/fd/sbg.gif)}
+.fd_search .text{
+   float: left;
+	width:210px;
+	margin:10px 0 0 10px;
+}
+.fd_search .search{ float:left; margin:8px 0 0 20px;}
+.fd_search .btn{ float:left; width:130px; margin:5px 0 0 10px;}
+.fd_search .btn .sub1{
+    width: 123px;
+	height: 30px;
+	border: none;
+	background: url(http://img1.7daysinn.cn/images/fd/findbtn.gif) no-repeat;
+	}
+.fd_search .red{
+	color: #FF0000;
+}
+
+.fd_city{width:600px; margin-left:10px;}
+.fd_city .left{
+	width:70px;
+	height:18px;
+	background-image:url(http://img1.7daysinn.cn/images/fd/menu01.gif);
+	float:left;
+	margin-right:10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-left: 8px;
+}
+.fd_city .right{width:510px; float:left;}
+.fd_city .right li{
+	float:left;
+	width:60px;
+	display:block;
+	text-align:left;
+	line-height:20px;
+	height:20px;
+	color:#216499;
+	overflow:hidden;
+	background-image: url(http://img1.7daysinn.cn/images/fd/dot02.gif);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding-left: 10px;
+	background-position: 0px 6px;
+}
+
+.fd_near{
+	width:600px;
+	margin-left:10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.fd_near .left{
+	width:70px;
+	height:18px;
+	background-image:url(http://img1.7daysinn.cn/images/fd/menu02.gif);
+	float:left;
+	margin-right:10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-left: 8px;
+}
+.fd_near .right{width:510px; float:left;}
+.fd_near .right li{
+	float:left;
+	width:60px;
+	display:block;
+	text-align:left;
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	margin: 0;
+	color: #666666;
+}
+.fd_hot{
+	width:600px;
+	margin-left:10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.fd_hot .left{
+	width:70px;
+	height:18px;
+	background-image:url(http://img1.7daysinn.cn/images/fd/menu03.gif);
+	float:left;
+	margin-right:10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-left: 8px;
+}
+.fd_hot .right{width:510px; float:left;}
+.fd_hot .right li{
+	float:left;
+	width:60px;
+	display:block;
+	text-align:left;
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	margin: 0;
+	color: #999999;
+}
+
+.fd_c1{height:39px; background:url(http://img1.7daysinn.cn/images/fd/fd_c1.gif) center bottom no-repeat;}
+
+.fd_left{ padding-left:4px;}
+
+.fd_act{width:855px; padding-left:10px;}
+.fd_act .top{width:855px; height:6px; background:url(http://img1.7daysinn.cn/images/fd/fd_01.gif) no-repeat;}
+.fd_act .mid{width:855px;height:123px; background:url(http://img1.7daysinn.cn/images/fd/fd_02.gif) center repeat-y;}
+.fd_act .btm{width:855px; height:6px; background:url(http://img1.7daysinn.cn/images/fd/fd_03.gif) no-repeat;}
+.fd_act .mid .li {float:left;}
+.fd_act .mid .m {float:left; width:310px; }
+.fd_act .mid .m .hd_lf{float:left; width:150px;height:106px;text-align:center; overflow:hidden;}
+.fd_act .mid .m .hd_lf span{ display:block; margin:5px 0 0 5px;width:137px; height:97px; background:url(http://img1.7daysinn.cn/images/hd_img_bg.gif) no-repeat; text-align:center; padding:5px 0 0 0;}
+.fd_act .mid .m .hd_ri{float:left; width:150px;height:100px; border-left:1px solid #89c4df; overflow:hidden;}
+.fd_act .mid .m .hd_ri h2{height:18px;line-height:18px;background:url(http://img1.7daysinn.cn/images/ar_hd.gif) 12px 5px no-repeat; padding:0 0 0 30px; text-align:left;color:#ff7f00; overflow:hidden;}
+.fd_act .mid .m .hd_ri h2 a{color:#ff7f00!important;}
+.fd_act .mid .m .hd_ri p{text-align:left;line-height:18px; margin:0; padding:0 0 0 10px; height:90px;color:#666666; overflow:hidden;}
+
+/* 最新活动滚动 */
+#scrollDiv{height: 120px; width:800px;}
+#scrollDiv li {margin: 10px 10px;  height: 130px; }
+
+.main {
+	background: url(http://img1.7daysinn.cn/images/main_bg.gif) repeat-y;
+}
+
+.main_top {
+	height: 10px;
+	font-size: 0;
+	line-height: 0;
+	background: url(http://img1.7daysinn.cn/images/main_top.gif) no-repeat;
+	overflow: hidden;
+}
+
+.main_bottom {
+	height: 10px;
+	font-size: 0;
+	line-height: 0;
+	background: url(http://img1.7daysinn.cn/images/main_bottom.gif) no-repeat;
+	overflow: hidden;
+}
+
+.main .left218 {
+	float: left;
+	display: inline;
+	margin-left: 10px;
+}
+
+.main .right626 {
+	float: right;
+	width: 626px;
+	display: inline;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.main .right626 .box {
+	background: url(http://img1.7daysinn.cn/images/bg_626.gif) repeat-y;
+}
+
+.main .right626 .top {
+	height: 10px;
+	font-size: 0;
+	line-height: 0;
+	background: url(http://img1.7daysinn.cn/images/top_626.gif) no-repeat;
+}
+
+.main .right626 .top2 {
+	height: 10px;
+	font-size: 0;
+	line-height: 0;
+	background: url(http://img1.7daysinn.cn/images/626_top2.gif) no-repeat;
+}
+
+.main .right626 .bottom {
+	height: 10px;
+	font-size: 1px;
+	line-height: 10px;
+	background: url(http://img1.7daysinn.cn/images/bottom_626.gif) no-repeat;
+}
+
+.main .right626 .bgtitle {
+	background: url(http://img1.7daysinn.cn/images/bg_626.gif) repeat-y;
+}
+
+.main .right626 .title {
+	height: 50px;
+	border-bottom: 1px solid #C0E8FA;
+}
+
+.main .right626 .title h3 {
+	color: #226399;
+	float: left;
+	font-size: 18px;
+	height: 35px;
+	line-height: 40px;
+	margin: 7px 0 0 28px;
+	-margin-left: 14px;
+	overflow: hidden;
+	padding-left: 35px;
+	font-weight: bold;
+}
+
+.main .right626 .title .icon6 {
+	background: url(http://img1.7daysinn.cn/images/icon6.gif) left top no-repeat;
+}
+
+.main .right626 .title .icon10 {
+	background: url(http://img1.7daysinn.cn/images/icon10.gif) 0px 7px no-repeat;
+}
+
+.main .right626 .title .progress {
+	float: right;
+	width: 370px;
+	margin-top: 20px;
+}
+
+.main .right626 .title .progress a {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding-right: 33px;
+	line-height: 120%;
+	color: #6397BF;
+	font-size: 14px;
+	background: url(http://img1.7daysinn.cn/images/point.gif) right no-repeat;
+}
+
+/*.main .right626 .title .progress a:hover {color:#FD8002;background:url(http://img1.7daysinn.cn/images/point_on.gif) right no-repeat; }*/
+.main .right626 .title .progress a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+.main .right626 .title .progress i {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding-right: 33px;
+	line-height: 120%;
+	color: #6397BF;
+	font-size: 14px;
+	background: url(http://img1.7daysinn.cn/images/point.gif) right no-repeat;
+	font-style: normal;
+}
+
+.main .right626 .title .progress .nobg,.main .right626 .title .progress .nobg:hover
+	{
+	background: none;
+	padding-right: 0;
+}
+
+.main .right626 .title .progress .on {
+	color: #FD8002;
+	background: url(http://img1.7daysinn.cn/images/point_on.gif) right no-repeat;
+	cursor: default;
+}
+
+.main .right626 .title2 {
+	height: 45px;
+	border-bottom: 1px solid #C0E8FA;
+	margin: 0 30px;
+}
+
+.icon3 {
+	background: url(http://img1.7daysinn.cn/images/icon3.gif) left center no-repeat;
+}
+
+.main .right626 .title2 h3 {
+	display: inline;
+	margin: 17px 0 0 15px;
+	padding-left: 20px;
+	height: 20px;
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	color: #226399;
+	overflow: hidden;
+}
+
+.main .right626 .title span {
+	float: right;
+	margin: 35px 15px 0 0;
+	padding-left: 20px;
+}
+
+.main .right626 .city {
+	display: inline;
+	float: left;
+	margin: 0 30px;
+	padding: 10px 0 10px 30px;
+	border-bottom: 1px solid #C0E8FA;
+	color: #226399;
+}
+
+html>body .main .right626 .city {
+	padding-bottom: 10px;
+}
+
+.main .right626 .city li {
+	display: inline;
+	float: left;
+	margin: 3px 0;
+	width: 100px;
+	height: 22px;
+	line-height: 18px;
+	clear: none;
+	overflow: hidden;
+}
+
+html>body .main .right626 .city li {
+	line-height: 22px;
+	height: 22px;
+}
+
+.main .right626 .city li input {
+	float: left;
+}
+
+.main .right626 .city li span {
+	float: left;
+	margin-left: 3px;
+}
+
+.main .right626 .search {
+	margin: 0 30px;
+	color: #236297;
+	border-bottom: 1px solid #C0E8FA;
+	padding-top: 5px;
+	_padding-top: 0px;
+}
+
+.main .right626 .search p {
+	padding: 0 0 0 15px;
+	background: url(http://img1.7daysinn.cn/images/arrow_down.gif) left no-repeat;
+	margin: 10px 0;
+}
+
+.main .right626 .search p span {
+	padding-right: 10px;
+	margin: 5px 0;
+}
+
+.main .right626 .search p input {
+	margin-right: 5px;
+}
+
+.main .right626 .search p .inp1 {
+	border: 1px solid #76C9F3;
+	width: 155px;
+	height: 20px;
+}
+
+.main .right626 .marginNone {
+	margin: 0;
+	padding: 0 30px;
+}
+
+.main .right626 .icon {
+	padding: 0 30px;
+	text-align: center;
+}
+
+.main .right626 .icon input {
+	width: 115px;
+	height: 30px;
+	margin: 0 30px;
+	border: none;
+	cursor: pointer;
+}
+
+.main .right626 .icon .sub1 {
+	background: url(http://img1.7daysinn.cn/images/icon_inquire.gif) no-repeat;
+}
+
+.main .right626 .icon .sub2 {
+	background: url(http://img1.7daysinn.cn/images/icon_redo.gif) no-repeat;
+}
+
+/*发表小贴士*/
+.main .right626 .titlebox {
+	background: url(http://img1.7daysinn.cn/images/bar_gray_bg.gif) repeat-x;
+	height: 62px;
+	width: 626px;
+}
+
+.main .right626 .titlebox .left {
+	float: left;
+}
+
+.main .right626 .titlebox .middle {
+	float: left;
+	width: 586px;
+}
+
+.main .right626 .titlebox .right {
+	float: right;
+}
+
+.main .right626 .titlebox h3 {
+	color: #226399;
+	display: inline;
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	height: 38px;
+	line-height: 35px;
+	margin: 12px 0 0 0;
+	overflow: hidden;
+	padding-left: 50px;
+}
+
+.main .right626 .titlebox .icon6 {
+	background: url(http://img1.7daysinn.cn/images/icon6.gif) left center no-repeat;
+}
+
+.main .right626 .titlebox .progress {
+	float: right;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.main .right626 .titlebox .progress a {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding-right: 33px;
+	color: #6397BF;
+	font-size: 14px;
+	background: url(http://img1.7daysinn.cn/images/point.gif) right no-repeat;
+}
+
+/*.main .right626 .titlebox .progress a:hover {color:#FD8002;background:url(http://img1.7daysinn.cn/images/point_on.gif) right no-repeat;text-decoration:none}*/
+.main .right626 .titlebox .progress a:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+.main .right626 .titlebox .progress i {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding-right: 33px;
+	color: #6397BF;
+	font-size: 14px;
+	background: url(http://img1.7daysinn.cn/images/point.gif) right no-repeat;
+	font-style: normal;
+}
+
+.main .right626 .titlebox .progress .nobg,.main .right626 .title .progress .nobg:hover
+	{
+	background: none;
+	padding-right: 0;
+}
+
+.main .right626 .titlebox .progress .nobg:hover {
+	background: none;
+	padding-right: 0;
+}
+
+.main .right626 .titlebox .progress .on {
+	color: #FD8002;
+	background: url(http://img1.7daysinn.cn/images/point_on.gif) right no-repeat;
+	cursor: default;
+}
+
+.main .right626 .titlebox .progress .nobgon {
+	color: #FD8002
+}
+
+.icon_round1 {
+	background: url(http://img1.7daysinn.cn/images/icon_round1.gif) no-repeat;
+}
+
+.icon_roundq1 {
+	margin: 0 0 0 0;
+	padding-left: 0 px;
+	float: left;
+}
+
+.icon_roundq2 {
+	width: 622px;
+	background: url(http://img1.7daysinn.cn/images/qaddbg.jpg);
+	margin-left: 2px
+}
+
+.main .right626 .contbox {
+	width: 626px;
+	background: url(http://img1.7daysinn.cn/images/bg_626.gif) repeat-y;
+}
+
+.main .right626 .contbox .intitle {
+	width: 626px;
+	height: 38px;
+	background: url(http://img1.7daysinn.cn/images/bar2_bg.gif) repeat-x;
+}
+
+.main .right626 .contbox .intitle .left {
+	float: left;
+	width: 9px;
+	display: block;
+}
+
+.main .right626 .contbox .intitle .right {
+	float: right;
+	width: 9px;
+	display: block;
+}
+
+.main .right626 .contbox .intitle .middle {
+	display: block;
+	float: left;
+	width: 608px;
+	height: 38px;
+	overflow: hidden;
+}
+
+.main .right626 .contbox .intitle h4 {
+	display: block;
+	float: left;
+	margin: 5px 0 0 0; *
+	margin-top: 3px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 40px;
+	height: 31px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #236298;
+	overflow: hidden;
+}
+
+.main .right626 .contbox .intitle h4 a {
+	color: #236298;
+	text-decoration: underline;
+}
+
+.main .right626 .contbox .intitle .width70 {
+	width: 70px;
+}
+
+.main .right626 .contbox .intitle .sp {
+	height: 26px;
+	line-height: 26px;
+	padding: 6px 0 0 6px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #236298;
+}
+
+.icon_round2 {
+	background: url(http://img1.7daysinn.cn/images/icon_round2.gif) left no-repeat;
+}
+
+.icon_round3 {
+	background: url(http://img1.7daysinn.cn/images/icon_round3.gif) left no-repeat;
+}
+
+.icon_round4 {
+	background: url(http://img1.7daysinn.cn/images/icon_round4.gif) left no-repeat;
+}
+
+.main .right626 .contbox .xts {
+	padding: 10px 15px;
+}
+
+.main .right626 .contbox ul {
+	padding: 10px 15px 0;
+}
+
+.main .right626 .contbox ul .st {
+	background: url(http://img1.7daysinn.cn/images/arrow_orange.gif) left 8px no-repeat;
+	line-height: 22px;
+	padding-left: 30px;
+}
+
+.main .right626 .contbox ul .st ol {
+	display: inline-block;
+	margin: 0; *
+	padding: 0 0 0 3px;
+}
+
+.main .right626 .contbox ul .st ol li {
+	list-style-type: decimal;
+	padding: 0;
+	margin: 0 0 0 20px;
+}
+
+.main .right626 .contbox .choice {
+	display: inline;
+	float: left;
+	margin: 0 18px;
+	width: 535px;
+	border-bottom: 1px solid #C0E8FA;
+}
+
+.main .right626 .contbox .choice li {
+	display: inline;
+	float: left;
+	margin: 3px 0;
+	width: 55px;
+	height: 22px;
+	line-height: 18px;
+	clear: none;
+	overflow: hidden;
+}
+
+.main .right626 .inp {
+	margin: 0 30px;
+	padding: 10px;
+}
+
+.main .right626 .inp p {
+	float: left;
+	background: transparent url(http://img1.7daysinn.cn/images/arrow_down.gif) no-repeat scroll
+		left center;
+	padding-left: 15px;
+}
+
+.main .right626 textarea {
+	float: right;
+	width: 490px;
+	height: 130px;
+	border: 1px solid #8C8C8C;
+}
+
+.main .right626 .contbox .intitle h5 {
+	display: inline;
+	float: left;
+	margin: 7px 0 0 10px;
+	margin: 5px 0 0 10px; *
+	margin: 7px 0 0 10px;
+	_margin: 5px 0 0 10px;
+	line-height: 28px;
+	height: 28px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.tips {
+	border-bottom: 1px solid #88C4E0;
+	padding: 15px 0 10px 25px;
+}
+
+.tips .tip {
+	width: 570px;
+	border-bottom: 1px dashed #C0E8FA;
+	margin: 0;
+}
+
+.tips .tip tr {
+	line-height: 20px;
+}
+
+.tips .tip .bg1 {
+	background: transparent url(http://img1.7daysinn.cn/images/arrow_down.gif) no-repeat scroll
+		left center;
+	padding-left: 15px;
+}
+
+.tips .tip .td1 {
+	text-align: left;
+	width: 380px;
+}
+
+.tips .tip .td2 {
+	text-align: center;
+	width: 95px;
+}
+
+.tips .tip .td3 {
+	text-align: right;
+	width: 95px;
+	color: #5D5D5D;
+}
+
+.tips .tip .td4 {
+	text-align: left;
+	padding-bottom: 5px;
+	padding-left: 18px;
+	padding-right: 10px;
+}
+
+.tips .tip .yes {
+	width: 89px;
+	height: 27px;
+	line-height: 27px;
+	color: #000;
+	background: url(http://img1.7daysinn.cn/images/bg_yes.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.tips .tip .no {
+	width: 89px;
+	height: 27px;
+	line-height: 27px;
+	color: #000;
+	background: url(http://img1.7daysinn.cn/images/bg_no.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+/*分店房选择*/
+.main .right626 .titlebox2 {
+	background: url(http://img1.7daysinn.cn/images/bar_gray2_bg.gif) repeat-x;
+	height: 77px;
+	width: 626px;
+}
+
+.main .right626 .titlebox2 .left {
+	float: left;
+}
+
+.main .right626 .titlebox2 .middle {
+	float: left;
+	width: 591px;
+}
+
+.main .right626 .titlebox2 .right {
+	float: right;
+}
+
+.main .right626 .titlebox2 .middle h3 {
+	margin: 8px 0 0 0;
+}
+
+.main .right626 .titlebox2 .middle .progress {
+	margin: 15px 0 0 0;
+}
+
+.main .right626 .titlebox2 .middle .search {
+	margin: 0;
+	border: none;
+	width: 580px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.main .right626 .titlebox2 .middle .search td {
+	padding: 0 0 0 3px;
+}
+
+.main .right626 .titlebox2 .middle .search td.ss1 {
+	color: #6f6f6f;
+}
+
+.main .right626 .titlebox2 .middle .f14px {
+	line-height: 20px;
+}
+
+.main .right626 .titlebox2 .middle .option {
+	padding: 0 4px;
+	padding-right: 15px;
+	background: #fff url(http://img1.7daysinn.cn/images/arrow_red.gif) right no-repeat;
+	border: 1px solid #b7b7b7;
+	cursor: pointer;
+	position: relative;
+	height: 20px;
+}
+
+.more_menu0 {
+	display: '';
+}
+
+.more_menu1 {
+	display: none;
+}
+
+#moremenu1,#moremenu2,#moremenu3 {
+	position: absolute;
+	z-index: 26;
+	VISIBILITY: hidden;
+	left: -1px;
+	top: 20px;
+	font-size: 12px;
+	border: 1px solid #6E6E6E;
+	background-color: #FFFFFF;
+	width: 102px;
+	display: block;
+	color: #000;
+	overflow: hidden;
+}
+
+#moremenu2 {
+	width: 62px;
+}
+
+#moremenu3 {
+	width: 62px;
+}
+
+#moremenu1 ul,#moremenu2 ul,#moremenu3 ul {
+	padding: 0px 0 0 0px;
+}
+
+#moremenu1 ul li,#moremenu2 ul li,#moremenu3 ul li {
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0px 6px 0px 3px;
+	border-bottom: 1px solid #6E6E6E;
+	text-align: left;
+	font-size: 12px;
+}
+
+#moremenu1 ul li a:hover,#moremenu2 ul li a:hover,#moremenu3 ul li a:hover
+	{
+	text-decoration: none;
+}
+
+.icon_round5 {
+	background: url(http://img1.7daysinn.cn/images/icon_round5.gif) left no-repeat;
+}
+
+.main .right626 .contbox .intitle .write a {
+	padding: 0 5px 0 20px;
+	line-height: 20px;
+	height: 24px;
+	color: #666;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.main .right626 .contbox .intitle .write a:hover {
+	text-decoration: underline;
+	color: #226399;
+	font-size: 12px;
+}
+
+.main .right626 .contbox .intitle .write {
+	display: block;
+	float: right;
+	line-height: 25px;
+	margin-top: 10px;
+	padding: 0 15px;
+	font-size: 14px;
+}
+
+.main .right626 .contbox .intitle .write .icon_little1 {
+	background: url(http://img1.7daysinn.cn/images/icon_little1.gif) left no-repeat;
+}
+
+.main .right626 .contbox .intitle .write .icon_little2 {
+	background: url(http://img1.7daysinn.cn/images/icon_little2.gif) left no-repeat;
+}
+
+.main .right626 .contbox .intitle .write .icon_little3 {
+	background: url(http://img1.7daysinn.cn/images/icon_little3.gif) left no-repeat;
+}
+
+.main .right626 .contbox .intitle .write .icon_little4 {
+	background: url(http://img1.7daysinn.cn/images/icon_little4.gif) left no-repeat;
+}
+
+.main .right626 .contbox .intitle .write .icon_little5 {
+	background: url(http://img1.7daysinn.cn/images/icon_little5.gif) left no-repeat;
+}
+
+.main .right626 .contbox .info {
+	padding: 10px 30px;
+	line-height: 180%;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+.main .right626 .contbox .info p {
+	margin: 0;
+}
+
+.main .right626 .contbox .info p span {
+	padding: 0 2px 0 0;
+}
+
+.main .right626 .contbox .info2 {
+	padding: 5px 13px 3px 13px;
+	line-height: 180%;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+.main .right626 .contbox .info2 .zf {
+	margin: 3px 0 0 0;
+}
+
+.main .right626 .contbox .info2 .zf span {
+	padding: 0 2px 0 0;
+}
+
+.main .right626 .contbox .info3 {
+	padding: 5px 15px 0px 10px;
+	margin: 0px;
+	line-height: 20px;
+	text-align: right;
+	text-justify: inter-ideograph;
+}
+
+.main .right626 .contbox .room,.main .right626 .contbox .room_comp {
+	width: 600px;
+	margin: 0 12px;
+	text-align: center;
+	border-top: 1px solid #cfe7fe;
+	border-left: 1px solid #cfe7fe;
+}
+
+.main .right626 .contbox .room td {
+	border-right: 1px solid #cfe7fe;
+	border-bottom: 1px solid #cfe7fe;
+}
+
+.main .right626 .contbox .room .td1 {
+	width: 125px;
+}
+
+.main .right626 .contbox .room .td2 {
+	width: 145px;
+}
+
+.main .right626 .contbox .room .td22 {
+	padding-left:7px;
+	padding-right:7px;
+}
+
+.main .right626 .contbox .room .td3 {
+	width: 67px;
+}
+
+.main .right626 .contbox .room .td33 {
+	width: 72px;
+	color:#F00;
+}
+
+.main .right626 .contbox .room .td4 {
+	width: 135px;
+}
+
+.main .right626 .contbox .room tr {
+	height: 25px;
+}
+
+.main .right626 .contbox .room .th {
+	background: #F0F0F0;
+	font-weight: bold;
+}
+
+.main .right626 .contbox .room .inp1 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 49px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	vertical-align:middle;
+	background: url(http://img1.7daysinn.cn/images/bg_icon5.gif) no-repeat;
+	cursor: pointer;
+}
+
+.main .right626 .contbox .room .inp2 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 116px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon6.gif) no-repeat;
+	cursor: pointer;
+}
+.main .right626 .contbox .room .inp9 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 116px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon6_1.gif) no-repeat;
+	cursor: pointer;
+}
+
+.main .right626 .contbox .room .inp3 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 49px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon7.gif) no-repeat;
+	cursor: pointer;
+}
+
+.btn_inp1 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 49px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon5.gif) no-repeat;
+	cursor: pointer;
+}
+
+.btn_inp2 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 116px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon6.gif) no-repeat;
+	cursor: pointer;
+}
+.btn_inp9{
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 116px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon6_1.gif) no-repeat;
+	cursor: pointer;
+}
+
+.btn_inp3 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 49px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon7.gif) no-repeat;
+	cursor: pointer;
+}
+
+.main .right626 .contbox .tabhotel01 .inp3 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 64px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_08.gif) no-repeat;
+	cursor: pointer;
+}
+
+.main .right626 .contbox  .room_comp {
+	border: 1px solid #cfe7fe;
+	border-top: none;
+}
+
+.main .right626 .contbox  .room_comp td {
+	background: #fff;
+}
+
+.main .right626 .contbox .room_comp .fontb01 {
+	color: #065eb6;
+	font-weight: bold
+}
+
+/*详细介绍*/
+.main .right626 .titlebox .write {
+	float: right;
+	line-height: 25px;
+	margin-top: 10px;
+	padding: 0 15px;
+}
+
+.main .right626 .titlebox .write a {
+	display: block;
+	float: left;
+	padding: 0 5px 0 20px;
+	color: #666;
+	text-decoration: underline;
+}
+
+.main .right626 .titlebox .write a:hover {
+	text-decoration: underline;
+	color: #226399;
+}
+
+.main .right626 .titlebox .write .icon_little1 {
+	background: url(http://img1.7daysinn.cn/images/icon_little1.gif) left no-repeat;
+}
+
+.main .right626 .titlebox .write .icon_little2 {
+	background: url(http://img1.7daysinn.cn/images/icon_little2.gif) left no-repeat;
+}
+
+.main .right626 .titlebox .write .icon_little3 {
+	background: url(http://img1.7daysinn.cn/images/icon_little3.gif) left no-repeat;
+}
+
+.main .right626 .titlebox .write .icon_little4 {
+	background: url(http://img1.7daysinn.cn/images/icon_little4.gif) left no-repeat;
+}
+
+.picture {
+	width: 550px;
+	margin: 0 35px 0 20px;
+}
+
+.picture .pic {
+	display: inline;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #90C8E1;
+	background: #F3F3F5;
+}
+
+.main .right626 .contbox .time {
+	margin-top: 8px;
+	line-height: 20px;
+	height: 20px;
+}
+
+.main .right626 .contbox .time .confirm {
+	width: 49px;
+	height: 21px;
+	background: url(http://img1.7daysinn.cn/images/bg_icon5.gif) no-repeat;
+	border: none;
+	font-family: "宋体";
+}
+
+.main .right626 .contbox .time .inp01 {
+	width: 80px;
+	border: 1px solid #77c8f3;
+	padding: 0 5px 0 5px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.main .right626 .contbox .time .pf01 {
+	padding-left: 100px;
+}
+
+.main .right626 .contbox .tiplist {
+	padding: 0;
+}
+
+.main .right626 .contbox .tiplist li {
+	margin: 0 1px;
+	background: url(http://img1.7daysinn.cn/images/arrow_down.gif) 20px center no-repeat;
+	height: 35px;
+	overflow: hidden;
+	padding-left: 35px;
+	clear: both;
+}
+
+.main .right626 .contbox .tiplist li span {
+	line-height: 35px;
+}
+
+.main .right626 .contbox .tiplist .bggray {
+	background: #E6E6E6 url(http://img1.7daysinn.cn/images/arrow_down.gif) 20px center no-repeat;
+}
+
+.main .right626 .contbox .tiplist li .text {
+	float: left;
+	line-height: 35px;
+}
+
+.main .right626 .contbox .tiplist li .num {
+	float: right;
+	padding: 0 50px 0 10px;
+	color: #FF7F03;
+}
+
+.main .right626 .contbox .tiplist2 {
+	padding: 0 0;
+}
+
+.main .right626 .contbox .tiplist2 li {
+	margin: 10px 1px;
+	background: url(http://img1.7daysinn.cn/images/arrow_down.gif) 20px 6px no-repeat;
+	padding-left: 35px;
+	line-height: 20px;
+	clear: both;
+}
+
+.special {
+	display: block;
+}
+
+.special h3 {
+	display: inline;
+	float: left;
+	margin: 0 0 0 10px;
+	color: #236298;
+	font-size: 14px;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	overflow: hidden;
+	padding-left: 40px;
+}
+
+.icon_round6 {
+	background: transparent url(http://img1.7daysinn.cn/images/icon_round6.gif) no-repeat scroll
+		left center;
+}
+
+.special span {
+	float: left;
+	display: block;
+	line-height: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.icon_round7 {
+	background: transparent url(http://img1.7daysinn.cn/images/icon_round7.gif) no-repeat scroll
+		left center;
+}
+
+.tb1 {
+	width: 624px;
+	color: #666;
+}
+
+.tb1 tr td {
+	border-bottom: 1px solid #AAAAA9;
+}
+
+.tb1 tr .td1 {
+	padding: 20px;
+	border-right: 1px dashed #AAAAA9;
+	text-align: center;
+}
+
+.tb1 .tr1 td {
+	border-bottom: none;
+}
+
+.icon_round8 {
+	background: transparent url(http://img1.7daysinn.cn/images/icon_round8.gif) left no-repeat;
+}
+
+.tb2 {
+	margin: 0 2px;
+	width: 622px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #AAAAA9;
+}
+
+.tb2 td {
+	padding-left: 8px;
+}
+
+.tb2 .bggray td {
+	background: #E7E7E7;
+	height: 25px;
+}
+
+.tb2 .bggray h4 {
+	padding-left: 15px;
+	background: url(http://img1.7daysinn.cn/images/arrow_black.gif) left no-repeat;
+}
+
+.tb2 .tdblank {
+	width: 40px;
+}
+
+.tb2 td input {
+	display: block;
+	float: left;
+	margin: 2px;
+	padding: 0;
+}
+
+.tb2 td span {
+	display: block;
+	float: left;
+	margin: 2px; *
+	margin-top: 8px;
+	-margin-top: 5px;
+}
+
+.tb3 {
+	margin: 10px;
+	width: 600px;
+	text-align: center;
+	line-height: 22px;
+	border-top: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
+}
+
+.tb3 td {
+	border-right: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.tb3 th {
+	border-right: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.tb4 {
+	width: 100%;
+	margin: 10px 10px 0px 10px;
+}
+
+.tb4 td {
+	text-align: center;
+	padding-left: 15px;
+	height: 35px;
+}
+
+.tb4 .td1 {
+	width: 170px;
+	padding-left: 10px;
+	color: #6e6e6e;
+	background: #F2F2F2;
+	border-bottom: 1px solid #D2D1D1;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.tb4 td span {
+	display: block;
+	float: left;
+	line-height: 20px;
+}
+
+.tb4 td span.lhdd {
+	line-height: 22px;
+}
+
+.tb4 td span.lfss {
+	padding-left: 6px;
+}
+
+.tb4 td .point {
+	width: 12px;
+	height: 12px;
+	background: #ccc;
+	float: left;
+	margin: 5px 1px 0;
+}
+
+.tb4 td .on {
+	background: #FC7F00;
+}
+
+.icon_round9 {
+	background: url(http://img1.7daysinn.cn/images/icon_round9.gif) left center no-repeat;
+}
+
+.tb5 {
+	border-top: 1px solid #fff;
+	width: 624px;
+	margin: 0 1px;
+}
+
+.tb5 p {
+	margin: 0;
+	padding: 0;
+}
+
+.tb5 .data {
+	font-size: 11px;
+}
+
+.tb5 tr td {
+	line-height: 18px;
+	padding: 6px 0;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+.tb5 .th td {
+	background: #E7E7E7;
+	color: #6E6E6E;
+	font-weight: bold;
+	border-bottom: 0;
+}
+
+.tb5 .tdblank {
+	width: 40px;
+}
+
+.tb5 .bggray td {
+	background: #F2F2F2;
+}
+
+.tb5 .bggray .td1 {
+	background: #F2F2F2 url(http://img1.7daysinn.cn/images/arrow_down.gif) left no-repeat;
+}
+
+.tb5 tr .td1 {
+	padding-left: 15px;
+	background: url(http://img1.7daysinn.cn/images/arrow_down.gif) left no-repeat;
+}
+
+.tb5 tr .hd10 {
+	line-height: 10px;
+	height: 10px;
+}
+
+.contbox .txt {
+	margin: 0 15px;
+	padding-top: 5px;
+	width: 596px;
+	line-height: 180%;
+	border-top: 1px dashed #226399;
+}
+
+/*点评列表*/
+.arr_d img {
+	vertical-align: bottom;
+	margin: 6px 3px 5px 0 !important;
+	margin: 6px 5px 0px 0;
+	line-height: 20px;
+}
+
+.tb5 tr .arrow_down {
+	padding-left: 15px;
+	background: url(http://img1.7daysinn.cn/images/arrow_down.gif) left no-repeat;
+}
+
+.tb5 .bggray .arrow_down {
+	padding-left: 15px;
+	background: #f2f2f2 url(http://img1.7daysinn.cn/images/arrow_down.gif) left no-repeat;
+}
+
+.cmd {
+	
+}
+
+.bb {
+	border-bottom: 1px solid #89C4DF;
+}
+
+/*酒店地图*/
+.contbox .map {
+	margin: 0 1px;
+}
+
+.icon_map1 {
+	background: url(http://img1.7daysinn.cn/images/icon_map1.gif) left 0px no-repeat;
+}
+
+.icon_map2 {
+	background: url(http://img1.7daysinn.cn/images/icon_map2.gif) left 0px no-repeat;
+}
+
+.icon_map3 {
+	background: url(http://img1.7daysinn.cn/images/icon_map3.gif) left 0px no-repeat;
+}
+
+.icon_map4 {
+	background: url(http://img1.7daysinn.cn/images/icon_map4.gif) left 0px no-repeat;
+}
+
+.icon_map5 {
+	background: url(http://img1.7daysinn.cn/images/icon_map5.gif) left 0px no-repeat;
+}
+
+/*发表点评*/
+.main .right626 .topyellow {
+	background: url(http://img1.7daysinn.cn/images/top_626_yellow.gif) no-repeat;
+	height: 5px;
+	font-size: 0;
+}
+
+.main .right626 .bgyellow {
+	background: url(http://img1.7daysinn.cn/images/bg_626_yellow.gif) repeat-y;
+	height: auto;
+	overflow: hidden;
+}
+
+.main .right626 .bgyellow h3 {
+	float: left;
+	margin-left: 10px;
+	-margin-left: 5px;
+	padding-left: 40px;
+	width: 70px;
+	background: url(http://img1.7daysinn.cn/images/icon_round10.gif) left no-repeat;
+	height: 31px;
+	line-height: 31px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FD8200;
+}
+
+.main .right626 .bgyellow span {
+	float: left;
+	line-height: 20px;
+	padding: 4px 0;
+	width: 496px;
+}
+
+/* == bgyellow == */
+.bgyellow:after { /*/*/
+	content: "."; /* IE8 hack */
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* IE7 hack */
+.bgyellow {
+	display: inline-block;
+}
+
+/* IE-mac, IE5, IE6 */
+* html .bgyellow {
+	height: 1%;
+}
+
+.bgyellow {
+	display: block;
+}
+
+.main .right626 .bottomyellow {
+	background: url(http://img1.7daysinn.cn/images/626_bottom_yellow.gif) no-repeat;
+	height: 5px;
+	font-size: 0;
+}
+
+.tb6 {
+	width: 520px;
+	margin: 0 50px;
+}
+
+.tb6 td {
+	height: 40px;
+	font-size: 14px;
+}
+
+.main .right626 .contbox .sub3 {
+	background: url(http://img1.7daysinn.cn/images/icon_finish.gif) no-repeat;
+	width: 115px;
+	height: 30px;
+}
+
+.main .right626 .contbox .ta1 {
+	width: 580px;
+	margin-left:10px;
+	float: none;
+	height: 40px;
+	color:#ccc;
+}
+
+/*预订*/
+.icon_round11 {
+	background: url(http://img1.7daysinn.cn/images/icon_round11.gif) left center no-repeat;
+}
+
+.icon_round12 {
+	background: url(http://img1.7daysinn.cn/images/icon_round12.gif) left center no-repeat;
+	float: left
+}
+
+.order_info {
+	float: left;
+	margin: 13px 0 0 15px;
+}
+
+.order_info2 {
+	float: left;
+	margin: 5px 0 0 15px;
+	width: 510px;
+}
+
+.icon_round13 {
+	background: url(http://img1.7daysinn.cn/images/icon_round13.gif) left center no-repeat;
+}
+
+.icon_round14 {
+	background: url(http://img1.7daysinn.cn/images/icon_round14.gif) left center no-repeat;
+}
+
+.order_info3 {
+	float: right;
+	margin: 13px 0 0 15px;
+}
+
+.main .right626 .linep {
+	margin: 0 10px;
+	border: 1px solid #9A9A9A;
+	padding: 0 10px;
+	line-height: 180%;
+}
+
+.main .right626 .price {
+	padding-left: 35px;
+	background: url(http://img1.7daysinn.cn/images/icon_price.gif) 10px 3px no-repeat;
+}
+
+.tb7 {
+	margin: 0 10px;
+	width: 604px;
+	text-align: center;
+	line-height: 22px;
+	border-top: 1px solid #AAAAA9;
+	border-left: 1px solid #AAAAA9;
+}
+
+.tb7 td {
+	width: 85px;
+	border-right: 1px solid #AAAAA9;
+	border-bottom: 1px solid #AAAAA9;
+}
+
+.tb7 .bggray td {
+	background: #f2f2f2;
+}
+
+.tb8 {
+	margin: 10px 10px 0;
+	width: 604px;
+	line-height: 22px;
+	border-top: 1px solid #AAAAA9;
+	border-left: 1px solid #AAAAA9;
+}
+
+.tb8 td {
+	border-right: 1px solid #AAAAA9;
+	border-bottom: 1px solid #AAAAA9;
+}
+
+.tb8 .bggray {
+	padding: 5px 10px;
+	background: #f2f2f2;
+	width: 100px;
+}
+
+.tb8 td p {
+	padding: 2px 10px;
+	margin: 0;
+	border-bottom: 1px solid #D1D1D1;
+	height: 24px;
+	line-height: 24px;
+}
+
+.tb8 td p .inp1 {
+	width: 80px;
+}
+
+.tb8 td p .inp2 {
+	width: 100px;
+}
+
+.tb8 td p span.sn1 {
+	float: left;
+	display: block;
+	width: 66px;
+	line-height: 22px;
+}
+
+.tb8 td p span.sn2 {
+	float: left;
+	display: block;
+}
+
+.tb7a {
+	margin: 0 10px;
+	width: 606px;
+	text-align: center;
+	line-height: 22px;
+	border-top: 1px solid #AAAAA9;
+	border-left: 1px solid #AAAAA9;
+}
+
+.tb7a td {
+	width: 85px;
+	border-right: 1px solid #AAAAA9;
+	border-bottom: 1px solid #AAAAA9;
+}
+
+.tb7a .bggray td {
+	background: #f2f2f2;
+}
+
+.main .right626 .contbox .offer .short {
+	width: 476px;
+}
+
+.main .right626 .contbox .offer .left {
+	width: 476px;
+}
+
+.main .right626 .contbox .offer .left .tip {
+	margin: 0 10px;
+	line-height: 30px;
+}
+
+.main .right626 .contbox .offer .left .tip span {
+	float: left;
+}
+
+.main .right626 .contbox .offer .left .sub4 {
+	background: url(http://img1.7daysinn.cn/images/icon_modify.gif) no-repeat;
+	width: 71px;
+	height: 24px;
+	border: none;
+	cursor: pointer;
+	float: right;
+}
+
+.main .right626 .contbox .offer .left .off {
+	background: url(http://img1.7daysinn.cn/images/icon_modify_gray.gif) no-repeat;
+}
+
+.main .right626 .contbox .offer .right {
+	text-align: right;
+	padding-right: 12px;
+}
+
+.main .right626 .contbox .offer .right .pic {
+	padding: 5px;
+	border: 1px solid #9A9A9A;
+	margin: 10px 0 10px 0;
+	width: 104px;
+	height: 99px;
+}
+
+.main .right626 .icon .prev {
+	width: 115px;
+	height: 30px;
+	background: url(http://img1.7daysinn.cn/images/icon_prev.gif) no-repeat;
+}
+
+.main .right626 .icon .next {
+	width: 115px;
+	height: 30px;
+	background: url(http://img1.7daysinn.cn/images/icon_next.gif) no-repeat;
+}
+
+.main .right626 .icon .submit {
+	width: 115px;
+	height: 30px;
+	background: url(http://img1.7daysinn.cn/images/icon_sub.gif) no-repeat;
+}
+
+.main .right626 .icon .prev {
+	width: 115px;
+	height: 30px;
+	background: url(http://img1.7daysinn.cn/images/icon_prev.gif) no-repeat;
+}
+
+.main .right626 .icon .next {
+	width: 115px;
+	height: 30px;
+	background: url(http://img1.7daysinn.cn/images/icon_next.gif) no-repeat;
+}
+
+.main .right626 .icon .exchange {
+	width: 115px;
+	height: 30px;
+	background: url(http://img1.7daysinn.cn/images/icon_exchange.gif) no-repeat;
+}
+
+.tb9 {
+	width: 604px;
+	margin: 0 10px;
+	border-top: 1px solid #AAAAA9;
+	border-left: 1px solid #AAAAA9;
+	line-height: 180%;
+}
+
+.tb9 td {
+	border-right: 1px solid #AAAAA9;
+	border-bottom: 1px solid #AAAAA9;
+}
+
+.tb9 .pic img {
+	margin: 10px;
+	border: 1px solid #9a9a9a;
+	width: 50px;
+	height: 52px;
+}
+
+.tb9 td .intb td {
+	border: none;
+	height: 22px;
+}
+
+.tb9 tr td .choose {
+	width: 69px;
+	height: 21px;
+	background: url(http://img1.7daysinn.cn/images/icon_bg_gray.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.main .right626 .contbox .icon {
+	margin: 0;
+}
+
+.main .right626 .contbox .icon input {
+	width: 84px;
+	height: 24px;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_orange.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.my7day-right .contbox .icon {
+	margin: 0;
+}
+
+.my7day-right .contbox .icon input {
+	width: 84px;
+	height: 24px;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_orange.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.choose_contact table {
+	border-collapse: collapse;
+	border: 0px;
+}
+
+.choose_contact td {
+	border: 0px;
+	text-align: left;
+	width: 100px;
+}
+
+.choose_contact img {
+	margin-top: 4px;
+}
+
+/****核对****/
+.main .right626 .contbox .tb10 {
+	width: 604px;
+	margin: 10px 10px 0;
+	border-collapse: collapse;
+	line-height: 180%;
+}
+
+.main .right626 .contbox .tb10 td {
+	border: 1px solid #AAAAA9;
+	padding: 0 15px;
+}
+
+.main .right626 .contbox .tb10 td span {
+	padding: 0 3px;
+}
+
+.main .right626 .contbox .tb10 .bggray {
+	background: #f2f2f2;
+}
+
+.main .right626 .contbox .tb10 td .option {
+	background: #FFFFFF url(http://img1.7daysinn.cn/images/arrow_red.gif) no-repeat scroll right
+		center;
+	border: 1px solid #8C8C8C;
+	padding: 0 15px 0 4px;
+	margin: 0 10px;
+}
+
+.main .right626 .contbox .tb10 td p {
+	margin: 5px 0;
+}
+
+.main .right626 .contbox .tb10 td p .inp1 {
+	width: 250px;
+}
+
+.main .right626 .contbox .tb10 td p .sub1 {
+	width: 49px;
+	height: 21px;
+	background: url(http://img1.7daysinn.cn/images/bg_icon5.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+.table001 {
+	margin: 5px 0;
+	width: 100%;
+	border-collapse: collapse;
+	line-height: 180%;
+}
+
+.table001 td {
+	border: 1px solid #AAAAA9;
+	padding: 0 5px;
+}
+
+.main .right626 .contbox .pics {
+	padding-left: 25px;
+}
+
+.main .right626 .contbox .pics .pic {
+	width: 60px;
+	text-align: center;
+	float: left;
+	margin: 5px 25px 0 0;
+	display: inline;
+	line-height: 180%;
+}
+
+.main .right626 .contbox .pics .pic img {
+	border: 1px solid #8c8c8c;
+	width: 50px;
+	height: 50px;
+}
+
+.main .right626 .contbox .tb11 {
+	width: 576px;
+	margin: 10px 0 0 25px;
+}
+
+.main .right626 .contbox .tb11 tr td {
+	border-bottom: 1px dashed #D1D1D1;
+	line-height: 220%;
+	padding: 3px 6px 3px 0;
+}
+
+.main .right626 .contbox .tb11 tr td.int {
+	vertical-align: text-top;
+	padding-top: 5px;
+}
+
+.main .right626 .contbox .tb11 .no-boder td {
+	border: none;
+}
+
+.main .right626 .contbox .tb11 .more {
+	width: 100px;
+	height: 23px;
+	padding-right: 20px;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_gray.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.main .right626 .contbox .tb11 .pd5 {
+	padding: 0 5px;
+}
+
+.main .right626 .contbox .tb11 span.s01 {
+	line-height: 220%;
+	float: left;
+}
+
+.main .right626 .contbox .tb11 span.s02 {
+	padding: 0 0 0 10px;
+	line-height: 220%;
+	float: left;
+	margin-top: 3px;
+}
+
+.main .right626 .contbox .tb12 {
+	width: 604px;
+	margin: 5px 10px 0;
+	height: 55px;
+	border: 1px solid #DFDFDF;
+	background: #F9F9F9;
+}
+
+.main .right626 .contbox .tb12 td {
+	line-height: 22px;
+	padding: 1px 5px;
+}
+
+.main .right626 .contbox .tb12 tr td.int {
+	vertical-align: middle;
+	width:30px;
+}
+
+.main .right626 .contbox .tb12 .td1 {
+	border-right: 1px dashed #23649A;
+	width: 180px;
+}
+
+.main .right626 .contbox .tb12 .td2 {
+	width: 40px;
+}
+
+.main .right626 .contbox .tb12 .td3 {
+	width: 400px;
+}
+
+/***支付***/
+.icon_round15 {
+	background: url(http://img1.7daysinn.cn/images/icon_round15.gif) left center no-repeat;
+}
+
+.icon_round16 {
+	background: url(http://img1.7daysinn.cn/images/icon_round16.gif) left center no-repeat;
+}
+
+.icon_round17 {
+	background: url(http://img1.7daysinn.cn/images/icon_round17.gif) left center no-repeat;
+}
+
+.contbox .intit {
+	background: #ECF9FF;
+	border-bottom: 1px solid #89C5E1;
+	width: 604px;
+	margin: 10px;
+	height: 30px;
+	line-height: 25px;
+}
+
+.contbox .intit h4 {
+	float: left;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #216498;
+}
+
+.contbox .intit span {
+	float: right;
+	padding-right: 15px;
+	color: #6f6f6f;
+}
+
+.contbox .intit span a {
+	color: #6f6f6f !important;
+	text-decoration: underline;
+}
+
+.contbox .intit_ext2 {
+	width: 630px;
+}
+
+.contbox .tb13 {
+	width: 604px;
+	margin: 0 10px;
+	border: 1px solid #88C4DE;
+	background: #F9F9F9;
+}
+
+.contbox .tb_00 {
+	width: 834px;
+}
+
+.contbox .tb13 td {
+	padding: 0px 5px;
+}
+
+.contbox .tb13 td .inp1 {
+	width: 330px;
+	color: #A3A3A3;
+}
+
+.contbox .tb13 td .sub1 {
+	width: 69px;
+	height: 21px;
+	background: url(http://img1.7daysinn.cn/images/icon_bg_gray.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+.contbox .tb13_ext2 {
+	width: 630px;
+}
+
+.contbox .tb13 .inbg {
+	width: 577px;
+	margin: 0 12px;
+	background: url(http://img1.7daysinn.cn/images/bg_577.gif) repeat-y;
+}
+
+.contbox .tb13 .inbg .td1 {
+	width: 230px;
+	background: #F0F0F0;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+.contbox .tb13 .inbg .td2 {
+	width: 125px;
+}
+
+.contbox .tb13 .inbg .td3 {
+	width: 120px;
+}
+
+.contbox .tb13 .inbg .td4 {
+	width: 85px;
+}
+
+.contbox .tb13 .inbg .td5 {
+	width: 314px;
+}
+
+.contbox .tb13 .inbg .td5 .icon_info {
+	padding-left: 20px;
+	background: url(http://img1.7daysinn.cn/images/icon_info.gif) left no-repeat;
+	color: #A4A4A4;
+}
+
+/*新加入支付页面调整*/
+.contbox .tb14 {
+	width: 604px;
+	margin: 0 10px;
+	border: 1px solid #88C4DE;
+	background: #F9F9F9;
+}
+
+.contbox .tb14 td {
+	padding: 0px 0px;
+}
+
+.contbox .tb14 td .inp1 {
+	width: 330px;
+	color: #A3A3A3;
+}
+
+.contbox .tb14 td .sub1 {
+	width: 69px;
+	height: 21px;
+	background: url(http://img1.7daysinn.cn/images/icon_bg_gray.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	line-height: 22px;
+	overflow: hidden;
+}
+
+.contbox .tb14_ext2 {
+	width: 630px;
+}
+
+.contbox .tb14 .inbg {
+	width: 577px;
+	margin: 0 12px;
+	background: url(http://img1.7daysinn.cn/images/bg_577.gif) repeat-y;
+}
+
+.contbox .tb14 .inbg .td1 {
+	width: 230px;
+	background: #F0F0F0;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+.contbox .tb14 .inbg .td2 {
+	width: 100px;
+}
+
+.contbox .tb14 .inbg .td3 {
+	width: 160px;
+}
+
+.contbox .tb14 .inbg .td4 {
+	width: 140px;
+}
+
+.contbox .tb14 .inbg .td6 {
+	width: 360px;
+}
+
+.contbox .tb14 .intop {
+	margin: 0 12px;
+	width: 577px;
+	height: 5px;
+	font-size: 0;
+	background: url(http://img1.7daysinn.cn/images/top_577.gif) no-repeat;
+}
+
+.contbox .tb14 .inbottom {
+	margin: 0 12px;
+	width: 577px;
+	height: 5px;
+	font-size: 0;
+	background: url(http://img1.7daysinn.cn/images/bottom_577.gif) no-repeat;
+}
+
+.contbox .tb14 .icon {
+	padding: 5px 30px 15px;
+	text-align: center;
+}
+
+/* 完 */
+.sub01 {
+	border: none;
+	width: 49px;
+	height: 20px;
+	line-height: 20px;
+	background: url(http://img1.7daysinn.cn/images/sub_bg_01.gif) no-repeat;
+	cursor: pointer;
+}
+
+.sub02 {
+	border: none;
+	width: 109px;
+	height: 20px;
+	line-height: 16px;
+	padding-top: 0px !important;
+	padding-top: 2px;
+	background: url(http://img1.7daysinn.cn/images/sub_bg_02.gif) no-repeat;
+	cursor: pointer;
+}
+
+.contbox .tb13 .inbg .td6 {
+	padding: 0 20px 0 70px;
+	background: url(http://img1.7daysinn.cn/images/icon_done.gif) 40px 5px no-repeat;
+}
+
+.contbox .tb13 .intop {
+	margin: 0 12px;
+	width: 577px;
+	height: 5px;
+	font-size: 0;
+	background: url(http://img1.7daysinn.cn/images/top_577.gif) no-repeat;
+}
+
+.contbox .tb13 .inbottom {
+	margin: 0 12px;
+	width: 577px;
+	height: 5px;
+	font-size: 0;
+	background: url(http://img1.7daysinn.cn/images/bottom_577.gif) no-repeat;
+}
+
+.contbox .tb13 .icon {
+	padding: 5px 30px 15px;
+	text-align: center;
+}
+
+.main .right626 .contbox .tb13 .icon input {
+	margin: 0 10px;
+	width: 84px;
+	height: 24px;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_orange.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.main .right626 .contbox .tb13 .radio {
+	width: 90px;
+}
+
+.main .right626 .contbox .tb13 .confirm {
+	height: 25px;
+	line-height: 25px;
+	background: #fff;
+	border: 1px solid #9B999A;
+	margin: 5px 12px;
+	padding-left: 20px;
+}
+
+.main .right626 .contbox .tb13 .confirm  span {
+	padding: 0 10px;
+}
+
+.main .right626 .contbox .pdtop {
+	
+}
+
+.main .right626 .contbox .txt2 {
+	line-height: 180%;
+	margin: 0 15px;
+	padding: 10px 0 0;
+	width: 596px;
+}
+
+.main .right626 .icon .back {
+	width: 113px;
+	height: 31px;
+	background: url(http://img1.7daysinn.cn/images/icon_back.gif) no-repeat;
+}
+
+.main .right626 .icon .manage {
+	width: 113px;
+	height: 31px;
+	background: url(http://img1.7daysinn.cn/images/icon_manage.gif) no-repeat;
+}
+
+.main .right626 .icon .goon {
+	width: 113px;
+	height: 31px;
+	background: url(http://img1.7daysinn.cn/images/icon_goon.gif) no-repeat;
+}
+
+/***5.12***/
+.main .right626 .contbox_01 ul {
+	padding: 5px 0;
+}
+
+.main .right626 .contbox_01 ul li {
+	line-height: 20px;
+	padding: 0;
+}
+
+.main .right626 .contbox_02 ul {
+	padding: 0 0;
+}
+
+.main .right626 .contbox_03 ul {
+	padding: 10px 15px;
+}
+
+.icon_round55 {
+	background: url(http://img1.7daysinn.cn/images/icon_round55.gif) left center no-repeat;
+}
+
+.icon_round56 {
+	background: url(http://img1.7daysinn.cn/images/icon_round56.gif) left center no-repeat;
+}
+
+.icon_round57 {
+	background: url(http://img1.7daysinn.cn/images/icon_round57.gif) left center no-repeat;
+}
+
+.icon_round58 {
+	background: url(http://img1.7daysinn.cn/images/icon_round58.gif) left center no-repeat;
+}
+
+.icon_round59 {
+	background: url(http://img1.7daysinn.cn/images/icon_round59.gif) left center no-repeat;
+}
+
+.branch_con {
+	border-bottom: 1px solid #ccc;
+	margin: 10px 10px 0;
+}
+
+.branch_con h2 {
+	float: left;
+	display: block;
+	width: 80px;
+	color: #ff7f00;
+	line-height: 24px;
+	padding: 5px 0 5px 3px;
+}
+
+.branch_con ul {
+	margin-left: 85px;
+	display: block;
+	width: 480px;
+	margin-top: 3px;
+}
+
+.branch_con ul li {
+	float: left;
+	width: 160px;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	text-align: left;
+	color: #656666;
+	cursor: pointer;
+}
+
+.branch_con ul li a {
+	color: #656666 !important;
+}
+
+.branch_con ul li.s1 {
+	width: 200px;
+}
+
+.brn2 ul li {
+	float: left;
+	width: 80px;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	text-align: left;
+	color: #656666;
+}
+
+.brn3 ul li {
+	float: left;
+	width: 145px;
+	display: block;
+	line-height: 16px;
+	height: 20px;
+	text-align: left;
+	color: #333333;
+}
+
+.brn4 ul li {
+	float: left;
+	width: 200px;
+	cursor: default;
+	line-height: 20px;
+	height: 20px;
+	text-align: left;
+	color: #656666;
+}
+
+.brn5 ul li {
+	float: left;
+	width: 90px;
+	display: block;
+	line-height: 16px;
+	height: 20px;
+	text-align: left;
+	color: #333333;
+}
+
+.brn5 .infotype2 {
+	float: left;
+	width: 94px !important;
+	width: 96px;
+	height: 22px;
+	text-align: center;
+	background-color: #F7F7F7;
+	border: 1px solid #AAAAA9;
+	border-right: 1px solid #F7F7F7;
+	padding-top: 5px;
+}
+
+.brn5 .infotype1 {
+	float: left;
+	width: 94px !important;
+	width: 96px;
+	height: 22px;
+	text-align: center;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	padding-top: 5px;
+}
+
+.brn5 .infotag1 {
+	clear: both;
+	width: 2px;
+	height: 26px;
+	background-color: #F7F7F7;
+	border: 1px solid #AAAAA9;
+	padding-top: 8px;
+	border-right: none;
+}
+
+.brn5 .infotag2 {
+	background-color: #F7F7F7;
+	height: 26px;
+	text-align: center;
+	border: 1px solid #AAAAA9;
+	border-left: 1px solid #F7F7F7;
+	padding-top: 8px;
+}
+
+.brn5 .infotag3 {
+	height: 20px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	padding-top: 5px;
+	border-bottom: 1px solid #AAAAA9;
+	border-right: 1px solid #AAAAA9;
+}
+
+.brn5 .infotag4 {
+	clear: both;
+	width: 2px;
+	height: 20px;
+	border: 1px solid #AAAAA9;
+	border-right: none;
+	padding-top: 5px;
+	border-top: 1px solid #E7E7E7;
+}
+
+.infotag5 {
+	margin: 10px 10px 0 5px;
+	width: 590px;
+	height: 18px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.data_dengji {
+	padding: 5px 20px;
+	color: #656666;
+}
+
+.bn_001 {
+	width: 84px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 28px; *
+	padding: 2px 0 0 28px;
+	text-align: left;
+	background: url(http://img1.7daysinn.cn/images/btn_my_01a.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.bn_002 {
+	width: 114px;
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	text-align: center;
+	background: url(http://img1.7daysinn.cn/images/bn003.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.bn_003 {
+	width: 114px;
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	text-align: center;
+	background: url(http://img1.7daysinn.cn/images/bn002.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.input00 {
+	height: 18px;
+	line-height: 16px;
+	padding: 1px 2px 0 2px;
+	border: 1px solid #8c8c8c;
+	font-size: 12px;
+}
+
+.nav03 {
+	background: url(http://img1.7daysinn.cn/images/nav_03.gif) no-repeat;
+	width: 626px;
+	height: 35px;
+}
+
+.nav03 h2 {
+	color: #ff7f00;
+	padding: 6px 0 5px 10px;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+table.tabhotel01 {
+	margin: 0 auto;
+	width: 600px;
+	border-collapse: collapse;
+}
+
+table.tabhotel01 th {
+	border: 1px solid #d1d1d1;
+	padding: 0 5px;
+	text-align: center;
+	line-height: 24px;
+	background: #f2f2f2;
+	font-weight: normal;
+}
+
+table.tabhotel01 td {
+	border: 1px solid #d1d1d1;
+	padding: 0 5px;
+	line-height: 24px;
+	text-align: center;
+}
+
+table.tabhotel01 td  .inp2 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 49px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon5.gif) no-repeat;
+	cursor: pointer;
+}
+
+table.tabhotel01 td  .inp2_2 {
+	margin: 1px 5px 0 5px;
+	border: none;
+	width: 116px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	background: url(http://img1.7daysinn.cn/images/bg_icon6.gif) no-repeat;
+	cursor: pointer;
+}
+
+.tip_tex01 {
+	padding: 15px 0 5px 0;
+	line-height: 20px;
+	color: #000099;
+	color: #FF8B00;
+	font-size: 14px;
+}
+
+.tb012 {
+	width: 604px;
+	margin: 5px 10px 0;
+	border: 1px solid #DFDFDF;
+	background: #F9F9F9;
+}
+
+.tb012 td {
+	line-height: 20px;
+	padding: 0 5px;
+}
+
+.tb012 tr td.int {
+	vertical-align: text-top;
+}
+
+.tb012 .td1 {
+	border-right: 1px dashed #23649A;
+	width: 180px;
+}
+
+.tb012 .td2 {
+	width: 40px;
+}
+
+.tb012 .td3 {
+	width: 400px;
+}
+
+.tb012 td p {
+	margin: 0;
+	padding: 2px 5px;
+}
+
+/***6.8***/
+.maincon {
+	margin: 0 auto;
+	width: 880px;
+	text-align: left;
+}
+
+.maincon .t_bg {
+	background: url(http://img1.7daysinn.cn/images/t_bg.gif) no-repeat;
+	line-height: 6px;
+	height: 6px;
+	font-size: 0px;
+}
+
+.maincon .m_bg {
+	background: url(http://img1.7daysinn.cn/images/m_bg.gif) repeat-y;
+	padding: 0 0 10px;
+}
+
+.maincon .b_bg {
+	background: url(http://img1.7daysinn.cn/images/b_bg.gif) no-repeat;
+	line-height: 6px;
+	height: 6px;
+	font-size: 0px;
+}
+
+.bottom_854 {
+	margin: 0 auto;
+	width: 854px;
+	height: 10px;
+	font-size: 1px;
+	line-height: 10px;
+	background: url(http://img1.7daysinn.cn/images/bottom_854.gif) no-repeat;
+}
+
+.intop_807 {
+	margin: 0 12px;
+	width: 807px;
+	height: 5px;
+	font-size: 0;
+	background: url(http://img1.7daysinn.cn/images/top_807.gif) no-repeat;
+}
+
+.inbottom_807 {
+	margin: 0 12px;
+	width: 807px;
+	height: 5px;
+	font-size: 0;
+	background: url(http://img1.7daysinn.cn/images/bottom_807.gif) no-repeat;
+}
+
+.inbg_807 {
+	width: 807px;
+	margin: 0 12px;
+	background: url(http://img1.7daysinn.cn/images/bg_807.gif) repeat-y;
+}
+
+.inbg_807 .td1 {
+	width: 230px;
+	background: #F0F0F0;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+.inbg_807 .td5 .icon_info {
+	padding-left: 20px;
+	background: url(http://img1.7daysinn.cn/images/icon_info.gif) left no-repeat;
+	color: #A4A4A4;
+	text-align: left;
+}
+
+.inbg_807 .td6 {
+	padding: 0 20px 0 40px;
+	background: url(http://img1.7daysinn.cn/images/icon_done.gif) 10px 5px no-repeat;
+	line-height: 22px;
+}
+
+.tb_00 .confirm {
+	height: 25px;
+	line-height: 25px;
+	background: #f9ffff;
+	border: 1px solid #9B999A;
+	margin: 5px 12px;
+	text-align: center;
+}
+
+.tb_00 .icon {
+	padding: 5px 30px 15px;
+	text-align: center;
+}
+
+.tb_00 .icon input {
+	margin: 0 10px;
+	width: 84px;
+	height: 24px;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_orange.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.contbox_854 {
+	margin: 0 auto;
+	width: 854px;
+	background: url(http://img1.7daysinn.cn/images/bg_854.gif) repeat-y;
+}
+
+.contbox_854 .intitle {
+	width: 854px;
+	height: 38px;
+	background: url(http://img1.7daysinn.cn/images/bar2_bg.gif) repeat-x;
+}
+
+.contbox_854 .intitle .left {
+	float: left;
+	width: 9px;
+	display: block;
+}
+
+.contbox_854 .intitle .right {
+	float: right;
+	width: 9px;
+	display: block;
+}
+
+.contbox_854 .intitle .middle {
+	display: block;
+	float: left;
+	width: 836px;
+	height: 38px;
+	overflow: hidden;
+}
+
+.contbox_854 .intitle h4 {
+	display: block;
+	float: left;
+	margin: 5px 0 0 0; *
+	margin-top: 3px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 40px;
+	height: 31px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #236298;
+	overflow: hidden;
+}
+
+.contbox_854 .tb10a {
+	width: 834px;
+	margin: 10px 10px 0;
+	border-top: 1px solid #AAAAA9;
+	border-left: 1px solid #AAAAA9;
+	line-height: 180%;
+}
+
+.contbox_854 .tb10a td {
+	border-right: 1px solid #AAAAA9;
+	border-bottom: 1px solid #AAAAA9;
+	padding: 0 15px;
+}
+
+.contbox_854 .tb10a td span {
+	padding: 0 3px;
+}
+
+.contbox_854 .tb10a .bggray {
+	background: #f2f2f2;
+}
+
+/***7天产品*****/
+.prod_main {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.prod_main .prod-left {
+	width: 177px;
+	background: #666;
+	float: left;
+	line-height: 22px;
+}
+
+.prod_main .prod-right {
+	width: 699px;
+	background-color: #999
+}
+
+/***8.26品*****/
+table.ortab01 {
+	width: 98%;
+	border-collapse: collapse;
+	margin: 5px auto;
+}
+
+table.ortab01 tr th {
+	border: 1px solid #d1d1d1;
+	padding: 5px;
+	text-align: center;
+	line-height: 28px;
+	background: #f2f2f2;
+}
+
+table.ortab01 tr td {
+	border: 1px solid #d1d1d1;
+	padding: 5px;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.ortab02 {
+	margin: 5px auto;
+}
+
+table.ortab02 tr td {
+	padding: 5px;
+	height: 25px;
+}
+
+table.alreadypack tr td {
+	padding: 0;
+	height: 15px;
+}
+
+.context_middle * {
+	vertical-align: middle;
+}
+
+.btn_bg_icon_18 {
+	width: 220px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	text-align: center;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_18.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.btn_bg_icon_07 {
+	width: 174px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	text-align: center;
+	background: url(http://img1.7daysinn.cn/images/bg_icon_07.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.btn_bg_icon_06 {
+	width: 116px;
+	height: 21px;
+	line-height: 18px;
+	padding: 0px 0 0 0; *
+	padding: 2px 0 0 0;
+	text-align: center;
+	background: url(http://img1.7daysinn.cn/images/bg_icon6.gif) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+/****免费用品*****/
+.a1 {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+}
+
+.a2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+.a3 {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+
+.line {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+
+.vposcss {
+	height: 20px;
+	width: 105px;
+	border: 1px solid #CCCCCC;
+	padding: 1px 1px 1px 2px;
+}

@@ -1,0 +1,122 @@
+.tab01 {
+	float:left; 
+	text-align:center; 
+	color:#000000; 
+	width:121px; 
+	height:21px; 
+	background-image:url(http://img1.7daysinn.cn/images/riminfos/tab02.jpg); 
+	background-repeat:no-repeat;
+	margin-top:18px;
+	padding-top:8px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	cursor:pointer;
+}
+.tab02 {
+	float:left; 
+	text-align:center; 
+	color:#000000; 
+	width:121px; 
+	height:21px; 
+	background-image:url(http://img1.7daysinn.cn/images/riminfos/tab02.jpg); 
+	background-repeat:no-repeat;
+	margin-top:18px;
+	padding-top:8px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	cursor:pointer;
+}
+.tab03 {
+	font-size:9pt;
+	float:left; 
+	text-align:center; 
+	color:#000000; 
+	width:121px; 
+	height:21px; 
+	background-image:url(http://img1.7daysinn.cn/images/riminfos/tab01.jpg); 
+	background-repeat:no-repeat;
+	margin-top:12px;
+	padding-top:3px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	cursor:pointer;
+	margin-left:12px;
+}
+.item{
+	margin:0px 5px 0px 5px;
+	width:620px;
+	font-size:9pt;
+}
+.leftItem{
+	width:200px;
+	float:left;
+	padding:0px 2px 0px 2px;
+}
+.subItem{
+	margin:0px 3px;
+	border-left:#dfdede 1px solid;
+	border-right:#dfdede 1px solid;
+	padding-bottom:10px;
+}
+.subItemTop{
+	height:5px;
+	padding-left:3px;
+}	
+.subItemBottom{
+	height:6px;
+	padding-left:3px;
+	margin-bottom:10px;
+}
+.subItem ul{
+	margin:0px;
+	padding:10px;
+	
+}
+.subItem ul li{
+	list-style-type:none;
+	padding-left:38px;
+	text-indent: -3em;
+	padding-top:3px;
+	line-height:15px;
+	color:#666;
+}
+.itemEmail{
+	margin:0px 5px 2px 5px;
+	width:580px;
+	font-size:9pt;
+}
+.leftItemEmail{
+	width:186px;
+	float:left;
+	padding:5px 2px 0px 2px;
+}
+.subItemEmail{
+	margin:0px 4px 5px; 4px;;
+	border-top:#dfdede 1px solid;
+	border-left:#dfdede 1px solid;
+	border-right:#dfdede 1px solid;
+	border-bottom:#dfdede 1px solid;
+	padding-bottom:10px;
+}
+.subItemEmail ul{
+	margin:0px;
+	padding:10px;
+}
+.subItemEmail ul li{
+	list-style-type:none;
+	padding-left:38px;
+	text-indent: -3em;
+	padding-top:3px;
+	line-height:15px;
+	color:#666;
+}
+.emailFont  {
+	float: right; 
+	padding-top: 12px; 
+	padding-right: 30px; 
+	font-size: 9pt; 
+}
+.emailFont a {
+	text-decoration: none;
+	color:#3399cc;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet"  href="css/jquery.ui.all.css">
+	<link rel="stylesheet"  href="css/demos.css">
+ 	<script src="./js/jquery-1.6.min.js"></script>	
+	<script src="./js/jquery.ui.core.js"></script>
+	<script src="./js/jquery.ui.widget.js"></script>
+	<script src="./js/jquery.ui.datepicker.js"></script>
+	<script src="./js/table.js"></script>
+	<link href="images/skin.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #F8F9FA;
+}
+-->
+</style>
+	<script>
+		$(function(){
+		
+			search(1,"validateOption");
+			
+			$("#first").click(doFirst);
+			$("#previous").click(doPrevious);
+			$("#next").click(doNext);
+			$("#last").click(doLast);
+			$("#search").click(doFirst);
+			
+		
+		});
+		
+		function search(jumpPage,method){
+			
+			var param={};
+			param.guestName=encodeURI($("#guestName").val());
+			param.idCard=encodeURI($("#idCard").val());
+			
+			sendRequest(jumpPage,param,method);
+		}
+		
+		function doFirst(){	
+			search(1,"validateOption");
+		}
+		function doPrevious(){	
+			search($("#curPage").val()-1,"validateOption");
+		}
+		function doNext(){
+		
+			search($("#curPage").val()-0+1,"validateOption");
+		}
+		function doLast(){
+			search($("#maxPage"),"validateOption");
+		}		
+	</script>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="17" height="29" valign="top" background="images/mail_leftbg.gif"><img src="images/left-top-right.gif" width="17" height="29" /></td>
+    <td width="935" height="29" valign="top" background="images/content-bg.gif"><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">办理手续</div></td>
+      </tr>
+    </table></td>
+    <td width="16" valign="top" background="images/mail_rightbg.gif"><img src="images/nav-right-bg.gif" width="16" height="29" /></td>
+  </tr>
+  <tr>
+    <td height="71" valign="middle" background="images/mail_leftbg.gif">&nbsp;</td>
+    <td valign="top" bgcolor="#F7F8F9"><table width="100%" height="138" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="13" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="left_txt">当前位置：基本设置</td>
+          </tr>
+          <tr>
+            <td height="20"><table width="100%" height="1" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+              <tr>
+                <td></td>
+              </tr>
+            </table></td>
+          </tr>        
+          <tr>
+            <td><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="nowtable">
+              <tr>
+                <td class="left_bt2">&nbsp;&nbsp;&nbsp;&nbsp;输入预订信息&nbsp;&nbsp;&nbsp;&nbsp;
+				</td>
+               
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td>
+            <form name="form1" method="POST" >
+            <table width="72%" border="0" cellspacing="0" cellpadding="0">			
+              <tr>
+                <td width="28%" height="30" align="right" bgcolor="#f2f2f2" class="left_txt2">预订用户名：</td>
+                <td width="2%" bgcolor="#f2f2f2">&nbsp;</td>
+                <td width="26%" height="30" bgcolor="#f2f2f2"><input name="guestName" type="text" id="guestName" size="30" /></td>
+                <td width="44%" height="30" bgcolor="#f2f2f2" class="left_txt"> &nbsp;预订时用的用户名</td>
+              </tr>
+              <tr>
+                <td height="30" align="right" class="left_txt2">身份证号码：</td>
+                <td>&nbsp;</td>
+                <td height="30"><input type="text" name="idCard" id="idCard" size="30" /></td>
+                <td height="30" class="left_txt">&nbsp;预定时用的身份证号码</td>
+              </tr>
+                          <tr>
+                            <td width="28%" height="30" align="right"><input type="button" id="search" value="查询预订" name="B1" /></td>
+                            <td width="2%" height="30" align="right">&nbsp;</td>
+                            <td width="26%" height="30"><input type="reset" value="取消设置" name="B12" /></td>
+                            <td><div id="showMsg" style="display: none"></div></td>
+                    </tr>
+              <tr>
+                <td height="17" colspan="4" align="right" >&nbsp;</td>
+              </tr>
+            </table>
+            </form>
+            </td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td background="images/mail_rightbg.gif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="middle" background="images/mail_leftbg.gif"><img src="images/buttom_left2.gif" width="17" height="17" /></td>
+      <td height="17" valign="top" background="images/buttom_bgs.gif"><img src="images/buttom_bgs.gif" width="17" height="17" /></td>
+    <td background="images/mail_rightbg.gif"><img src="images/buttom_right2.gif" width="16" height="17" /></td>
+  </tr>
+</table>
+	<div id="showTable" align="center" >
+            <div class="demo-info" style="margin-bottom:10px">
+				<div class="demo-tip icon-tip"></div>
+			</div>
+            	<table id="tt" style="width:100%;height:auto" >
+					<thead>
+					<tr id="rows">
+						<th field="Room_Type_name" width="100" align="center" >房间类型</th>
+						<th field="room_no" width="80" align="center">房间编号</th>
+						<th field="guest_name" width="90" align="center" >顾客姓名</th>
+						<th field="id_card" width="160" align="center" >身份证</th>
+						<th field="check_in" width="90" align="center" >入住时间</th>
+						<th field="check_out" width="90" align="center" >离开时间</th>
+						<th field="deposit" width="60" align="center" >押金</th>
+						<th field="cost" width="60" align="center" >费用</th>
+						<th field="state" width="60" align="center" >状态</th>
+						<th field="operation" >操作</th>
+					</tr>
+				</thead>
+			</table>
+   </div>
+   <div id="page">
+   		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="33%">
+        	<div align="left" id="maxCount" style="display:inline"></div>
+        	<div align="left" id="curPage" style="display:inline"></div>
+       		<div align="left" id="rowsPerPage" style="display:inline"></div>
+       		<div align="left" id="maxPage" style="display:inline"></div>
+		</td>
+        <td width="67%"><table width="312" border="0" align="left" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="49"><div align="center"><img src="images/main_54.gif" id="first" width="40" height="15" /></div></td>
+            <td width="49"><div align="center"><img src="images/main_56.gif" id="previous" width="45" height="15" /></div></td>
+            <td width="49"><div align="center"><img src="images/main_58.gif" id="next" width="45" height="15" /></div></td>
+            <td width="49"><div align="center"><img src="images/main_60.gif" id="last" width="40" height="15" /></div></td>
+            <td width="37" class="STYLE22"><div align="center">转到</div></td>
+            <td width="22"><div align="center">
+              <input type="text" name="textfield" id="textfield"  style="width:20px; height:12px; font-size:12px; border:solid 1px #7aaebd;"/>
+            </div></td>
+            <td width="22" class="STYLE22"><div align="center">页</div></td>
+            <td width="35"><img src="images/main_62.gif" width="26" height="15" /></td>
+            <td width="100"></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+   </div>
+
+
+</body>
+</html>

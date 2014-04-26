@@ -1,0 +1,57 @@
+/*基础元素*/
+body {
+	font-size:12px;
+	padding: 0;
+	margin: 0;
+	height: auto;
+	font-family:Arial,'宋体','SongTi';
+}
+table {
+	font-size:12px;
+	padding: 0;
+	margin: 0;
+	height: auto;
+	font-family:Arial,'宋体','SongTi';
+	width:auto;
+}
+img {
+
+	border:0;
+}
+h1, h2, h3, h4, h5, h6, form, div, p, i, img, ul, li, ol, table, tr, td, fieldset, label, legend, dl, dd, dt {
+	margin:0;
+	padding:0;
+}
+a{font-size: 12px;color: #666666;text-decoration: underline; font-family:Arial,'宋体','SongTi';}
+a:hover{font-size: 12px;color: #666666;text-decoration: none; font-family:Arial,'宋体','SongTi';}
+input { font-size:12px;}
+/*基础元素*/
+
+/* 登陆 */
+.txt1{ color:#fff; padding-left:10px; font-weight:bold; font-size:14px;}
+
+.bd1 {border:1px solid #57A0ED;}
+.bd2 {border:1px solid #5B9400; background-color:#F8FEED;}
+.bd3 {border:1px solid #B7D7F4 }
+.input1 { border:1px solid #718DA6;}
+.bg1 {
+	background: url(../images/bg1.gif) no-repeat 250px 5px;
+	background-color:#EAF3FD;
+}
+.bg2 {
+	background: url(../images/headV3ABg.gif) repeat-x center bottom;
+}
+
+.input2 { border:1px solid #5B9400; background-color:#86CD10; font-weight:bold; color:#FFFFFF;}
+/* 登陆 */
+
+
+/* 订单表格 */
+.table1 { border:1px solid #CAE2F8; border-bottom:none; border-right:none; }
+.table1 th{ border:1px solid #CAE2F8; border-top:none; border-left:none; background-color:#E0F0FE;}
+.table1 td{ border:1px solid #CAE2F8; border-top:none; border-left:none;  text-align:center;}
+
+.table2 { border:1px solid #CAE2F8; border-bottom:none; border-right:none; }
+.table2 th{ border:1px solid #CAE2F8; border-top:none; border-left:none; background-color:#E0F0FE;}
+.table2 td{ border:1px solid #CAE2F8; border-top:none; border-left:none;   padding-right:10px; padding-left:10px;}
+/* 订单表格 */

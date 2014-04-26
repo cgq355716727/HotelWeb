@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+/**
+*点评分数显示css
+*/
+.studyplay_starBg{background:url(http://img1.7daysinn.cn/images/start.gif) 0 -12px;position:absolute; top:0; left:0; height:12px; line-height:20px; overflow:hidden; padding:0px; cursor:pointer;}
+.studyplay_starovering{background:url(http://img1.7daysinn.cn/images/start.gif); height:12px;line-height:20px; overflow:hidden; position:absolute; top:0; left:0;}
+.studyplay_starON{position:absolute; top:0; left:0;}
+.stnn01{float:left;display:block;margin-top:10px;}
+.stnn02{float:left;width:130px; display:block;margin-top:15px; height:12px; line-height:12px; overflow:hidden;}
+.stnn03{float:left; width:8px; display:block;margin-top:8px;}

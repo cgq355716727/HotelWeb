@@ -1,0 +1,27 @@
+@charset "utf-8";
+body {TEXT-ALIGN: center; font-family: "微软雅黑, 宋体";}
+.clear{ clear:both;}
+.f12{font-size: 12px; }
+.f14{font-size: 14px; }
+.f20{font-size: 20px; }
+.bold{ font-weight:bold}
+.white{ color:#FFFFFF;}
+.blue{ color:#015297;}
+.yellow{ color:#FFFF00;}
+.noneline{text-decoration: none;}
+
+#nnzc005{width:860px; height:40px; margin-top:10px; background-image:url(tbg03.jpg); text-align:left; text-indent: 40px;line-height:40px; }
+#nnzc006{width:810px;height:70px; background-color:#f0f0f0; padding:10px 10px 10px 30px; margin-left:5px;}
+#nnzc006_1{float:left;}
+#nnzc006_2{float:left;}
+#nnzc006_2{float:left;}
+#nnzc006_3{float:left;}
+#nnzc006_4{float:left;}
+#nnzc006_5{float:left;}
+#nnzc006_6{float:left;}
+
+.loginad01{ width:394px; height:320px; background:url(loginad01.gif) no-repeat; position:relative;}
+.loginad01 .num{position:absolute;z-index:1;left:111px;top:12px;width: 94px;height: 26px;font-size:22px; color:#c64928; line-height:22px; font-weight:bold; text-align:center;font-family: "Microsoft Yahei";}
+.loginad01 .text{position:absolute;z-index:1;left:9px;top:218px; width:270px; height:96px; font-size:12px; line-height:22px; text-align:left;}
+.loginad01 .pic{position:absolute;z-index:1;left:289px;top:210px; width:103px; height:104px;}
+

@@ -1,0 +1,262 @@
+.logintips {
+	color:#F90;
+}
+
+.inplabel{width:90px; display:inline-block;text-align:right;padding-right:6px; height:20px;}	
+.inplabel2{display:inline-block; height:20px;}
+.inplabe2{width:150px; display:inline-block;text-align:left; padding:30px 0px 0px 30px;}
+
+.login_input {
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #bbbbbb #dddddd #dddddd #bbbbbb; 
+	width: 185px; 
+	height: 18px;
+	color: #333333; 
+	padding-left: 3px; 
+	font-size:12px; 
+	box-shadow: inset 1px 1px 1px #ddd;
+	padding-top:4px;	
+}
+
+.loginwrap {
+	padding:10px 0px 8px 20px;
+	border-radius: 5px 5px 0px 0px; 
+	width: 392px;
+	float:left;
+}
+.loginbox {
+	border-radius: 5px 5px 0px 0px; 
+	border: 1px solid #afd0f1; 
+	background-color:#fff;
+	height:316px;
+}
+.loginbox_tab {
+	border-radius: 5px 5px 0px 0px; 
+	height: 48px; 
+	text-align: center; 
+	color: #0366cb; 
+	line-height: 45px; 
+	font-size: 16px; 
+	margin-bottom: 10px; 
+	border-bottom-color: #afd0f1; 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid; 
+	background-color:#F3F3F3;
+}
+.loginbox_tab li {
+	padding: 2px 1px 0px; 
+	top: -1px; 
+	width: 193px; 
+	height: 45px; 
+	border-top-color: #afd0f1; 
+	border-top-width: 1px; 
+	border-top-style: solid; 
+	float: left; 
+	position: relative; 
+	cursor: pointer;
+}
+.loginbox_tab .lg_member_nocurrent {
+	border-radius: 5px 0px 0px;
+}
+.loginbox_tab .lg_card_nocurrent {
+	border-radius: 0px 5px 0px 0px;
+}
+.loginbox_tab .lg_member_current {
+	border-radius: 5px 5px 0px 0px; 
+	margin-bottom: -2px; 
+	border-top-color: #3983e4; 
+	border-top-width: 3px; 
+	border-top-style: solid; 
+	cursor: default; 
+	background-color: #ffffff;
+}
+.loginbox_tab .lg_card_current {
+	border-radius: 5px 5px 0px 0px; 
+	margin-bottom: -2px; 
+	border-top-color: #3983e4; 
+	border-top-width: 3px; 
+	border-top-style: solid; 
+	cursor: default; 
+	background-color: #ffffff;
+}
+.loginbox_tab .lg_member_current {
+	padding: 0px 0px 2px 1px; 
+	border-right-color: #afd0f1; 
+	border-right-width: 1px; 
+	border-right-style: solid;
+}
+.loginbox_tab .lg_card_current {
+	padding: 0px 1px 2px 0px; 
+	border-left-color: #afd0f1; 
+	border-left-width: 1px; 
+	border-left-style: solid; 
+	background-color: #ffffff;
+}
+.loginbox_form {
+	padding-top: 10px; padding-left: 30px;
+}
+.loginbox_form li {
+	height: 26px; 
+	padding-bottom: 12px; 
+	clear: both; 
+	font-size: 12px;
+	color:#226399;
+}
+.lg_btn02 {
+	border-radius: 3px; 
+	border: 1px solid #d1d1d1; 
+	width: 76px; 
+	height: 22px; 
+	text-align: center; 
+	color: #333333; 
+	line-height: 22px; 
+	margin-left: 10px; 
+	display: inline-block; 
+	box-shadow: 0px 3px 2px -2px #d1d1d1; 
+	background-color: #fcfcfc;
+}
+.lg_btn02:hover {
+	border-color: rgb(208, 208, 208); 
+	color: #ffffff; 
+	text-decoration: none; 
+	background-color: rgb(0, 102, 203);
+}
+.lg_index_label {
+	padding-left: 3em; 
+	font-family: simsun,sans-serif; 
+	margin-left: 10px;
+}
+.lg_index_label .index_label {
+	font-size: 14px; 
+	border-bottom-color: #ffffff; 
+	border-bottom-width: 1px; 
+	border-bottom-style: dashed; 
+	cursor: pointer;
+}
+.lg_index_label .index_label:hover {
+	border-bottom-color: #aaaaaa; 
+	border-bottom-width: 1px; 
+	border-bottom-style: dashed;
+}
+.lg_index_label .index_label input {
+	margin-right: 5px; vertical-align: -1px;
+}
+.s_btn {
+	border-radius: 3px; 
+	width: 185px; 
+	height: 33px; 
+	text-align: center; 
+	color:#FFF;
+	clear: both; 
+	font-size: 16px; 
+	font-weight: bold; 
+	cursor: pointer;
+	border: 1px solid #e77c00; 
+	text-shadow: 1px 1px 0px #cf7000; 
+	background-color: #ffb000;	
+}
+.s_btn_disabled {
+	border-radius: 3px; 
+	width: 191px; 
+	height: 33px; 
+	text-align: center; 
+	color: #ffffff; 
+	letter-spacing: 0.4em; 
+	clear: both; 
+	font-family: "Microsoft YaHei", SimSun, Tahoma, Verdana, Arial, sans-serif; 
+	font-size: 16px; 
+	font-weight: bold; 
+	cursor: pointer; 
+	box-shadow: 0px 1px 0px rgba(95,50,0,0.7);
+}
+
+#cooperDiv{
+	display:none;
+	position:absolute; 
+	margin-top:-182px !important; margin-top:-187px;
+	margin-left:20px; 
+	width:375px;
+	overflow:hidden;
+	padding:6px; 
+	background-color:#e9e9e9;
+	border: 1px solid #dddddd;
+	box-shadow: 2px 2px 2px #d8d8d8;
+	-moz-box-shadow: 2px 2px 2px #d8d8d8;
+	-webkit-box-shadow: 2px 2px 2px #d8d8d8;
+	border-radius: 5px; 
+}
+#cardContent{ padding:1px; 
+	border:1px solid #dddddd;
+	border-top:0px; background-color:#FFF;}
+.menu {
+	height:33px;
+	background-color:#e9e9e9;
+	border-bottom:1px solid #dddddd;
+	z-index:1;
+}
+.tabnormal{
+	display:inline-block;
+	width:80px;
+	height:26px;
+	color:#666;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;
+}
+.tabactive {
+	display:inline-block;
+	width:80px;
+	height:26px;
+	color:#000;
+	float:left;
+	text-align:center;
+	line-height:28px;
+	background-color:#FFFFFF;
+	border:2px solid #dddddd;
+	border-bottom:2px solid #fff;
+	cursor:pointer;
+	z-index:9;
+	border-radius: 10px 10px 0px 0px; 
+}
+.tabbox{clear:both; position:absolute; top:11px; left:40px; display:inline;}
+.btnclose{clear:both; position:absolute; top:8px; right:9px; display:inline; cursor:pointer;}
+.subCard{
+	display:none;
+	clear:both;
+	width:350px;
+	height:100px;
+	background:#ffffff;
+	padding: 25px 1px 20px 20px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+.subCard ul{
+	margin:0px;
+	padding:0px;
+	LIST-STYLE-TYPE: none;
+}
+.subCard li{
+	width:110px;
+	float:left;
+	height:24px;
+	font-size: 12px;
+	color: #333;
+	text-decoration:none;
+}
+.subCard ul li a{
+	color:#333;
+	text-decoration:none;
+}
+.subCard ul li a:hover{
+	color:#F60;
+	text-decoration:none;
+}
+.cardLoginTip{
+	clear:both;
+	font-size:12px;
+	padding:10px 30px;
+	line-height:30px;
+	text-align:left;
+}

@@ -1,0 +1,1132 @@
+/***我的７天***/
+.blank8{ height:8px!important; font-size:1px!important; width:100%; clear:both!important;line-height:0!important;margin:0!important;overflow:hidden;}
+.my7day-main{width:880px;overflow:hidden;}
+.my7day-left{float:left;display:inline;width:218px;text-align:left;overflow:hidden;}
+.my7day-right{float:right;width:652px;display:inline;overflow:hidden;}
+.my7day-right .contbox {width:652px;background:url(http://img1.7daysinn.cn/images/m_r_bg.gif) repeat-y;}
+.my7day-right .contbox .intitle {width:652px;height:38px;background:url(http://img1.7daysinn.cn/images/bar2_bg.gif) repeat-x; overflow:hidden;}
+.my7day-right .contbox .intitle .left{ float:left;width:9px;display:block;}
+.my7day-right .contbox .intitle .right{float:right; width:9px;display:block;}
+.my7day-right .contbox .intitle h4 { display:block;float:left;margin-top:3px;height:31px;line-height:31px;padding-left:40px;height:31px;font-size:14px;font-weight:bold;color:#236298; width:592px;overflow:hidden;}
+.my7day-right .contbox .intitle h4 p{ float:right; display:block; padding:0 0 0 0; margin:2px 0 0 0;*margin:0; text-align:right; color:#656666; font-size:12px; font-weight:normal; vertical-align:middle;}
+.my7day-right .contbox .intitle h4 p a{color:blue !important;text-decoration:underline;}
+.my7day-right .contbox .intitle h4 p a:hover{color:#FF8B00!important;}
+.my7day-right .contbox .intitle h4 span a{color:#656666!important;text-decoration:none;}
+.my7day-right .contbox .intitle h4 span a:hover{color:#FF8B00!important;}
+.icon_round2{background:url(http://img1.7daysinn.cn/images/icon_round2.gif) left no-repeat;}
+.icon_round3{background:url(http://img1.7daysinn.cn/images/icon_round3.gif) left no-repeat;}
+.icon_round7{background:url(http://img1.7daysinn.cn/images/icon_round7.gif) left no-repeat;}
+.icon_round18{background:url(http://img1.7daysinn.cn/images/icon_round18.gif) left no-repeat;}
+.icon_round19{background:url(http://img1.7daysinn.cn/images/icon_round19.gif) left no-repeat;}
+.icon_round20{background:url(http://img1.7daysinn.cn/images/icon_round20.gif) left no-repeat;}
+.icon_round21{background:url(http://img1.7daysinn.cn/images/icon_round21.gif) left no-repeat;}
+.icon_round22{background:url(http://img1.7daysinn.cn/images/icon_round22.gif) left no-repeat;}
+.icon_round23{background:url(http://img1.7daysinn.cn/images/icon_round23.gif) left no-repeat;}
+.icon_round24{background:url(http://img1.7daysinn.cn/images/icon_round24.gif) left no-repeat;}
+.icon_round25{background:url(http://img1.7daysinn.cn/images/icon_round25.gif) left no-repeat;}
+.icon_round26{background:url(http://img1.7daysinn.cn/images/icon_round26.gif) left no-repeat;}
+.icon_round27{background:url(http://img1.7daysinn.cn/images/icon_round27.gif) left no-repeat;}
+.icon_round28{background:url(http://img1.7daysinn.cn/images/icon_round28.gif) left no-repeat;}
+.icon_round29{background:url(http://img1.7daysinn.cn/images/icon_round29.gif) left no-repeat;}
+.icon_round30{background:url(http://img1.7daysinn.cn/images/icon_round30.gif) left no-repeat;}
+.icon_round31{background:url(http://img1.7daysinn.cn/images/icon_round31.gif) left no-repeat;}
+.icon_round32{background:url(http://img1.7daysinn.cn/images/icon_round32.gif) left no-repeat;}
+.icon_round33 {background:transparent url(http://img1.7daysinn.cn/images/icon_round33.gif) no-repeat scroll left center;}
+.icon_round34 {background:transparent url(http://img1.7daysinn.cn/images/icon_round34.gif) no-repeat scroll left center;}
+.icon_round36{background:url(http://img1.7daysinn.cn/images/icon_round36.gif) left no-repeat;}
+.icon_round37{background:url(http://img1.7daysinn.cn/images/icon_round37.gif) left no-repeat;}
+.icon_round38{background:url(http://img1.7daysinn.cn/images/icon_round38.gif) left no-repeat;}
+.icon_round39 {background:transparent url(http://img1.7daysinn.cn/images/icon_round39.gif) no-repeat scroll left center;}
+.icon_round40 {background:transparent url(http://img1.7daysinn.cn/images/icon_round40.gif) no-repeat scroll left center;}
+.icon_round41 {background:transparent url(http://img1.7daysinn.cn/images/icon_round41.gif) no-repeat scroll left center;}
+.icon_round42 {background:transparent url(http://img1.7daysinn.cn/images/icon_round42.gif) no-repeat scroll left center;}
+.icon_round43 {background:transparent url(http://img1.7daysinn.cn/images/icon_round43.gif) no-repeat scroll left center;}
+.icon_round44 {background:transparent url(http://img1.7daysinn.cn/images/icon_round44.gif) no-repeat scroll left center;}
+.icon_round45 {background:transparent url(http://img1.7daysinn.cn/images/icon_round45.gif) no-repeat scroll left center;}
+.icon_round46 {background:transparent url(http://img1.7daysinn.cn/images/icon_round46.gif) no-repeat scroll left center;}
+.icon_round47 {background:transparent url(http://img1.7daysinn.cn/images/icon_round47.gif) no-repeat scroll left center;}
+.icon_round48 {background:transparent url(http://img1.7daysinn.cn/images/icon_round48.gif) no-repeat scroll left center;}
+.icon_round49 {background:transparent url(http://img1.7daysinn.cn/images/icon_round49.gif) no-repeat scroll left center;}
+.icon_round50 {background:transparent url(http://img1.7daysinn.cn/images/icon_round50.gif) no-repeat scroll left center;}
+.icon_round51 {background:transparent url(http://img1.7daysinn.cn/images/icon_round51.gif) no-repeat scroll left center;}
+.icon_round52 {background:transparent url(http://img1.7daysinn.cn/images/icon_round52.gif) no-repeat scroll left center;}
+.icon_round53 {background:transparent url(http://img1.7daysinn.cn/images/icon_round53.gif) no-repeat scroll left center;}
+
+.magicbox{margin:0 auto;width:880px;background:url(http://img1.7daysinn.cn/images/big_m_bg.gif) repeat-y;overflow:hidden;}
+.magicbox .intitle {height:38px;background:url(http://img1.7daysinn.cn/images/bar2_bg.gif) repeat-x;}
+.magicbox .intitle h4 {display:inline;float:left;margin:5px 0 0 0;*margin-top:3px;height:31px;line-height:31px;padding-left:40px;height:31px;font-size:14px;font-weight:bold;color:#236298;overflow:hidden;}
+.magicbox .intitle .icon_round30{background:url(http://img1.7daysinn.cn/images/icon_round30.gif) left no-repeat;}
+.magicbox-bottom{height:9px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/big_b_bg.gif) no-repeat;}
+
+.my7day-right-top{height:9px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/m_r_top.gif) no-repeat;}
+.my7day-right-mid{background:url(http://img1.7daysinn.cn/images/m_r_bg.gif) repeat-y; text-align:center;}
+.my7day-right-bottom{height:9px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/m_r_bottom.gif) no-repeat;}
+.my7day-right-bottom2{height:9px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/m_r_bottom2.gif) no-repeat;}
+.my7day-left-nav{height:39px;background:url(http://img1.7daysinn.cn/images/bar_nav_bg.gif) repeat-x;}
+.my7day-left-nav .left{ float:left;}
+.my7day-left-nav .mid{float:left;width:200px;height:38px;overflow:hidden;}
+.my7day-left-nav .mid h4{display:inline;float:left;line-height:26px;height:26px; margin:5px 0 0 0;font-size:14px;font-weight:bold; background:url(http://img1.7daysinn.cn/images/icon_my_00.gif) 3px 5px no-repeat; padding:0 0 0 36px;color:#226399;overflow:hidden;}
+.my7day-left-nav .mid h4.ic0{background:url(http://img1.7daysinn.cn/images/icon_my_jf.gif) 5px 5px no-repeat;}
+.my7day-left-nav .mid h4.ic1{background:url(http://img1.7daysinn.cn/images/icon_my_wt.gif) 5px 5px no-repeat;}
+
+.my7day-left-nav .right{ float:right;}
+.my7day-left-con{width:218px;background:url(http://img1.7daysinn.cn/images/left_my_bg.gif) repeat-y;text-align:center;color:#226399;overflow:hidden;}
+.my7day-left-con a{color:#226399!important;}
+.my7day-left-con a:hover{color:#FF8B00!important;}
+.my7day-left-con .titnav{margin:0 auto;width:198px;height:24px;border:1px dashed #b5d7ff;background-color:#f7fbff;color:#226399;text-align:left;}
+.my7day-left-con .titnav h4{font-size:14px;line-height:22px;font-weight:bold;padding:2px 0 0 36px;text-align:left;}
+.my7day-left-con .titnav h4 span.cOrange{color:#FF8B00;font-weight:normal; font-size:12px;}
+.my7day-left-con .titnav h4.ic00{padding:2px 0 0 12px;}
+.my7day-left-con .titnav h4.ic01{background:url(http://img1.7daysinn.cn/images/icon_my_01.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic02{background:url(http://img1.7daysinn.cn/images/icon_my_02.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic03{background:url(http://img1.7daysinn.cn/images/icon_my_03.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic04{background:url(http://img1.7daysinn.cn/images/icon_my_04.gif) 10px 5px no-repeat}
+.my7day-left-con .titnav h4.ic05{background:url(http://img1.7daysinn.cn/images/icon_my_05.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic06{background:url(http://img1.7daysinn.cn/images/icon_my_06.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic07{background:url(http://img1.7daysinn.cn/images/icon_my_07.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic08{background:url(http://img1.7daysinn.cn/images/icon_my_08.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic09{background:url(http://img1.7daysinn.cn/images/icon_my_09.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic10{background:url(http://img1.7daysinn.cn/images/icon_my_10.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic11{background:url(http://img1.7daysinn.cn/images/icon_my_11.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic12{background:url(http://img1.7daysinn.cn/images/icon_my_12.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic13{background:url(http://img1.7daysinn.cn/images/icon_my_13.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic14{background:url(http://img1.7daysinn.cn/images/icon_my_14.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic15{background:url(http://img1.7daysinn.cn/images/icon_my_15.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic16{background:url(http://img1.7daysinn.cn/images/icon_my_16.gif) 7px 5px no-repeat}
+.my7day-left-con .titnav h4.ic17{background:url(http://img1.7daysinn.cn/images/icon_my_17.gif) 7px 5px no-repeat}
+/* -- 20120613-- */
+.my7day-list-cz{padding:15px 10px 8px 26px;}
+.my7day-list-cz li{text-align:left;line-height:16px;height:24px;overflow:hidden;margin-top: 3px;margin-right: 0;margin-bottom: 3px;margin-left: 0;padding-top: 2px;padding-right: 0;padding-bottom: 2px;padding-left: 5px;}
+.my7day-list-cz li img{ vertical-align:bottom;}
+.bncz{width:84px;height:24px;line-height:18px;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon_orange.gif) no-repeat;border:none;cursor:pointer; font-size:12px; margin-left:38px;}
+.my7day-left-con .titnav h4.ic17{background:url(http://img1.7daysinn.cn/images/icon_my_17.gif) 7px 5px no-repeat}
+.cztx{height:22px;}
+/* -- 20120613 end-- */
+
+.my7day-left_top{height:10px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/lf_top_bg.gif) no-repeat;}
+.my7day-left_bottom{height:10px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/lf_bot_bg.gif) no-repeat;}
+.my7day-left_top2{height:6px; line-height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/lf_top_bg2.gif) no-repeat;}
+.my7day-left_bottom2{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/lf_bot_bg2.gif) no-repeat;}
+
+.my7day-list01{padding:8px 10px 8px 30px;}
+.my7day-list01 li{ background:url(http://img1.7daysinn.cn/images/arr_my_01.gif) 3px 7px no-repeat;text-align:left;line-height:20px;height:20px; padding:0 0 0 20px; margin:3px 0;overflow:hidden;}
+.my7day-list01 li span.orange{ color:#ff7f00;}
+
+.my7day-list02{padding:8px 10px 8px 30px;}
+.my7day-list02 li{ background:url(http://img1.7daysinn.cn/images/arr_my_02.gif) 3px 7px no-repeat;text-align:left;line-height:16px;height:20px; padding:2px 0 2px 20px; margin:3px 0;overflow:hidden;}
+.my7day-list02 li img{ vertical-align:bottom;}
+
+.tabcon{padding:10px 10px 0 10px;}
+table.tablist01{ width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist01 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 15px; text-align:right; font-weight:normal;line-height:22px;}
+table.tablist01 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 15px;line-height:22px;}
+table.tablist01 .bggray {background:#f2f2f2;}
+table.tablist01 .bn{width:89px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon_01.gif) no-repeat;border:none;cursor:pointer;}
+
+.levelcon{padding:10px 10px 5px 10px;color:#226399;}
+.levelcon p{text-align:center;margin: 0; padding:6px 0; border:0;}
+.levelcon .bn{width:129px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon_02.gif) no-repeat;border:none;cursor:pointer;}
+
+table.tablist02{ width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist02 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;text-align:center;font-weight:normal;line-height:22px;}
+table.tablist02 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;text-align:center;line-height:22px;}
+table.tablist02 td p{padding:5px 0; margin:0;}
+table.tablist02 .bggray{background:#f2f2f2;}
+
+/***详细资料***/
+.menber_tit{border:1px solid #d1d1d1;background-color:#f2f2f2;line-height:22px;height:auto;padding:0 12px;}
+.con_mt3{margin-top:3px;}
+
+table.tablist03{width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist03 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 15px 0 15px; text-align:right; font-weight:normal;line-height:28px;}
+table.tablist03 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px 0 15px;line-height:28px;}
+table.tablist03 .bggray {background:#f2f2f2;}
+table.tablist03 .sd1{padding:10px 0px 10px 200px; text-align:left;}
+
+.sub_con{border:1px solid #d1d1d1;background-color:#f2f2f2; padding:5px 0; text-align:center;}
+.bn1{width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/bg_icon_03.gif) no-repeat;border:none;cursor:pointer;}
+.bn2{width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/bg_icon_04.gif) no-repeat;border:none;cursor:pointer;}
+
+/***会员***/
+.input00{height:20px;line-height:18px;padding:1px 2px 0 2px;border:1px solid #8c8c8c;font-size:12px;}
+.bn01{width:84px;height:21px;line-height:18px;padding:0px 0 0 36px;*padding:2px 0 0 36px;text-align:left;background:url(http://img1.7daysinn.cn/images/btn_my_01.gif) no-repeat;border:none;cursor:pointer; font-size:12px;}
+.bn01a{width:84px;height:21px;line-height:18px;padding:0px 0 0 25px;*padding:2px 0 0 25px;text-align:left;background:url(http://img1.7daysinn.cn/images/btn_my_01a.gif) no-repeat;border:none;cursor:pointer;}
+.bn01b{width:74px;height:21px;line-height:18px;padding:0px 0 0 32px;*padding:2px 0 0 32px;text-align:left;background:url(http://img1.7daysinn.cn/images/btn_my_01-1.gif) no-repeat;border:none;cursor:pointer;}
+.bn02{width:49px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon5.gif) no-repeat;border:none;cursor:pointer;}
+.bn03{width:64px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon_00.gif) no-repeat;border:none;cursor:pointer;}
+.bn05{width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/bg_icon_05.gif) no-repeat;border:none;cursor:pointer;}
+.bn06{width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/bg_icon_06.gif) no-repeat;border:none;cursor:pointer;}
+.bn06a{width:115px;height:31px;line-height:28px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/icon_clear.gif) no-repeat;border:none;cursor:pointer;}
+.bn07{width:174px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon_07.gif) no-repeat;border:none;cursor:pointer;}
+.bn10{width:112px;height:23px;display:block;line-height:20px;padding:0px 0 0 40px;*padding:3px 0 0 40px;text-align:left;background:url(http://img1.7daysinn.cn/images/bn10.gif) no-repeat;border:none;cursor:pointer;color:#000000; margin:2px 0 0 0;}
+.bn13{width:84px;height:24px;display:block;line-height:20px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bn13.gif) no-repeat;border:none;cursor:pointer;color:#000000; margin:2px 0 0 0;}
+.bn_02{width:104px;height:21px;line-height:18px;padding:0px 0 0 0px;*padding:2px 0 0 0px;text-align:center;background:url(http://img1.7daysinn.cn/images/btn_my_02.gif) no-repeat;border:none;cursor:pointer;}
+.bn_03{width:84px;height:21px;line-height:18px;padding:0px 0 0 36px;*padding:2px 0 0 36px;text-align:left;background:url(http://img1.7daysinn.cn/images/btn_my_03.gif) no-repeat;border:none;cursor:pointer;}
+.bn_04{width:114px;height:24px;line-height:22px;padding:0px 0 0 0px;*padding:2px 0 0 0px;text-align:center;background:url(http://img1.7daysinn.cn/images/btn_my_04.gif) no-repeat;border:none;cursor:pointer;}
+.bn_05{width:104px;height:21px; display:block;line-height:18px;padding:0px 0 0 36px;*padding:3px 0 0 36px;text-align:left;background:url(http://img1.7daysinn.cn/images/btn_my_05.gif) no-repeat;border:none;cursor:pointer;}
+.bn_04{width:174px;height:21px;line-height:22px;padding:0px 0 0 0px;*padding:2px 0 0 0px;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon_07.gif) no-repeat;border:none;cursor:pointer;}
+
+.select01{ width:auto; margin-top:4px;}
+.copy_link{padding:15px 10px 10px 16px; color:#226399;}
+
+table.tablist04{width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist04 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;text-align:center;font-weight:normal;line-height:22px;}
+table.tablist04 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;text-align:center;line-height:30px;}
+table.tablist04 .bggray{background:#f2f2f2;}
+table.tablist04 .sd1{ text-align:left; padding:0 5px 0 15px;}
+table.tablist04 .sd2{ text-align:left; padding:0 5px 0 30px;}
+
+
+.tab_tx1{height:30px; padding:5px 0 0 0; border-right:1px solid #d1d1d1; width:92px;float:left; display:block;}
+.tab_tx2{padding:2px 0 0 0px; float:left; display:block;}
+
+table.tablist05{width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist05 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:5px 10px 5px 5px;text-align:right;font-weight:normal;line-height:20px;color:#000000;}
+table.tablist05 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:5px 5px 5px 10px;text-align:left;line-height:20px;}
+table.tablist05 .sd1{ text-align:left; padding:0 5px 0 15px;}
+table.tablist05 .inp001{width:220px;height:22px;line-height:20px;padding:1px 2px 0 2px;border:1px solid #8c8c8c;font-size:12px;}
+table.tablist05 .textarea001{width:220px;height:45px;border:1px solid #8c8c8c;}
+table.tablist05 .textarea002{width:350px;height:110px;border:1px solid #8c8c8c;}
+
+/*常住酒店*/
+.listcon01{border:1px solid #d1d1d1;}
+.listcon01 h2{border-bottom:1px solid #d1d1d1; padding:2px 0 0 26px; background:url(http://img1.7daysinn.cn/images/arr_my_03.gif) 10px 8px no-repeat #f2f2f2; height:20px; line-height:20px;color:#226399;}
+.listcon01 .scon01{ padding:10px 10px; text-align:center;}
+.listcon01 .scon02{ padding:6px 10px 0 20px; text-align:left;}
+.listcon01 .scon03{ margin:10px 0;border-top:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1; padding:5px 10px 5px 20px; text-align:left; background-color:#f2f2f2;}
+
+.scontit{margin:10px 10px 0;height:24px;border:1px dashed #b5d7ff;background-color:#f7fbff;color:#226399;text-align:left;}
+.scontit p.st1{line-height:22px; padding:2px 0 0 10px; margin:0;text-align:left;}
+.scontit p.st2{background:url(http://img1.7daysinn.cn/images/arrow_orange.gif) 10px 8px no-repeat; padding:0 0 0 40px;margin:0;text-align:left;line-height:22px;}
+
+/*我要申请航空意外险*/
+.app_ywx{border:1px solid #d1d1d1;background-color:#f2f2f2; height:24px;line-height:24px;padding:0 10px;}
+.app_ywx .ss01{float:left;display:block;line-height:24px;}
+.app_ywx .ss02{float:right;display:block;line-height:24px;}
+.app_ywx .ss02 a{ text-decoration:underline;}
+
+table.tablist06{width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist06 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;text-align:center;font-weight:normal;line-height:28px;background:#f2f2f2;}
+table.tablist06 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;line-height:28px;vertical-align:middle;}
+table.tablist06 td p{text-align:left; padding:0 10px;}
+table.tablist06 td img{vertical-align:text-top;}
+
+.app_free_con{padding:10px 5px 0 5px;}
+.app_free_con {}
+.app_free_con h2{ line-height:18px; text-align:center; font-weight:bold;}
+.app_free_con .tent{padding:10px 10px 10px 10px; line-height:20px;}
+.app_free_con .tent h4{ line-height:22px;}
+.app_free_con .tent li{ text-indent:22px; line-height:20px; padding:2px 0;}
+.accepted_con{ margin:0 auto;padding:0 20px 5px 20px; text-align:center;color:#226399;}
+.accepted_con a{ text-decoration:underline;}
+.sub_con2{border:1px solid #d1d1d1; padding:10px; text-align:center;}
+/* simScroll Style */
+.case{margin:10px 10px;}
+.simScroll {position: relative;	float: left;width: 13px;margin-left: -15px;	border-right: solid 1px #D1D1D1}
+/* 向上 */
+.simScrollUp {height: 14px;	background: url(http://img1.7daysinn.cn/images/simScroll_Up.gif) no-repeat}
+.simScrollUp_Over {height: 14px;background: url(http://img1.7daysinn.cn/images/simScroll_Up_Over.gif) no-repeat}
+/* 滚动条 */
+.simScrollDragArea {background: url(http://img1.7daysinn.cn/images/simScroll_Drag_Area.gif) repeat-y}
+.simScrollDrag {background: url(http://img1.7daysinn.cn/images/simScroll_Drag.gif) repeat-y}
+.simScrollDrag_Over {background: url(http://img1.7daysinn.cn/images/simScroll_Drag_Over.gif) repeat-y}
+/* 向下 */
+.simScrollDown {height: 14px;background: url(http://img1.7daysinn.cn/images/simScroll_Down.gif) no-repeat}
+.simScrollDown_Over {height: 14px;background: url(http://img1.7daysinn.cn/images/simScroll_Down_Over.gif) no-repeat}
+.simScrollCont {float: left;height: 200px;background: #F9F9F9;border: solid 1px #D1D1D1;	padding: 0 5px;overflow: hidden;overflow-y:auto;}
+
+
+/*在线充值*/
+.online_charge_con{padding:10px 10px 0 10px;}
+.online_charge_con a{text-decoration:underline!important;}
+.online_charge_con h2{height:26px;background:url(http://img1.7daysinn.cn/images/cz_bg.gif) repeat-x; padding:4px 15px 0 15px; color:#226399; font-weight:bold; line-height:20px;}
+.online_charge_con h2 p{float:right; display:block; padding:0 0 0 0; margin:0; text-align:right; color:#656666; font-size:12px; font-weight:normal; vertical-align:middle;}
+.online_charge_con h2 a{color:#656666!important;text-decoration:underline;}
+.oncharge_box{ margin-top:6px;border:1px solid #89c4df;background-color:#f9f9f9; padding:6px 6px;}
+.chbox_01{float:left; padding: 10px 8px 0 20px; width:250px;}
+.chbox_01 p.tx1{margin:5px 0 0 0;border-bottom:1px solid #d1d0d0; background-color:#f0f0f0; line-height:22px; height:22px; padding:0 10px;}
+.chbox_01 p.tx2{margin:6px 0 0 0; padding:0 8px;}
+.chbox_01 p.tx2 input{width:110px;height:22px;line-height:20px;padding:1px 2px 0 2px;border:1px solid #8c8c8c;}
+.chbox_02{ float:right; background:url(http://img1.7daysinn.cn/images/icon_done.gif) 5px 12px no-repeat; margin-right:10px; padding:10px 10px 0 40px;width:250px;}
+.chbox_02 p{ margin:0; padding:0; line-height:22px; height:22px; text-align:left;}
+.chbox_02 ol{ padding:0 5px;}
+.chbox_02 ol li{list-style-type:decimal;padding:0;margin:0 0 0 20px; line-height:20px;}
+table.tablist07{width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;color:#6e6e6e;}
+table.tablist07 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px; text-align:right; font-weight:normal;line-height:28px;}
+table.tablist07 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;line-height:28px;}
+table.tablist07_{width:100%;color:#6e6e6e;}
+table.tablist07_ th{padding:0 5px; text-align:right; font-weight:normal;line-height:28px;}
+table.tablist07_ td{padding:0 5px;line-height:28px;}
+table.tablist08{width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist08 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:0 5px;text-align:center;line-height:28px;}
+table.tablist08 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;padding:4px 0px;text-align:center;line-height:20px;}
+table.tablist08 .bggray{background:#f2f2f2;}
+table.tablist08 img{ vertical-align:middle;}
+.bn001{width:72px;height:22px;line-height:20px;padding:0 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bn001.gif) no-repeat;border:none;cursor:pointer; font-size:12px;}
+.bn002{width:103px;height:31px;background:url(http://img1.7daysinn.cn/images/icon_inquire.gif) no-repeat;border:none;cursor:pointer;}
+table.tablist09{width:480px;}
+table.tablist09 td{padding:6px 5px;}
+.surecon{margin:5px auto;border:1px solid #9a9a9a;line-height:24px;height:24px;background-color:#f9ffff; padding:0 16px;}
+.sub_con3{padding:10px 0; text-align:center;}
+.help_deption{padding:10px 18px 15px 18px; line-height:20px;}
+.help_deption h2{height:26px; font-size:16px;padding:5px 0px 0px 0px; color:#ff7f00; line-height:26px;}
+.help_deption h3{ line-height:22px; height:22px; font-size:14px; padding:12px 8px 0 8px;}
+.help_deption p{ margin:0; padding:0 8px; color:#656666; line-height:20px;}
+.help_deption ul li{color:#656666; line-height:20px; text-indent:20px;color:#656666;}
+
+
+/*我的电子抵用劵*/
+.intitle2 {width:652px;height:47px;background:url(http://img1.7daysinn.cn/images/bar2_bg1.gif.gif) repeat-x;}
+.intitle2 .left{ float:left;width:9px;display:block;}
+.intitle2 .right{float:right; width:9px;display:block;}
+.intitle2 .mid{display:block;float:left;width:624px;padding:10px 5px;color:#656666;}
+.securities_con{ padding:15px 25px 10px 15px;color:#656666;}
+.securities_con ol{ padding:0 25px;}
+.securities_con ol li{list-style-type:decimal;padding:1px 0;margin:0 0 0 20px; line-height:20px;}
+
+.listcon02{padding:10px 10px;}
+.listcon02 li{float:left; display:block; width:65px; margin:10px 5px 10px 5px;}
+.listcon02 li span{ text-align:center;}
+.listcon02 li img{ margin:2px 5px 4px 5px;width:50px; height:50px; border:1px solid #8c8c8c;}
+.listcon02 li p{ align:center;margin-top:5px;margin-bottom:3px;line-height:20px; height:20px;text-align:center; overflow:hidden;}
+
+/*我的社区资料*/
+.commun_{}
+table.tablist10{width:100%;border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist10 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;line-height:28px;}
+table.tablist10 .bggray{background:#f2f2f2;}
+table.tablist10 td p{ margin:0; padding:0;}
+.bn08{width:74px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bn08.gif) no-repeat;border:none;cursor:pointer;}
+.bn09{width:84px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bn09.gif) no-repeat;border:none;cursor:pointer;}
+
+/*订单管理*/
+.mana_tip{padding:10px 20px 5px 16px;}
+.mana_tit{line-height:20px; height:20px; padding:5px 0 5px 20px;}
+.mana_pic_tip{padding:5px 0px 10px 30px;}
+.mana_pic_tip li{float:left; width:240px;padding:0 30px 0 28px; height:20px; line-height:20px; text-align:left; margin:3px 0;}
+.mana_pic_tip li.tp01{ background:url(http://img1.7daysinn.cn/images/ope_ic_1.gif) 0px 2px no-repeat;}
+.mana_pic_tip li.tp02{ background:url(http://img1.7daysinn.cn/images/ope_ic_2.gif) 0px 2px no-repeat;}
+.mana_pic_tip li.tp03{ background:url(http://img1.7daysinn.cn/images/ope_ic_3.gif) 0px 2px no-repeat;}
+.mana_pic_tip li.tp04{ background:url(http://img1.7daysinn.cn/images/ope_ic_4.gif) 0px 2px no-repeat;}
+.mana_pic_tip li.tp05{ background:url(http://img1.7daysinn.cn/images/ope_ic_5.gif) 0px 2px no-repeat;}
+.mana_pic_tip li.tp06{ background:url(http://img1.7daysinn.cn/images/ope_ic_6.gif) 0px 2px no-repeat;}
+.mana_pic_tip li.tp07{ background:url(http://img1.7daysinn.cn/images/ope_ic_7.gif) -2px 2px no-repeat;}
+.mana_pic_tip li.tp08{ background:url(http://img1.7daysinn.cn/images/ope_ic_8.gif) 0px 0px no-repeat;}
+.mana_pic_tip li span{float:right;width:140px; display:block;text-align:left;color:#908f8f;}
+
+.share_tex1{padding:8px 10px 5px 10px;}
+.share_tex1 p{ margin:1px 10px 1px 5px; padding:0; line-height:20px;color:#656666;}
+.share_tex1 p.sx1{padding:0 0 0 6px;}
+
+.magic_tab{margin:10px 10px;width:858px;}
+table.tablist11{border-top:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+table.tablist11 th{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;line-height:28px;background-color:#F4F4F4;text-align:center;}
+table.tablist11 td{border-right:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;line-height:20px; padding:5px 6px; color:#6E6E6E;}
+table.tablist11 td p{ margin:0; padding:0;}
+
+.ask_con01{padding:15px 10px 5px 20px;}
+.ask_con02{padding:35px 10px 25px 20px;}
+.ask_con02 .kn01{float:left; padding:0 10px 0 0;}
+.ask_con02 .kn02{float:left; padding:15px 0 0 10px;}
+.ask_con02 .kn02 .kntx01{font-family:微软雅黑;font-weight:normal; font-size:20px;}
+.ask_con02 .kn02 .kntx02{font-size:12px; line-height:20px; padding:10px 0; color:#656666;}
+
+
+/***机票***/
+.main .right626 .cn_01 ul {padding:0px 0px;}
+.main .right626 .cn_01 ul li {line-height:20px;padding:0px;}
+.main .right626 .cn_02 ul {padding:0px 0px;}
+.main .right626 .cn_02 ul li {line-height:20px;padding:10px 0 0 0;}
+
+.ticket-bk-con{padding:10px 10px;}
+.ticket-bk-con .bncont{padding:20px 10px 10px 66px; border-bottom:1px dashed #CCCCCC;}
+.ticket-bk-con .bncont p{ margin:0; padding:0 0 18px 0;}
+.ticket-bk-con .img01{background:url(http://img1.7daysinn.cn/images/ic_1.gif) 40px 25px no-repeat;}
+.ticket-bk-con .img02{background:url(http://img1.7daysinn.cn/images/ic_2.gif) 40px 25px no-repeat;}
+.ticket-bk-con .img03{background:url(http://img1.7daysinn.cn/images/ic_3.gif) 40px 25px no-repeat;}
+.special-ticket-con{ padding:10px 0 0 0; margin:0 10px;}
+.special-ticket-con .t_area{background-color:#F2F2F2;border:1px solid #d1d1d1; border-bottom:0;height:40px;}
+.special-ticket-con .t_area .nn1{float:left;display:block;padding:15px 10px 0 20px;color:#FF7F00;}
+.special-ticket-con .t_area .tklist{float:left;display:block; margin:0; padding:0;height:40px; overflow:hidden;}
+.special-ticket-con .t_area .tklist li{ margin:0 10px 0 0; padding:0;float:left; width:67px; padding:10px 0 0 0; text-align:center; overflow:hidden;cursor:pointer;} 
+.special-ticket-con .t_area .tklist li.current{ width:67px; height:38px; background:url(http://img1.7daysinn.cn/images/btn_bg.jpg) no-repeat;color:#FFFFFF;font-size:14px;font-weight:bold;text-align:center; padding:5px 0 0 0; line-height:20px; margin:4px 10px 0 0;}
+.special-ticket-con .t_area .tklist li.current a{color:#FFFFFF!important;}
+
+table.tab_tik01{width:100%;border-collapse:collapse;}
+table.tab_tik01 th{border:1px solid #d1d1d1;padding:5px 5px;text-align:center;font-weight:normal;line-height:20px;}
+table.tab_tik01 td{border:1px solid #d1d1d1;padding:5px 5px;text-align:center;line-height:20px;}
+table.tab_tik01 td img{ vertical-align:middle;*vertical-align:bottom;} 
+table.tab_tik01 .bg01{background:#ecf9ff;}
+table.tab_tik01 .bg02{background:#f7fbff;}
+
+
+
+/***积分广场***/
+.in_sq_con01{padding:18px 10px 10px 30px;}
+.jf_lis_01{ padding:5px 0 10px 20px;}
+.jf_lis_01 li{float:left; display:block; width:150px;text-align:center; margin-top:15px;}
+.jf_lis_01 li span{padding:3px;border:1px solid #89c4df; display:block;width:120px; margin:0 12px 5px 12px;}
+/*.jf_lis_01 li img{width:120px; height:120px;}*/
+.jf_lis_01 li p{margin:2px 10px 0 10px; line-height:16px;height:16px;color:#226399; overflow:hidden;}
+.jf_lis_01 li p a{color:#226399!important;}
+.jf_lis_01 li p.proname{height:48px;overflow:hidden;}
+.jf_lis_01 .bn14{ margin:5px auto;width:84px;height:21px;display:block;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bn14.gif) no-repeat;border:none;cursor:pointer;color:#000000;}
+.jf_lis_02{ padding:15px 20px 12px 20px;}
+.jf_lis_02 li{ line-height:20px; padding:5px 10px; border-bottom:1px dashed #cccccc;}
+
+.jf_lis_03{ padding:20px 0 10px 20px;}
+.jf_lis_03 li{float:left; display:block;width:141px; height:102px;background:url(http://img1.7daysinn.cn/images/t_p_bg.jpg) no-repeat; padding:8px 0 0 0; text-align:center; margin:0 15px 0 0;}
+.jf_lis_03 li span{padding:0 0 0 0;}
+.jf_lis_03 li img{width:123px; height:85px;}
+
+.jf_method{padding:16px 0 10px 10px;}
+.jf_method .glod{float:left; width:310px; height:127px; display: block; text-align:left;background:url(http://img1.7daysinn.cn/images/method_bg.gif) no-repeat;}
+.jf_method .glod h1{height:30px; padding:14px 0 6px 20px; }
+.jf_method .glod .tx{padding:0 10px 0 20px;font-family:"微软雅黑"; font-size:16px; color:#0387b8; line-height:24px;}
+
+.jf_lis_04{padding:5px 0 10px 20px; color:#656666;}
+.jf_lis_04 li{padding:3px 0 0 22px; background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 10px no-repeat; line-height:20px;}
+
+.jf_lis_05{padding:10px 0 10px 20px; color:#656666;}
+.jf_lis_05 li{padding:3px 0 2px 22px; background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 10px no-repeat; line-height:20px;border-bottom:1px dashed #cccccc;}
+.jf_lis_05 li p{ margin:0; padding:0 0 3px 0;}
+
+.gift_tab{ padding:10px 0 0 20px;}
+.gift_tab .gf_lf{float:left;width:258px; padding-top:6px;}
+.gift_tab .gf_lf .pic{border:1px solid #89c4df;padding:3px;}
+.gift_tab .gf_lf .pic img{width:250px; height:250px;  }
+.gift_tab .gf_lf .enlarge{line-height:18px; padding:5px 0; text-align:center; margin:10px 0;}
+.gift_tab .gf_ri{float:right;width:340px;margin-right:20px;}
+
+.jf_lis_06{padding:3px 0 10px 3px; color:#226399;}
+.jf_lis_06 li{padding:4px 10px 4px 5px;border-bottom:1px dashed #cccccc;line-height:18px; display:block}
+.jf_lis_06 li p{margin:0; padding:0 0 0 0; line-height:18px;}
+.jf_lis_06 li p span{float:left; display:block;}
+
+.gif_nav_bg{ margin-left:1px;height:35px; background:url(http://img1.7daysinn.cn/images/gif_nav_bg.gif) no-repeat;}
+.gif_nav_bg h2{ padding:3px 10px 3px 32px; line-height:26px; font-size:18px; color:#ff7f00; font-family:"微软雅黑";}
+.gif_nav_bg h3{ padding:3px 10px; line-height:26px; font-size:14px; color:#ff7f00;}
+
+.gift_xuzhi{ padding:10px 10px 20px 22px; line-height:20px; color:#434043;}
+
+.gift_lis2{padding:10px 10px 30px 20px; line-height:20px; color:#434043;}
+.gift_lis2 li{ list-style-type:decimal; margin:2px 30px 0 30px;}
+
+
+/***机票***/
+.main .right626 .bgyellow01 {background:url(http://img1.7daysinn.cn/images/bg_626_yellow.gif) repeat-y;height:auto;}
+.main .right626 .bgyellow01 h3 {float:left;margin-left:10px; display:block;padding-left:40px;background:url(http://img1.7daysinn.cn/images/icon_round35.gif) left no-repeat;line-height:30px;font-weight:bold;font-size:14px;color:#FD8200; width:80px;}
+.main .right626 .bgyellow01 ul {float:left;width:480px;display:block; margin:0; padding:5px 0 0 0; overflow:hidden;}
+.main .right626 .bgyellow01 ul li{float:left;width:235px;display:block;height:30px; text-align:left;overflow:hidden;}
+.main .right626 .bgyellow01 ul li img{ padding-right:5px; vertical-align:middle;}
+/*.main .right626 .bgyellow01 ul li.im01{background:url(http://img1.7daysinn.cn/images/rr_1.gif) 3px 0px no-repeat;padding:0 0 0 35px;}
+.main .right626 .bgyellow01 ul li.im02{background:url(http://img1.7daysinn.cn/images/rr_2.gif) 3px 3px no-repeat;padding:0 0 0 35px;}
+.main .right626 .bgyellow01 ul li.im03{background:url(http://img1.7daysinn.cn/images/rr_3.gif) 3px 3px no-repeat;padding:0 0 0 35px;}
+.main .right626 .bgyellow01 ul li.im04{background:url(http://img1.7daysinn.cn/images/rr_4.gif) 7px 3px no-repeat;padding:0 0 0 35px;}*/
+
+.tiket_write {float:right;line-height:25px;margin-top:10px;padding:0 15px 0 10px;}
+.option01 {padding:2px 15px 0px 4px;line-height:18px;background:#fff url(http://img1.7daysinn.cn/images/arrow_red.gif) right no-repeat;border:1px solid #6E6E6E;height:20px;cursor:pointer;}
+.tiket_write table tr td{ padding:0 5px 0 0; margin:0;text-align:left;}
+
+.tiket_write2 {float:right;line-height:25px;margin-top:8px;padding:0 15px 0 10px; color:#6f6f6f;}
+
+.tik_con01{padding:20px 5px 5px 5px;position:relative;}
+.tik_con02{padding:5px 5px 5px 5px;}
+.tik_list01{position:absolute; left:10px; top:10px; padding:0 0 0 5px;}
+.tik_list01 ul li{float:left;width:73px; height:35px;margin:0 5px;padding:0; display:block;cursor:pointer;}
+.tik_list01 ul li p{margin:0;padding:5px 0 0 0;text-align:center; }
+.tik_list01 ul li p span{margin:0;padding:0;line-height:10px;}
+.tik_list01 ul li p a{margin:0;padding:0;line-height:10px;}
+.tik_list01 .current{ height:40px;background:url(http://img1.7daysinn.cn/images/nav_li_on.gif) no-repeat;}
+.tik_list01 .normal{background-color:#f2f2f2;border:1px solid #d7d7d7;}
+#hotnews_content .current { display:block; }
+#hotnews_content .normal { display:none; }
+
+.tik_tabon{}
+.tik_tab1{margin:29px 0 0 2px;border:1px solid #89c4df;width:612px;border-collapse:collapse; overflow:hidden;}
+.tik_tab1 tr th{border-bottom:1px solid #89c4df; line-height:24px; background-color:#ecf9ff; text-align:center;}
+.tik_tab1 tr td{padding:5px 0; line-height:18px;border-top:1px solid #89c4df;}
+.btn_yd{display:block;width:49px;height:21px;line-height:18px;padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon5.gif) no-repeat;border:none;cursor:pointer;}
+
+.tik_tab01{ margin:0; padding:0;width:100%;border-collapse:collapse;border:0;overflow:hidden;}
+.tik_tab01 tr td{line-height:18px; border-bottom:0; border-top:0;}
+
+.tik_cont2{padding:10px 10px 0 10px;}
+.tik_tab2{width:600px;border-collapse:collapse; overflow:hidden;}
+.tik_tab2 tr th{line-height:24px; background-color:#ecf9ff;}
+.tik_tab2 tr td{padding:2px 5px; line-height:16px;}
+
+.tik_cont2 .ssn01{float:left;width:300px; margin-right:20px;}
+.tik_cont2 .ssn02{float:left;width:280px; line-height:20px;}
+
+.inputaa{height:22px;line-height:20px;padding:1px 2px 0 2px;border:1px solid #89c4df;font-size:12px;}
+.tik_cont3{padding:10px 10px 6px 10px;}
+.tik_cont3 p{margin:0;padding:5px 0 0 10px;}
+.tik_cont3 .lsn{background:url(http://img1.7daysinn.cn/images/arr.gif) 10px 5px no-repeat; line-height:22px; height:22px;padding:0 0 0 30px;}
+.tik_cont3 .all_amount{margin:10px 10px 0 10px;display:block;border:1px solid #909090; background-color:#fbfbf9; padding:3px 0; line-height:20px;text-align:center;color:#000000;}
+
+.icon_back {width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/icon_back2.gif) no-repeat;}
+.icon_sub {width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/icon_sub.gif) no-repeat;}
+
+.tik_cont4{border:1px solid #000000; padding:5px 5px; width:560px;}
+.tik_cont4 table tr td{ line-height:18px; padding:2px 0;}
+.tik_cont4 table tr td img{ vertical-align:bottom;}
+
+.main .right626 .cn_03 ul {}
+.main .right626 .cn_03 ul li {line-height:20px;padding:0 0 0 30px;}
+.tik_cont5{padding:10px 10px;}
+.tik_cont5 ul{ padding:0; margin:0;}
+.tik_cont5 li{float:left;width:150px;*width:160px;_width:150px;display:block;background:url(http://img1.7daysinn.cn/images/arr.gif) 10px 5px no-repeat; line-height:20px; height:20px; text-align:left;padding:0 0 0 30px;margin:6px 0;*margin:0;margin:6px 0 0;overflow:hidden;}
+.tik_cont5a{padding:10px 10px;}
+.tik_cont5a ul{padding:0; margin:0;}
+.tik_cont5a li{display:block;background:url(http://img1.7daysinn.cn/images/arr.gif) 10px 3px no-repeat; line-height:20px; text-align:left;padding:0 0 0 30px;margin:6px 0;overflow:hidden;}
+.req_tex{padding:15px 25px;line-height:20px;}
+
+.tik_tab3{width:100%;border-collapse:collapse; overflow:hidden;}
+.tik_tab3 tr th{line-height:24px; background-color:#ecf9ff;}
+.tik_tab3 tr td{padding:2px 5px; line-height:16px;}
+
+.icon_pay {width:115px;height:30px;display:block;background:url(http://img1.7daysinn.cn/images/icon_pay.gif) no-repeat; cursor:pointer;}
+.icon_ba {width:84px;height:21px;line-height:20px;padding:0px 0 0 38px;*padding:3px 0 0 38px;text-align:left;display:block;background:url(http://img1.7daysinn.cn/images/ic-ba.gif) no-repeat;}
+.tik_cont6{padding:10px 0; text-align:center;}
+.tik_cont6 .tik_info{ margin:0 auto;width:610px;}
+.tik_ln{ height:6px; line-height:6px; font-size:1px;}
+.tik_tr01{width:608px;border-left:1px solid #d1d1d1;border-right:1px solid #d1d1d1;}
+.tik_tr02{width:610px; background:url(http://img1.7daysinn.cn/images/tic_y_04.gif) repeat-y;}
+.tik_tr03{width:610px; background:url(http://img1.7daysinn.cn/images/tic_m_02.gif) repeat-y;}
+.tik_tr03 .tx{color:#434043; font-size:14px; padding:5px 0; text-align:center;font-weight:bold;}
+
+.tik_tab4{width:100%;border-collapse:collapse; overflow:hidden;}
+.tik_tab4 tr td{padding:5px 5px;line-height:16px;}
+.tik_tab4 tr td.bg1{background-color:#fbfdfd;}
+.tik_tab4 tr td.sd1{ border-bottom:1px solid #d1d1d1;}
+.tik_tab4 tr td.font1{font-size:14px; font-weight:bold;color:#226399; line-height:22px;}
+
+.main .right626 .cn_04 ul {padding:0px 0px;}
+.main .right626 .cn_04 ul li {line-height:24px;padding:0 0 0 20px;}
+
+.tik_cont7 ul{padding:0px 10px 0px 0;}
+.tik_cont7 li{ padding:0 0 0 20px;background:url(http://img1.7daysinn.cn/images/arr05.gif) 0px 9px no-repeat;line-height:24px; overflow:hidden;}
+
+.tik_tab5{width:99%; margin:0 auto;border-collapse:collapse; overflow:hidden;}
+.tik_tab5 tr td{padding:5px 5px;line-height:20px;}
+.tik_tab5 tr td.bg1{background-color:#fbfdfd;}
+.tik_tab5 tr td.sd1{ border-bottom:1px solid #d1d1d1;}
+.tik_tab5 tr td.sd2{ padding:8px 0 8px 20px;}
+.tik_tab5 tr td.font01{font-size:14px; font-weight:bold;color:#000;}
+
+.tik_cont8{padding:10px 5px;}
+
+/***租车***/
+.main .right626 .title .icon11 {background:url(http://img1.7daysinn.cn/images/icon11.gif) 0px 7px no-repeat;}
+.icn_ad01{color:#226399;float:left;font-size:18px;height:40px;line-height:40px;margin:9px 0 0 25px;overflow:hidden;padding-left:40px;font-weight:bold;}
+.inp_data{height:20px;line-height:18px;padding:1px 20px 0 2px;border:1px solid #8c8c8c;font-size:12px;background:url(http://img1.7daysinn.cn/images/icon_data.gif) 98% center no-repeat; width:126px;}
+.zuche-con00{padding:10px 10px 0;}
+.zuche-con01{padding:10px 10px; margin:10px 20px; border-bottom:1px dashed #CCCCCC;}
+.zuche-con01 .lfzc{float:left; width:160px; margin-right:10px; text-align:center; padding:5px 0 0 0;}
+.zuche-con01 .rizc{float:left;}
+.zuche-con01 .rizc p{margin:0;padding:5px 0;}
+.zcnext{padding:10px 10px; text-align:center;}
+.zuche-con02{padding:10px 10px 0 10px;}
+.zuche-select{border:1px solid #d1d1d1; background-color:#f2f2f2; padding:10px 15px;}
+
+.zc_tab1{margin:10px 0 0 0;width:606px;border-collapse:collapse; overflow:hidden;}
+.zc_tab1 tr th{border:1px solid #d1d1d1;line-height:24px; background-color:#ecf9ff; font-weight:normal; text-align:left; background:url(http://img1.7daysinn.cn/images/arr.gif) 6px 6px no-repeat; padding:0 0 0 20px;}
+.zc_tab1 tr td{border:1px solid #d1d1d1;padding:2px 5px 2px 10px; line-height:20px;}
+.zc_tab1 .inp_1{ display:block;width:84px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bn09.gif) no-repeat;border:none;cursor:pointer;}
+.zc_tab1 .inp_2{ display:block;width:84px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bn14.gif) no-repeat;border:none;cursor:pointer;}
+.zc_tab1 .inp_1 a,.zc_tab1 .inp_2 a{color:#000000;}
+
+.page_bg{ margin:0 auto;width:610px; height:35px; background:url(http://img1.7daysinn.cn/images/page_bg.gif) no-repeat;} 
+.page_bg p{margin:0;padding:8px 0 0 0;line-height:20px;}
+
+table.zc_tab2{width:100%;border-collapse:collapse;}
+table.zc_tab2 tr th{border:1px solid #d1d1d1;line-height:24px; background-color:#ecf9ff;text-align:left;padding:0 0 0 10px;}
+table.zc_tab2 tr th .txr{float:right; font-weight:normal; padding:0 10px;color:#6e6e6e;}
+table.zc_tab2 tr td{border:1px solid #d1d1d1;padding:3px 10px 3px 10px; line-height:16px;WORD-BREAK:break-all;border-collapse:collapse;}
+table.zc_tab2 tr td.bggray{background-color:#f9f9f9;}
+table.zc_tab2 tr td.bgblue{background-color:#ECF9FF;}
+.zuche-con03{border:1px solid #d1d1d1; padding:10px 10px;line-height:22px;text-align:center;font-size:16px;font-weight:bold;color:#ff7f00;}
+.zuche-tex04{border:1px solid #d1d1d1; padding:10px 18px;line-height:22px;font-size:14px;color:#000;text-align:left;}
+.zuche-tex01{ padding:5px 10px; line-height:20px;color:#6e6e6e;}
+.zuche-tex01 p{margin:0;padding:10px 0 10px 0;color:#6e6e6e;line-height:20px;}
+
+
+/*4月13日新增样式*/
+
+.zuche-tex01 h1{font:12px/2.0 Arial, "宋体"; margin:0;padding:0;}
+.zuche-tex01 h2{font:12px/1.8 Arial, "宋体"; margin-top:10px;padding:0;}
+.zuche-tex01 ol li{font:12px/1.8 Arial, "宋体"; margin:0;padding-left:3em;}
+.zuche-tex01 ol li span{color:#FF6600;}
+.zuche-tex01 p a{color:#FF6600;text-decoration:underline;}
+.zuche-tex01 .lineHeight{margin:10px 0 10px 0;}
+.zuche-tex01 h4{font:12px/2.0 Arial, "宋体"; margin:0;padding:10px 0 10px 0; text-decoration:underline; color:#000;}
+.zuche_img{width:100%; text-align:center;}
+.zuche_table{width:100%; text-align:center;}
+.zuche_table_padding{padding:4px 5px 4px 5px;font:12px/1.8 Arial, "宋体";}
+.zuche-lis01{ padding:0; margin:0;}
+.zuche-lis01 li{ padding:0; margin:0;text-indent:2em; line-height:20px;}
+.zuche-tex01 h5{ margin:0;padding:10px 0 10px 0;color:#6e6e6e;line-height:20px;text-align:right;}
+.fontColor{color:#0181b7;}
+
+/*4月13日新增样式 end*/
+
+table.zc_tab3{ width:100%;border-collapse:collapse; text-align:center;overflow:hidden;}
+table.zc_tab3 th{border:1px solid #d1d1d1;padding:0px 2px;text-align:center;line-height:26px;height:26px;}
+table.zc_tab3 td{border:1px solid #d1d1d1;padding:6px 2px;text-align:center;line-height:16px;}
+table.zc_tab3 .bggray{background:#f2f2f2;}
+table.zc_tab3 img{ vertical-align:middle;}
+
+.zuche_tip{padding:6px 10px; line-height:20px;color:#908F8F;}
+.zuche-con04{border:1px solid #F0D405;background-color:#FFF5A6;}
+.zuche-con04 h3{background:url(http://img1.7daysinn.cn/images/icon_round6.gif) 10px 6px no-repeat;float:left;display:block;color:#FD8300; padding:10px 0 0 50px; line-height:26px; font-size:14px; font-weight:bold;}
+.zuche-con04 .tiptex{float:left;display:block; padding:10px 20px 10px 18px; line-height:20px;}
+
+.map-left-01{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/map_bg_01.gif) no-repeat;}
+.map-left-02{background:url(http://img1.7daysinn.cn/images/map_bg_02.gif) repeat-y;}
+.map-left-02 p{ margin:0; padding:5px 5px; line-height:20px;text-align:center;}
+.map-left-03{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/map_bg_03.gif) no-repeat;}
+.map-left-04{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/map_bg_04.gif) no-repeat;}
+.map-left-05{background:url(http://img1.7daysinn.cn/images/map_bg_05.gif) repeat-y;}
+.map-left-06{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/map_bg_06.gif) no-repeat;}
+.map-lfsm_con{margin:0 4px; padding:10px 0 5px 0;width:210px; }
+.map-lfsm-01{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/map_sm_01.gif) no-repeat;}
+.map-lfsm-02{background:url(http://img1.7daysinn.cn/images/map_sm_02.gif) repeat-y;}
+.map-lfsm-03{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/map_sm_03.gif) no-repeat;}
+.map-seach_con1{margin:0 5px;border-bottom:1px solid #C0E8FA; padding:10px 5px 3px 5px; line-height:20px;}
+.map-seach_con1 .rig{ float:right; padding:5px 5px 0 5px;}
+.map-seach_con2{margin:0 5px;border-bottom:1px solid #C0E8FA;padding:10px 5px 10px 5px; line-height:20px; }
+
+table.map_tab1{ width:100%;border-collapse:collapse; text-align:center;overflow:hidden;}
+table.map_tab1 th{padding:0px 2px;text-align:right;line-height:26px;height:26px;color:#226399;font-weight:normal;}
+table.map_tab1 td{padding:3px 2px;text-align:left;line-height:16px;}
+
+.map-seach_con3{padding:5px 0;text-align:center;}
+.inp_m1 {border:none;width:49px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;background:url(http://img1.7daysinn.cn/images/bg_icon7.gif) no-repeat;cursor:pointer;}
+
+.Layer01 {position:absolute;width:200px;height:43px;z-index:8;left:5px;*left: 2px;top: -29px;color:#226399;}
+.Layer01 a{color:#226399!important;}
+.Layer01 a:hover{color:#FF8B00!important;}
+.Layer01 li{ float:left; display:block; padding:0 2px; width:60px; text-align:right; line-height:30px; }
+.Layer01 li.selected{ margin:3px 0 0 0;width:70px;height:28px; text-align:center;line-height:20px; padding:5px 0 0; background:url(http://img1.7daysinn.cn/images/map_menu_on.gif) no-repeat; font-weight:bold;}
+
+.map_sel_result{padding:0px 3px 3px 5px;color:#226399;}
+
+.case2{padding:0 0 0 6px;}
+.simScrollCont2 {float:left;height:290px;border:0; background-color:#fff;width:90%;padding: 0 0;margin-right: 15px;overflow: hidden}
+
+.map-seach-lis01{ padding:0px 5px;color:#226399;}
+.map-seach-lis01 li{ line-height:20px; background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 0px 8px no-repeat; padding:2px 0 0 18px;}
+.map-seach-lis01 li a{color:#226399!important;}
+.map-seach-lis01 li a:hover{color:#FF8B00!important;}
+
+.map-seach-tent{padding:0px 5px;color:#226399;}
+.map-seach-tent a{color:#226399!important;}
+.map-seach-tent a:hover{color:#FF8B00!important;}
+.map-seach-tent .stit{line-height:20px; background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 0px 8px no-repeat; padding:2px 0 0 18px;color:#226399; font-weight:bold; }
+.map-seach-lis02{ padding:5px 5px; border:1px solid #89C4DF; margin:3px 5px; color:#226399;}
+.map-seach-lis02 ol{display:inline-block;margin:0;padding:0;}
+.map-seach-lis02 ol li{line-height:18px; padding:1px 0;list-style-type:decimal;margin:0 0 0 26px;}
+.map-seach-lis02 ol li a{color:#226399!important;}
+.map-seach-lis02 ol li a:hover{color:#FF8B00!important;}
+
+.map_tab2_con{width:180px; margin:5px 0;}
+table.map_tab2{ width:100%;text-align:center;overflow:hidden;}
+table.map_tab2 th{padding:0px 2px;background-color:#ECF9FF;text-align:center;line-height:26px;height:26px;color:#226399;font-weight:normal; color:#FF7F00;}
+table.map_tab2 td{padding:3px 5px;background-color:#ECF9FF;text-align:left;line-height:16px;}
+.map_text01{color:#FF7F00; padding:3px 5px 0px 2px; font-weight:bold;}
+
+/***七天会***/
+.share_con_01{background-color: #ECF9FF; padding:10px 10px 10px 20px; margin:0 2px;}
+.share_con_01 li{float:left;margin:5px 22px; padding:0 27px 0 0px;width:115px;height:25px;text-align:center;line-height:25px;background:url(http://img1.7daysinn.cn/images/fx_menu_02.gif) no-repeat;overflow:hidden;} 
+.share_con_01 li.on{background:url(http://img1.7daysinn.cn/images/fx_menu_01.gif) no-repeat; color:#226399; font-weight:bold;}
+.share_con_01 li.on a{color:#226399!important;}
+.share_con_02{background:url(http://img1.7daysinn.cn/images/fx_bg.gif) top top no-repeat;padding:10px 20px 10px 40px; margin:0 2px;}
+.share_con_02 li{ line-height:24px;} 
+
+.gif_nav_bg2{margin:0 8px; width:636px;height:35px; background:url(http://img1.7daysinn.cn/images/gif_nav_bg2.gif) no-repeat;}
+.gif_nav_bg2 p{margin:0;padding:4px 10px;line-height:26px;color:#226399;}
+
+.discuss_tab_con{padding:10px 10px 0;}
+table.discuss_tab{ margin:0 auto;width:100%; border:1px solid #d1d1d1;text-align:center;overflow:hidden;}
+table.discuss_tab td{padding:6px 5px;line-height:22px;}
+table.discuss_tab td.sd1{border-bottom:1px dashed #ccc;}
+table.discuss_tab td.sd2{border-right:1px solid #D1D1D1;}
+table.discuss_tab span.nd0{ float:right; padding:0 10px 0 0; font-family:Verdana, Arial, Helvetica, sans-serif; color:#434043;}
+table.discuss_tab span.nd1{padding:0; }
+table.discuss_tab span.nd2{background:url(http://img1.7daysinn.cn/images/ic_d_02.gif) 0px 0px no-repeat; padding:0 0 0 26px; }
+table.discuss_tab span.nd3{background:url(http://img1.7daysinn.cn/images/ic_d_03.gif) 0px 0px no-repeat; padding:0 0 0 26px; }
+.discuss_tab_con2{padding:10px 10px 10px 30px;}
+
+/***活动***/
+.huodong_con{ margin:0; padding:10px 0 0 0;_padding:0px 0 0 0;}
+.huodong_con .dhcol{float:left; width:311px; display:inline;margin:0 0 10px 10px;*margin:0 0 0 10px;}
+.huodong_con .dhcol .t{height:6px;line-height:6px; background:url(http://img1.7daysinn.cn/images/hd_01.gif) center bottom no-repeat;}
+.huodong_con .dhcol .m{background:url(http://img1.7daysinn.cn/images/hd_02.gif) center repeat-y; text-align:center;padding:6px 0;}
+.huodong_con .dhcol .b{height:6px; line-height:6px; font-size:1px;background:url(http://img1.7daysinn.cn/images/hd_03.gif) center top no-repeat;}
+
+.huodong_con .dhcol .m .hd_lf{float:left; width:150px;height:106px;text-align:center;}
+.huodong_con .dhcol .m .hd_lf span{ display:block; margin:5px 0 0 5px;width:137px; height:97px; background:url(http://img1.7daysinn.cn/images/hd_img_bg.gif) no-repeat; text-align:center; padding:5px 0 0 0;}
+.huodong_con .dhcol .m .hd_ri{float:left; width:146px;height:100px; border-left:1px solid #89c4df;}
+.huodong_con .dhcol .m .hd_ri h2{height:18px;line-height:18px;background:url(http://img1.7daysinn.cn/images/ar_hd.gif) 12px 5px no-repeat; padding:0 0 0 30px; text-align:left;color:#ff7f00; overflow:hidden;}
+.huodong_con .dhcol .m .hd_ri h2 a{color:#ff7f00!important;}
+.huodong_con .dhcol .m .hd_ri p{text-align:left;line-height:18px; margin:0; padding:0 0 0 10px; height:90px;color:#666666; overflow:hidden;}
+
+.huodong_con2{margin:0 0 0 40px; width:560px; padding:15px 0;}
+.huodong_tex{padding:20px 0;}
+.huodong_tex h2{font-size:16px;color:#ff7f00; line-height:26px; padding:10px 0 5px 0;}
+.huodong_tex li{line-height:20px;color:#656666; padding:0 0 0 10px;}
+
+table.hd_tab{ width:100%;border:1px solid #d1d1d1;border-bottom:0;}
+table.hd_tab th{border-bottom:1px solid #d1d1d1;background-color:#f4f4f4;padding:4px 15px;line-height:24px;text-align:left;line-height:22px;}
+table.hd_tab td{border-bottom:1px solid #d1d1d1;padding:4px 15px;line-height:24px;}
+
+/***客服小秘书***/
+.my7day-list03{padding:8px 0px 10px 18px;}
+.my7day-list03 li{ float:left; width:70px;display:block;background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 7px no-repeat;text-align:left;line-height:20px;height:20px; padding:0 3px 0 20px; margin:3px 0 0 0;overflow:hidden;}
+
+.my7day-list04{padding:0 0 0 4px;}
+.my7day-list04 li{float:left;width:105px;display:block;text-align:center; margin:2px 0;overflow:hidden;}
+
+.my7day-list05{padding:10px 0px 6px 28px; color:#666666;}
+.my7day-list05 li{ float:left; width:240px;display:block;background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 7px no-repeat;text-align:left;line-height:20px;height:20px; padding:0 3px 0 20px; margin:3px 15px 0 15px;overflow:hidden;}
+.my7day-list05 a{color:#666666!important;}
+
+.xms_tabcon01{padding:15px 0 5px 20px;}
+
+.xms_ask_class{ padding:10px 5px 0 40px;}
+.xms_ask_class dl{ float:left; display:block; width:260px;margin:8px 0 8px 0; padding:0 20px 10px 0; border-bottom:1px dashed #CCCCCC;}
+.xms_ask_class dt{ font-weight:bold; color:#FFFFFF; font-size:14px;color:#FD8000; line-height:24px;}
+.xms_ask_class dt a{color:#FD8000!important;}
+.xms_ask_class dd{ line-height:22px; height:44px;color:#216499;overflow:hidden;}
+.xms_ask_class dd a{color:#216499!important;}
+
+.my7day-list06{padding:8px 0px 10px 38px;}
+.my7day-list06 li{ float:left; width:130px;display:block;background:url(http://img1.7daysinn.cn/images/arr_my_04.gif) 3px 4px no-repeat;text-align:left;line-height:20px;height:20px; padding:0 3px 0 20px; margin:3px 0 0 0; font-size:14px;color:#216499;overflow:hidden;}
+.my7day-list06 li span.cOrange{color:#FF8B00;font-weight:normal; font-size:12px;}
+.my7day-list06 li a{color:#216499!important;}
+
+.xms_tex01{margin:0 10px;padding:20px 10px;line-height:22px; border-bottom:1px dashed #ccc;}
+.xms_tex02{padding:20px 20px; font-size:14px; color:#FF8B00;}
+.xms_tex03{padding:0 20px 10px 20px;}
+.my7day-list07{padding:8px 18px 10px 18px;}
+.my7day-list07 li{background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 10px 12px no-repeat;text-align:left;line-height:30px;height:30px; padding:0 3px 0 28px; margin:3px 0 0 0;border-bottom:1px dashed #ccc;overflow:hidden;}
+
+.my7day-list08{padding:8px 18px 10px 18px;}
+.my7day-list08 li{background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 10px 12px no-repeat;text-align:left;line-height:30px;height:30px; padding:0 3px 0 28px; margin:3px 0 0 0;border-bottom:1px dashed #ccc;overflow:hidden;}
+.my7day-list08 li span{ text-align:right; float:right; padding:0 3px;}
+
+.xms_tex04{ margin:0 10px;padding:20px 10px 20px 15px; border-bottom:1px dashed #CCCCCC; }
+.xms_tex04 h2{font-weight:bold; color:#FFFFFF; font-size:14px;color:#FD8000; line-height:26px; height:26px;}
+.xms_tex04 p{ margin:0; padding:0 6px; line-height:22px;}
+.xms_tex04 ol{}
+.xms_tex04 ol li{ list-style-type:decimal; margin:0 20px 0 30px; line-height:22px;}
+.xms_tabcon02{padding:15px 0 10px 28px; width:620px;}
+table.xms_tab{ width:100%;}
+table.xms_tab th{background:transparent url(http://img1.7daysinn.cn/images/arrow_down.gif) no-repeat left 6px no-repeat;padding:2px 0 2px 18px; text-align:left; font-weight:normal;line-height:22px;}
+table.xms_tab td{padding:2px 5px;line-height:22px;text-align:left; }
+
+.inpu_xms01{width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/icon_sub_wt.gif) no-repeat;border:none;cursor:pointer;}
+.inpu_xms02{width:115px;height:30px;background:url(http://img1.7daysinn.cn/images/icon_clear.gif) no-repeat;border:none;cursor:pointer;}
+
+/***4.20***/
+.h4span01{font-weight:normal;font-size:12px;color:#666; background:url(http://img1.7daysinn.cn/images/arr_my_05.gif) 3px 1px no-repeat; padding:0 0 0 22px; line-height:20px;}
+.tik_cont01{padding:5px 5px 0; color:#999999;}
+
+.list_pmg01{padding:10px 10px 0px;}
+.list_pmg01 li{float:left;width:140px;height:70px; margin:5px 30px; display:block;text-align:center;}
+
+.list_pmg02{padding:15px 5px 5px 20px;}
+.list_pmg02 li{float:left;width:160px; border:1px solid #cccccc; margin:5px 20px; }
+.list_pmg02 li a{height:47px;display:block;text-align:center;}
+.list_pmg02 li a img{ margin:5px 0 0 0;}
+
+.list_pmg03{padding:15px 5px 5px 20px;}
+.list_pmg03 li{float:left;width:160px;border:0px solid #cccccc; margin:5px 20px; }
+.list_pmg03 li a{display:block;text-align:center;}
+.list_pmg03 li a img{ margin:auto;}
+
+.list_c{ padding:15px 0 10px 30px;}
+.list_c li{ float:left; width:120px;display:block;background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 7px no-repeat;text-align:left;line-height:24px;height:24px; padding:0 3px 0 20px; margin:3px 10px 0 0;overflow:hidden;}
+.list_c li a:hover{ background-color:#ecf9ff;}
+
+.contact_box{width:630px;padding:10px 10px}
+table.contac_tab{ width:100%;border-collapse:collapse;}
+table.contac_tab th{padding:2px 0 2px 18px; border:1px solid #ccc;text-align:left;color:#FF8B00; font-weight:normal;line-height:22px;}
+table.contac_tab td{padding:2px 0 2px 18px;line-height:22px;border:1px solid #ccc;text-align:left; }
+
+.map_top_bg{height:38px; background:url(http://img1.7daysinn.cn/images/map_top_bg.gif) no-repeat;}
+.map_top_bg h4{background:transparent url(http://img1.7daysinn.cn/images/icon_round49.gif) no-repeat scroll left center;font-size:14px;font-weight:bold;color:#236298; padding:0 0 0 40px; margin:6px 0 0  10px; line-height:30px;}
+.map_mid_bg{background:url(http://img1.7daysinn.cn/images/map_mi_bg.gif) repeat-y;}
+.map_menu_bg{height:40px; background:url(http://img1.7daysinn.cn/images/map_menu_bg.gif) no-repeat;}
+.map_menu_bg h4{font-size:16px;font-weight:bold;color:#FF8B00; padding:0 0 0 30px; margin:6px 0 0  10px; line-height:30px;}
+.map_bot_bg{height:8px;line-height:8px;font-size:1px;background:url(http://img1.7daysinn.cn/images/map_bot_bg.gif) no-repeat;}
+
+.list_map_menu{padding:20px 0 20px 30px;}
+.list_map_menu li{ float:left; width:210px; height:40px; line-height:40px; font-size:14px; font-weight:bold; background:url(http://img1.7daysinn.cn/images/map_lis_bg.gif) no-repeat; margin:8px 28px;color:#5e5d5d; text-align:center;}
+.list_map_menu a{color:#5e5d5d!important;}
+
+.fdyd_con{ padding:10px 10px 20px 30px;}
+.fdyd_con ul{}
+.fdyd_con ul li{float:left;margin:10px 28px 0;display:inline;width:210px;line-height:36px;height:36px;border:1px solid #d1d1d1;text-align:center;color:#656666;font-weight:bold; overflow:hidden;}
+
+
+.list_hotcity{ padding:15px 0 10px 50px;}
+.list_hotcity li{ float:left; width:120px;display:block;text-align:left;line-height:20px;height:20px; padding:0 3px; margin:0 10px 0 0; font-size:14px;color:#666666;overflow:hidden;}
+.list_hotcity li a{ text-decoration:underline; color:#666666!important;}
+
+.coop_reg_nav{ }
+.coop_reg_nav h4{border-bottom:1px solid #9bd1eb;background:transparent url(http://img1.7daysinn.cn/images/ic_reg.gif) 5px 0px no-repeat;font-size:16px;font-weight:bold;color:#236298; padding:0 0 0 54px; margin:6px 0 10px 15px; line-height:30px; height:38px; overflow:hidden;}
+.coop_reg_nav h4 span{ float:right; font-size:12px; font-weight:normal;padding:0 10px 0 0;color:#FF8B00;}
+.list_cardimg{padding:5px 0 10px 20px;}
+.list_cardimg li{float:left; width:200px;height:100px; display:block;text-align:center;padding:0 3px; margin:10px 0 0 0; overflow:hidden;}
+
+.coop_con01{padding:8px 0;*padding:4px 0 8px;border-top:1px solid #9bd1eb;border-bottom:1px solid #9bd1eb; text-align:center;}
+.coop_con01 .bnn1{width:115px;height:30px;background:transparent url(http://img1.7daysinn.cn/images/icon_login.gif) no-repeat;border:0;}
+.coop_con01 .bnn2{width:115px;height:30px;background:transparent url(http://img1.7daysinn.cn/images/icon_reg.gif) no-repeat;border:0;}
+
+.coop_tex{ margin:0 10px;padding:20px 10px 20px 15px;}
+.coop_tex h2{font-weight:bold; color:#FFFFFF; font-size:16px;color:#FD8000; line-height:30px; height:30px;}
+.coop_tex p{ margin:0; padding:0 6px; line-height:22px;}
+.coop_tex ol{}
+.coop_tex ol li{ list-style-type:decimal; margin:0 20px 0 30px; line-height:22px;}
+
+.contbox3{width:609px;background:url(http://img1.7daysinn.cn/images/jp_mi_bg.gif) repeat-y;}
+.contbox3 li{line-height:22px;padding-left:30px;}
+.contbox3 .intitle3 {height:38px;background:url(http://img1.7daysinn.cn/images/jp_menu_bg.gif) no-repeat;}
+.contbox3 .intitle3 .middle{}
+.contbox3 .intitle3 h5 {display:inline;float:left;margin:5px 0 0 10px;*margin-top:3px;height:31px;line-height:31px;padding-left:40px;height:31px;font-size:14px;font-weight:bold;color:#236298; text-align:left;overflow:hidden;}
+.contbox3 .intitle3 h5 p{ float:right; display:block; padding:0 0 0 0; margin:0; text-align:right; color:#656666; font-size:12px; font-weight:normal; vertical-align:middle;}
+.contbox3 .intitle3 h5 p a{color:#656666!important;}
+.bottom3 {width:609px;height:8px;font-size:1px;line-height:8px;background:url(http://img1.7daysinn.cn/images/jp_foot_bg.gif) no-repeat;}
+
+.list_psfs{padding:3px 5px 0 5px;}
+.list_psfs li{ text-align:left; margin:5px 0; padding-left:30px;}
+.list_psfs li.ns1{ background:url(http://img1.7daysinn.cn/images/ic_1.gif) 3px 3px no-repeat;}
+.list_psfs li.ns2{ background:url(http://img1.7daysinn.cn/images/ic_2.gif) 3px 3px no-repeat;}
+.list_psfs li.ns3{ background:url(http://img1.7daysinn.cn/images/ic_3.gif) 3px 3px no-repeat;}
+
+.psfs_con01{padding:10px 10px;}
+.psfs_con02{padding:20px 50px 10px 50px; text-align:left;}
+.psfs_con03{text-align:center; padding:10px 0;}
+
+.total-price{ margin:10px 0;border:1px solid #999; font-size:14px; text-align:center; padding:5px 10px; line-height:22px; font-weight:bold;}
+
+table.jifen_tab01{width:100%;border-collapse:collapse;}
+table.jifen_tab01 th{border:1px solid #d1d1d1;padding:5px 5px;text-align:left;line-height:20px; font-size:14px;}
+table.jifen_tab01 td{border:1px solid #d1d1d1;padding:5px 10px;line-height:20px;}
+table.jifen_tab01 .bggray{background:#f2f2f2;}
+.tx_noinfo{padding:30px 0;text-align:center;font-size:14px;color:#FF8B00; font-weight:bold;}
+.next_con{ margin-top:10px;border:1px solid #d1d1d1;background-color:#f4f4f4;padding:10px 0;text-align:center;}
+
+.bn_delete{width:44px;height:21px;line-height:18px;text-align:center;background:url(http://img1.7daysinn.cn/images/bn_gray.gif) no-repeat;border:none;cursor:pointer;}
+
+.jf_txcon01{ margin:5px auto;border:1px solid #d1d1d1;background-color:#f4f4f4; line-height:28px;text-align:left; padding:0 8px;}
+.jf_txcon02{ margin:10px auto;border:1px solid #d1d1d1;background-color:#f4f4f4; line-height:28px;text-align:center; padding:0 8px;}
+
+table.jifen_tab02{width:100%;border-collapse:collapse;}
+table.jifen_tab02 th{border:1px solid #d1d1d1;padding:5px 15px;text-align:right;line-height:20px;background:#f2f2f2; font-size:12px; font-weight:normal;}
+table.jifen_tab02 td{border:1px solid #d1d1d1;padding:5px 5px;line-height:20px; color:#858585; }
+
+.jifencon01{border:1px solid #d1d1d1;}
+.jifencon01 h2{background:#f2f2f2;padding:5px 5px;text-align:left;line-height:20px; font-size:14px;font-weight:bold;}
+.jifencon01 ol{ padding:15px 10px;}
+.jifencon01 ol li{ list-style-type:decimal; margin-left:30px; line-height:22px;color:#868585;}
+
+.btn_my_06{width:134px;height:21px;line-height:18px;padding:2px 0 0 0; *padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/btn_my_06.gif) no-repeat;border:none;cursor:pointer;}
+
+.jf_txcon03{padding:20px 10px 20px 30px; line-height:22px;}
+.jf_txcon03 .l{float:left; width:110px;}
+.jf_txcon03 .r{float:left;padding:0 10px;}
+.jf_txcon03 h2{ font-size:14px; color:#FF8B00;font-size:16px; line-height:28px;}
+.jf_txcon03 p{ margin:0; padding:0 5px;line-height:22px; color:#656666;}
+
+.member_info{border-bottom:1px dashed #b5d7ff; padding:10px 10px;}
+.member_info .pic{float:left; padding:0 5px 0 15px;}
+.member_info .pic img{ width:60px;} 
+.member_info .intr{float:left; padding:0 5px; text-align:left; line-height:24px;}
+.btn_01{width:89px;height:21px;line-height:18px;padding:0px 0 0 0;*padding:2px 0 0 0;text-align:center;background:url(http://img1.7daysinn.cn/images/bg_icon_01.gif) no-repeat;border:none;cursor:pointer;}
+.member_sub{ margin-top:10px;}
+
+
+.orderbox01{ margin:10px auto;width:610px;background:url(http://img1.7daysinn.cn/images/mi4.gif) repeat-y;}
+.ordertop01{width:610px;height:6px;font-size:0px;line-height:6px;background:url(http://img1.7daysinn.cn/images/tp4.gif) no-repeat;}
+.orderbot01{width:610px;height:6px;font-size:0px;line-height:6px;background:url(http://img1.7daysinn.cn/images/bt4.gif) no-repeat;}
+.order_tx{ background:url(http://img1.7daysinn.cn/images/icon_round54.gif) 10px 3px no-repeat; padding:0 0 0 66px; margin:10px 2px;}
+.order_tx p{ margin:0 ; padding:0; line-height:22px;}
+
+.orderboxcon{padding:0 8px;}
+.orderbox02{float:left;width:288px;background:url(http://img1.7daysinn.cn/images/gray_mid.gif) repeat-y;}
+.ordertop02{height:38px;background:url(http://img1.7daysinn.cn/images/gray_nav.gif) no-repeat;}
+.ordertop02 h4{display:block;float:left;margin-top:3px; margin-left:10px;height:31px;line-height:31px;padding-left:40px;height:31px;font-size:14px;font-weight:bold;color:#236298;overflow:hidden;}
+.orderbot02{height:6px;font-size:0px;line-height:6px;background:url(http://img1.7daysinn.cn/images/gray_bot.gif) no-repeat;}
+.order_tx2{background:url(http://img1.7daysinn.cn/images/rr_2.gif) 10px 13px no-repeat; margin-top:10px;padding:0 0 2px 45px;border-bottom:1px dashed #d1d1d1;}
+.order_tx2 p{ margin:0 ; padding:0; line-height:20px;}
+.order_tx3{padding:15px 0 15px 20px;border-bottom:1px dashed #d1d1d1;}
+.order_tx4{padding:8px 15px 8px 0;text-align:right;line-height:20px;}
+.order_tx5{padding:20px 0px 24px 10px;}
+.order_tx5 p{ margin:0 ; padding:5px 0 0 0; line-height:24px;}
+.order_tx5 p.xn1{ padding:4px 0 0 5px;}
+.order_tx5 p.xn2{ padding:10px 0 0 5px;}
+
+.orderbox03{float:right;width:310px;background:url(http://img1.7daysinn.cn/images/gray_m.gif) repeat-y;}
+.ordertop03{height:6px;font-size:0px;line-height:6px;background:url(http://img1.7daysinn.cn/images/gray_t.gif) no-repeat;}
+.orderbot03{height:6px;font-size:0px;line-height:6px;background:url(http://img1.7daysinn.cn/images/gray_b.gif) no-repeat;}
+
+/*翻页*/
+.pagenum01 {margin:0 0px;text-align:left;}
+.pagenum01 tr td{ border:0;text-align:left;}
+.pagenum01 .td1 a{display:block;float:left;padding:0 3px; margin:0 3px 0 0;height:16px; line-height:16px;text-align:left;}
+.pagenum01 .td1 .on{border:1px solid #FF7F02;background:#F1F3F0;color:#FE7E00;}
+
+/*合作联盟*/
+.cpj-tit{margin:0 auto 5px;width:198px;height:24px;border:1px dashed #226399;background-color:#ecf9ff;color:#226399;text-align:left;}
+.cpj-tit h4{background:url(http://img1.7daysinn.cn/images/arr_hz1.gif) 10px 5px no-repeat;font-size:14px;line-height:22px;font-weight:bold;padding:2px 0 0 30px;text-align:left;}
+.cpj-nav{margin:0 auto 5px;width:198px;height:24px;border:1px dashed #b5d7ff;background-color:#f7fbff;color:#226399;text-align:left;}
+.cpj-nav h4{background:url(http://img1.7daysinn.cn/images/arr_hz2.gif) 10px 5px no-repeat;font-size:14px;line-height:22px;font-weight:bold;padding:2px 0 0 30px;text-align:left;}
+.hzlm-intitle{background:url(http://img1.7daysinn.cn/images/nav-hzjm.gif) no-repeat;width:626px;height:35px;}
+.hzlm-intitle h2{padding:5px 10px;color:#ff7f00;font-size:18px;font-family:"黑体"; line-height:24px;}
+.hzlm-intro{padding:10px 10px 0 20px;}
+.hzlm-intro h2{background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 10px 10px no-repeat; padding:0 0 0 26px;font-size:14px;color:#ff7f00; line-height:24px;}
+.hzlm-intro p{margin:0;padding:10px 0;}
+.hzlm-intro .lis{ padding:2px 10px;}
+.hzlm-intro .lis li{background:url(http://img1.7daysinn.cn/images/point3.gif) 16px 12px no-repeat;color:#656666; line-height:24px; height:auto;list-style-type:none; padding-left:30px;}
+.hzlm-zxd{padding:10px 10px 0 8px;}
+.hzlm-zxd h2{margin-top:8px;background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 0 10px no-repeat; padding:0 0 0 16px;font-size:14px;color:#ff7f00; line-height:24px;}
+
+.meiti-lis1{ padding:10px 10px;}
+.meiti-lis1 li{background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 10px 10px no-repeat; padding:0 5px 0 30px;line-height:30px; height:30px; overflow:hidden; border-bottom:1px dashed #afafaf; display:block;}
+.meiti-lis1 li .r{ float:right; color:#adacac;}
+.meiti-lis1 .d_over{background-color:#ecf9ff;}
+.meiti-lis1  .d_out{background-color:#ffffff;} 
+.contbox-mt{width:880px;background:url(http://img1.7daysinn.cn/images/big-mi-bg.gif) repeat-y;}
+.contbox-mt .intitle {width:880px;height:38px;background:url(http://img1.7daysinn.cn/images/bar2_bg.gif) repeat-x; overflow:hidden;}
+.contbox-mt .intitle .left{ float:left;width:9px;display:block;}
+.contbox-mt .intitle .right{float:right; width:9px;display:block;}
+.contbox-mt .intitle h4 { display:block;float:left;margin-top:3px;height:31px;line-height:31px;padding-left:40px;height:31px;font-size:14px;font-weight:bold;color:#236298;width:820px;overflow:hidden;}
+.contbox-mt .intitle h4 p{ float:right; display:block; padding:0 0 0 0; margin:2px 0 0 0;*margin:0; text-align:right; color:#656666; font-size:12px; font-weight:normal; vertical-align:middle;}
+.contbox-mt .intitle h4 p a{color:#656666!important;}
+.contbox-mt .intitle h4 p a:hover{color:#FF8B00!important;}
+.meiti-top{height:8px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/big-top-bg.gif) no-repeat;}
+.meiti-bottom{height:8px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/big-bot-bg.gif) no-repeat;}
+.meiti-news-tit{margin:10px auto;width:860px;}
+.meiti-news-tit .t{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/mt-new-t.gif) no-repeat;}
+.meiti-news-tit .m{background:url(http://img1.7daysinn.cn/images/mt-new-m.gif) repeat-y;}
+.meiti-news-tit .b{height:6px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/mt-new-b.gif) no-repeat;}
+.meiti-news-tit h1{line-height:28px;font-family:"微软雅黑";font-size:18px;color:#ff7f00; text-align:center; padding-bottom:5px;}
+.meiti-news-tit h1 a{color:#ff7f00!important;}
+.meiti-news-tit .note{padding:3px 12px 0 12px;border-top:1px dashed #CCCCCC; color:#000000; line-height:22px;}
+.meiti-news-tit .r{float:right;color:#adacac;}
+.meiti-news-content{padding:0 20px;line-height:24px;}
+.meiti-news-content p{padding:5px 2px; margin:0;line-height:24px;}
+.meiti-news-content h2{padding:5px 0;font-size:14px; color:#000000; font-weight:bold; line-height:24px;}
+
+.jobleft{float:left;width:224px;display:inline; margin-left:10px;}
+.jobright{float:right;width:623px;display:inline; margin-right:10px;}
+.jobleft h4{background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 0px 8px no-repeat; padding:0 0 0 18px;line-height:24px; height:24px; overflow:hidden; display:block;color:#ff7f00;font-weight:bold; margin-top:10px;}
+.job-navlis{ padding:0 20px;}
+.job-navlis li{color:#226399; line-height:20px; height:20px; overflow:hidden;}
+.job-navlis li a{color:#226399!important;}
+
+.jobright .t{height:28px;background:url(http://img1.7daysinn.cn/images/job-top2.gif) no-repeat;}
+.jobmenu{width:580px;height:28px; padding-left:20px;}
+.jobmenu li{float:left;width:95px;height:28px;line-height:24px;background:url(http://img1.7daysinn.cn/images/job-menu.gif) left no-repeat; text-align:center;color:#226399;margin-right:10px;}
+.jobmenu li a{color:#226399!important;}
+.jobmenu li.on{width:110px;height:28px;background:url(http://img1.7daysinn.cn/images/job-menu_on.gif) no-repeat;line-height:28px;font-weight:bold;}
+.jobright .m{background:url(http://img1.7daysinn.cn/images/job-m-bg.gif) repeat-y;}
+.jobright .b{height:8px;font-size:0;line-height:0;background:url(http://img1.7daysinn.cn/images/job-bot.gif) no-repeat;}
+
+.jobcontent{padding:20px 20px;line-height:24px;}
+.jobcontent h2{ margin:5px 0;background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 0px 6px no-repeat; padding:0 0 0 18px;color:#ff7f00;font-size:14px;line-height:20px;}
+.jobcontent h2 a{color:#ff7f00!important;}
+.jobcontent h2 p{margin:0; padding:0; padding-left:45px; font-size:12px;}
+.jobcontent p{margin:0;padding:0 0 0 20px; color:#656666;}
+.jobcontent .lis{ padding:2px 10px;}
+.jobcontent .lis li{background:url(http://img1.7daysinn.cn/images/point3.gif) 2px 10px no-repeat;color:#656666; line-height:24px;  padding:0 0 0 15px;}
+.jobcontent .lis2{ margin:5px 0;}
+.jobcontent .lis2 li{background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 10px no-repeat; padding:0 0 0 18px;line-height:26px;color:#656666;}
+.jobcontent .lis2 li .fonty{color:#ff7f00;font-size:14px;}
+
+.search_boxa{margin:10px 10px;padding:6px 0 6px 5px; line-height:22px; border:1px solid #d2d2d2;}
+
+/***5.12***/
+.ticket-Infor{margin:0 9px;width:609px;padding-top:10px;overflow:hidden;}
+.tuijian_tex{padding:10px; line-height:20px; color:#000099;color:#FF8B00;}
+table.tabadd01{width:97%;border-collapse:collapse;}
+table.tabadd01 th{border:1px solid #d1d1d1;padding:0 5px;text-align:center;line-height:28px;background:#f2f2f2;}
+table.tabadd01 td{border:1px solid #d1d1d1;padding:0 5px;line-height:28px; text-align:center;}
+table.tabadd02{width:100%;border-collapse:collapse;}
+table.tabadd02 th{border:1px solid #d1d1d1;padding:3px 5px;text-align:center;line-height:20px; font-weight:normal;}
+table.tabadd02 td{border:1px solid #d1d1d1;padding:3px 5px;line-height:20px; text-align:left;}
+table.tabadd02 .bggray{background:#f2f2f2;}
+table.tab2a td{border:1px solid #d1d1d1;padding:3px 5px;line-height:20px; text-align:center;}
+.jieshicon ul{padding:5px 0;color:#656666;}
+.jieshicon ul li{padding:0;margin:0 0 0 20px; line-height:20px;}
+table.tabadd03{width:100%;border-collapse:collapse;background-color:#f2f2f2;}
+table.tabadd03 th{border:1px solid #d1d1d1;padding:3px 5px;text-align:right;line-height:20px; font-weight:normal;}
+table.tabadd03 td{border:1px solid #d1d1d1;padding:3px 5px;line-height:20px; text-align:left;}
+table.tabadd03 td .tx1{padding:0 0 0 80px; color:#ff7f00;}
+.online-book-tex{padding:15px 18px;line-height:22px;color:#6e6e6e;}
+.online-book-tex h2{font-size:14px;font-weight:bold;}
+.online-book-tex p{ padding:5px 0; margin:0;}
+.notes-lis1{padding:5px 0;}
+.notes-lis1 li{list-style-type:decimal;padding:0;margin:0 0 0 40px; line-height:20px;}
+.notes-lis2{padding:5px 20px; }
+.notes-lis2 li{line-height:20px;background:url(http://img1.7daysinn.cn/images/ar_hd.gif) 0px 8px no-repeat;text-align:left;padding-left:20px;}
+.nav_01_t{height:36px;background:url(http://img1.7daysinn.cn/images/nav_01_t.jpg) no-repeat;}
+.nav_02_t{height:36px;background:url(http://img1.7daysinn.cn/images/nav_02_t.jpg) no-repeat;}
+.nav_01_t h2{padding:5px 10px 5px 50px; text-align:left;line-height:26px;font-size:16px;color:#226399; font-weight:bold;}
+.nav_02_t h2{padding:10px 10px 0 50px; text-align:left;line-height:26px;font-size:16px;color:#226399; font-weight:bold;}
+.nav_01_m{background:url(http://img1.7daysinn.cn/images/nav_01_m.jpg) repeat-y;}
+.nav_01_b{height:8px;line-height:8px;font-size:0;background:url(http://img1.7daysinn.cn/images/nav_01_b.jpg) no-repeat;}
+
+.nav_01_list{margin:0 auto;width:188px;padding:5px 0 5px 0;}
+.nav_01_list li{margin:15px 0;width:188px; background:url(http://img1.7daysinn.cn/images/menu_00.jpg) no-repeat;color:#030708;line-height:25px;text-align:center;}
+.nav_01_list li a{color:#030708!important;}
+.nav_01_list li.on{background:url(http://img1.7daysinn.cn/images/menu_00_on.jpg) no-repeat;}
+.kuaixunlis{padding:10px 10px;}
+.kuaixunlis li{line-height:24px;text-align:left; padding-left:10px; height:24px;overflow:hidden;}
+.hotelist{margin:10px 10px 0; border:1px solid #d1d1d1; padding-bottom:10px;}
+.hotelist h2{border-bottom:1px solid #d1d1d1; padding:2px 0 0 26px; background:url(http://img1.7daysinn.cn/images/arr_my_03.gif) 10px 8px no-repeat #f2f2f2; height:20px; line-height:20px;color:#226399;}
+.hotelist ul{ margin:10px 10px 0;border:1px dashed #b5d7ff; background-color:#f7fbff; height:24px; clear:both;}
+.hotelist ul li{ float:left; width:130px; margin:0 0 0 10px; display:inline;height:24px;line-height:24px; overflow:hidden;}
+.treasure-box{padding:10px 10px;text-align:center;}
+.treasure-box .rx1{float:left; padding-left:120px}
+.treasure-box .rx2{float:left; padding:30px 20px;}
+
+.my7day-left3{float:left;display:inline;text-align:left;margin-left:12px;overflow:hidden;}
+.nav_02_list{width:156px;padding:0 0 5px 0;}
+.nav_02_list li{margin:0 0 15px 0;width:156px; background:url(http://img1.7daysinn.cn/images/menu_11.jpg) no-repeat;color:#000000;line-height:39px;font-size:14px; font-family:"微软雅黑";text-align:center;}
+.nav_02_list li a{color:#000000!important;}
+.right690 {float:right;width:690px;display:inline;margin-right:10px;overflow:hidden;}
+.right690 .rr_mbox{background:url(http://img1.7daysinn.cn/images/rr_mm.jpg) repeat-y;}
+.right690 .rr_fbox{background:url(http://img1.7daysinn.cn/images/rr_bb.jpg) no-repeat;height:6px;line-height:6px;font-size:0;}
+.ent-intitle{background:url(http://img1.7daysinn.cn/images/rr_tt.gif) no-repeat;width:690px;height:35px;}
+.ent-intitle h2{padding:5px 10px;color:#ff7f00;font-size:18px;font-family:"黑体"; line-height:24px;}
+.enterprise-intro{margin:0 1px;background:url(http://img1.7daysinn.cn/images/ent_bg.jpg) center top no-repeat; padding:10px 36px;line-height:24px;}
+.enterprise-intro p{margin:0;padding:5px 0; line-height:24px;}
+.ent_lis1{padding:5px 0;}
+.ent_lis1 li{padding:0 10px;line-height:22px;color:#ff7f00;background:url(http://img1.7daysinn.cn/images/point2.gif) 0px 8px no-repeat; font-weight:bold;}
+.lroman{ padding:20px 0; color:#656666;}
+.lroman li{margin:0 0 0 76px;list-style-type: upper-roman}
+
+.dyj_con{margin:10px 10px;border:1px solid #88c4de;background-color:#f9f9f9; text-align:center; padding:8px 0;}
+.map_cont{padding:10px 0 10px 8px}
+.map_cont .mt01{float:left;width:710px;display:inline;}
+.map_cont .mt02{float:left;width:140px;display:inline; margin-left:10px;}
+.map_cont .mt02 h2{background:url(http://img1.7daysinn.cn/images/m_ic_00.jpg) 3px 5px no-repeat;padding:0 0 0 26px;font-size:14px;color:#226399; font-weight:bold; line-height:24px; height:24px;}
+.map_cont .mt02 .lis{padding:10px 0 0 0; margin:0;}
+.map_cont .mt02 .lis li{background:url(http://img1.7daysinn.cn/images/m_ic_01.jpg) 3px 3px no-repeat;padding:2px 0 0 20px;color:#226399;font-weight:bold; line-height:20px; }
+.map_cont .mt02 .lis li span{float:right; width:74px;color:#fdd200;text-align:left;}
+
+.hk_titcon{border-bottom:1px solid #9bd2ea; height:70px; padding:0 20px;}
+.hk_titcon .left{float:left; padding-top:30px;color:#ff7e00;}
+.hk_content{padding:20px 0;}
+.hk_content h2{font-size:16px;line-height:24px;color:#ff7f00; padding:0 10px;}
+.hk_content .tex01{padding:10px 20px; line-height:22px;}
+.hk_content .lis_01{padding:10px 15px 10px 18px;}
+.hk_content .lis_01 li{ margin-left:26px; list-style-type:decimal; line-height:20px;}
+.hk_zccon{border-top:1px solid #9bd2ea;border-bottom:1px solid #9bd2ea; height:70px;color:#ff7f00; text-align:center;}
+.hk_zccon img{ vertical-align:middle;} 
+/***6.29***/
+.listcon01 h3{border-bottom:1px solid #d1d1d1; padding:2px 0 0 26px; background:url(http://img1.7daysinn.cn/images/arrow_right2.gif) 10px 10px no-repeat #ECF9FF; height:26px; line-height:26px;color:#226399; font-size:14px;font-weight:bold;}
+.jh_tex01{padding:10px 30px; line-height:22px;}
+.jh_tex01 p{padding:2px 0; margin:0; line-height:20px;}
+.jh_list01{padding:5px 0 10px 20px;}
+.jh_list01 li{padding:3px 0 0 22px; background:url(http://img1.7daysinn.cn/images/arr.gif) 3px 8px no-repeat; line-height:20px;} 
+.gif_nav_bgcon{margin:0 auto;width:636px;}
+.gif_nav_bg01{height:6px;line-height:6px;font-size:0;background:url(http://img1.7daysinn.cn/images/gif_nav_bg2_01.gif) no-repeat;}
+.gif_nav_bg02{background:url(http://img1.7daysinn.cn/images/gif_nav_bg2_02.gif) repeat-y; padding:3px 10px; line-height:22px;}
+.gif_nav_bg02 p{margin:0;padding:0; line-height:20px;}
+.gif_nav_bg03{height:6px;line-height:6px;font-size:0;background:url(http://img1.7daysinn.cn/images/gif_nav_bg2_03.gif) no-repeat;}
+.pur_infor_tent{padding:10px 20px;line-height:22px;}
+.pur_infor_tent p{margin:0;padding:0;}
+
+.comments_info{padding:10px 20px;}
+.comments_info h3{font-size:12px;padding:2px 5px; line-height:24px; margin:8px 0;font-weight:bold; border-bottom:1px dashed #ccc;}
+.comments_info .ctent{padding:6px 20px;}
+.comments_info .ctent li{float:left;width:230px;margin-right:20px; height:22px; line-height:22px;overflow:hidden;}
+.comments_info .ctent p{margin:0;padding:0;}
+
+/***会员短信预订***/
+.menber_info_tent{padding:10px 25px 0;line-height:24px;}
+.menber_info_tent p{margin:0; padding:10px 0;}
+.menber_info_tent ol{margin:0 0 0 40px; padding:0;}
+
+/***about season***/
+.ab_sea_con{padding:10px 20px;}
+.ab_sea_con .sol01{float:left;width:522px;}
+.ab_sea_con .sol02{float:right;width:306px;}
+.ab_sea_con .sol02 .t{line-height:8px;height:8px;background:url(http://img1.7daysinn.cn/images/sea_t_1.jpg) no-repeat;font-size:0;}
+.ab_sea_con .sol02 .m{background:url(http://img1.7daysinn.cn/images/sea_m_1.jpg) repeat-y;}
+.ab_sea_con .sol02 .b{line-height:8px;height:8px;background:url(http://img1.7daysinn.cn/images/sea_b_1.jpg) no-repeat;font-size:0;}
+.ab_sea_con .sol02 h2{background:url(http://img1.7daysinn.cn/images/arr_s1.jpg) 10px 10px no-repeat;padding-left:30px; line-height:30px; height:30px; font-size:18px;font-family:"微软雅黑"; color:#006699; border-bottom:1px solid #c0e8fa;padding-bottom:5px;}
+.ab_stent{margin-top:10px;}
+.ab_sea_con .sol03{float:left;width:168px;border:1px solid #41bbf2;background-color:#ecf9ff;}
+.ab_sea_con .sol03 .pic{margin:5px;text-align:center;}
+.ab_sea_con .sol04{float:right;width:660px;}
+.ab_sea_con .sol04 .t{line-height:8px;height:8px;background:url(http://img1.7daysinn.cn/images/sea_t_2.jpg) no-repeat;font-size:0;}
+.ab_sea_con .sol04 .m{background:url(http://img1.7daysinn.cn/images/sea_m_2.jpg) repeat-y;}
+.ab_sea_con .sol04 h2{background:url(http://img1.7daysinn.cn/images/arr_s1.jpg) 10px 10px no-repeat;padding-left:30px; line-height:30px; height:30px; font-size:18px;font-family:"微软雅黑"; color:#006699; border-bottom:1px solid #c0e8fa;padding-bottom:5px;}
+.ab_sea_con .sol04 .b{line-height:8px;height:8px;background:url(http://img1.7daysinn.cn/images/sea_b_2.jpg) no-repeat;font-size:0;}
+.ab_sea_lis1{padding:6px 10px;}
+.ab_sea_lis1 li{ margin:5px 0;border-bottom:1px dashed #CCCCCC;background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 10px no-repeat;padding:3px 20px;line-height:24px; height:24px;color:#3a7471;}
+.ab_sea_lis1 li a{color:#3a7471!important;}
+.ab_sea_tex{padding:15px 10px;line-height:22px;color:#3a7471;text-align:left;}
+.ab_sea_tex a{color:#3a7471!important;}
+
+/***我的级别***/
+.jbcon_tent{padding:10px 10px 0 10px;}
+.jcon_tent p{margin:0;padding:0;}
+.jbcon_tent .it_tex1{ padding-left:20px;}
+.jbcon_tent .list00{ padding:5px 0;}
+.jbcon_tent .list00 li{padding:3px 0 0 20px; background:url(http://img1.7daysinn.cn/images/arr_s_1.gif) 3px 15px no-repeat; line-height:24px;overflow:hidden;}
+.jbcon_tent .list00 li p{float:left;margin:0;display:block;padding:5px 10px 0 0;line-height:20px;height:20px;overflow:hidden;}
+.jbcon_tent .list00 li p.nn1{ width:340px;}
+.jbcon_tent .list00 li p.nn2{ width:60px;}
+.jbcon_tent .list00 li p.nn3{ width:70px;}
+
+/***购礼包抽大奖***/
+.gift_lottery{padding:20px;}
+.gift_lottery li{margin-top:5px;}
+
+/**我的抵用券-领取抵用券*/
+.firstPageCss{
+	padding:10px;
+	line-height:30px;
+	padding-left:100px;
+	height:100px;
+	display:inline-block;
+}
+.ticketNumber{
+	width:200px;
+	border:1px solid #888;
+	height:18px;
+	line-height:18px;
+	padding-top:4px;
+	font-size:12px;
+	color:#ccc;
+}
+
+.lingqu_eticket_verifycode{
+	width:180px;
+	border:1px solid #888;
+	height:18px;
+	vertical-align:middle;
+	font-size:12px;
+	color:#ccc;
+}
+.lingqu_eticket_safecode{
+	width:60px;
+	border:1px solid #888;
+	height:18px;
+	vertical-align:middle;
+	font-size:12px;
+}
+.secondPageCss{
+	padding:10px;
+	line-height:30px;
+}
+.innsSelect{
+	width:200px;
+}

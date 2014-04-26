@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/*public*/
+*html {background-image: url(about:blank); background-attachment: fixed; }
+.robotScroll {
+	position:fixed; margin-left:886px; margin-top:120px; cursor:pointer;
+	_position: absolute;
+	_top: expression(eval(document.documentElement.scrollTop));
+}
+
+body{ font-family: Tahoma, Arial, sans-serif; margin:0; padding:0;font-size:12px; text-align:center; color:#333;background:url(http://img1.7daysinn.cn/images/web_bg.gif) repeat #fff;}
+div,form,img,ul,ol,li,dl,dt,dd{margin: 0; padding: 0; border:0; }
+h1,h2,h3,h4,h5,h6 {margin:0; padding:0; font-size:12px; font-weight:normal;}
+table,td,tr,th,select,input{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:none;}
+
+a:link {color: #000; text-decoration:none;}
+a:visited {color:#000;text-decoration:none;}
+a:hover {color: #FF8B00; text-decoration:underline;}
+a:active {color: #FF8B00;}
+
+.fB { font-weight:bold;}
+.fn { font-weight:normal;}
+.fI { font-style:italic;}
+.f12px{ font-size:12px;}
+.f14px{ font-size:14px; line-height:2em;}
+
+.cOrange{color:#FF8B00!important;}
+a.cOrange:link, a.cOrange:visited {color:#FF8B00!important;}
+a.cOrange:hover, a.cOrange:active {color:#6e6e6e!important;}
+.cYellow {color:#FFC900;}
+.cWhite {color:#fff!important;}
+.cBlue,.cBlue a {color:#0F7FBF!important;}
+.cBlue2 {color:#ADD0ED!important;}
+.cGray,.cGray a {color:#9F9F9E;}
+.cGray1,.cGray1 a {color:#6e6e6e;}
+.cGray2{color:#6f6f6f!important;}
+a.cGray2:link, a.cGray2:visited {color:#6f6f6f!important;}
+.cRed,.cRed a {color:#FD7A51;}
+.cBlack,.cBlack a {color:#000;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both!important; font-size:0px!important; height:0px!important; line-height:0!important;margin:0!important;padding:0!important; }
+.clr{clear:both;}
+.hidden {display: none;}
+.unLine ,.unLine a{text-decoration:none;}
+.onLine ,.onLine a{text-decoration:underline!important;}
+.noBorder{border:none;}
+
+.blank5{ height:5px!important; font-size:0;clear:both!important;line-height:0!important;margin:0!important;overflow:hidden;}
+.blank10{ height:10px!important; font-size:1px!important;clear:both!important;line-height:0!important;margin:0!important;overflow:hidden;}
+.blank15{ height:10px!important; font-size:1px!important;clear:both!important;line-height:0!important;margin:0!important;overflow:hidden;}
+.blank17{ height:17px!important; font-size:1px!important;clear:both!important;line-height:0!important;margin:0!important;overflow:hidden;}
+
+.ar {text-align:right;}
+.ac {text-align:center;}
+
+.lh2 {line-height:2em;}
+.input {-padding-top:2px;}
+.content {margin:0 auto;width:880px;text-align:left;}
+.headet_info{width:100%;height:28px;line-height:30px;background:#E9E9E9;border-bottom:1px solid #CCCCCC;color:red;text-align:center;display: none;}
+/*头部*/
+.header {margin:0 auto;width:880px;height:106px;background:url(http://img1.7daysinn.cn/images/top_ind.gif) center bottom no-repeat; text-align:left;color:#fff;overflow:hidden;}
+.header .logo {display:inline;float:left;margin:8px 5px 0 20px;width:100px;height:94px;cursor:pointer;}
+.header .toptent{display:inline;float:left;width:750px;overflow:hidden;}
+.header .toptent .listcode{padding:4px 0 0 0; text-align:right;line-height:20px;color:#226399;height:20px;}
+.header .toptent .listcode  .spanString{ display:inline;padding-left:4px;padding-right:4px;margin:0px;}
+.header .toptent .listcode a{color: #226399;text-decoration: none;}
+.header .toptent a:hover,.header a:active {color:#FF8B00!important;}
+
+.header .topnavcont{margin:39px 0 0 0 !important;margin:20px 0 0 0 ;height:22px;overflow:hidden;}
+.header .topnavcont a{color:#fff!important;}
+.header .topnavcont a:hover,.header a:active {color:#FF8B00!important;}
+.header .topnavcont .navlis{float:left;}
+.header .topnavcont .navlis ul li{float:left; display:block; height:22px; line-height:22px;font-size:14px;font-weight:bold; margin-right:33px;}
+.header .topnavcont .navlis ul li.on{ width:69px; text-align:center; background:url(http://img1.7daysinn.cn/images/nav_on2.gif) no-repeat; margin-right:30px;}
+.header .topnavcont .loginnav{float:right; padding:2px 0 0 0;}
+.header .topnavcont .loginnav ul li{float:left;display:block;height:20px;line-height:20px;overflow:hidden;font-size:12px;text-align:center;margin-right:10px;background:url(http://img1.7daysinn.cn/images/point_ind.gif) left no-repeat; padding-left:10px; }
+.header .userinfotent{ margin-top:2px;height:18px;overflow:hidden;}
+/* headet css*/
+.header .userinfotent a{color:#fff!important;}
+.header .userinfotent a:hover,.header a:active {color:#FF8B00!important;}
+
+.header .userinfotent .user_info{float:left;line-height:18px; padding-left:6px;}
+.header .userinfotent .sub_menu{float:right;}
+.header .userinfotent .sub_menu ul{float:left;display:inline;height:18px;line-height:18px;font-size:12px;margin:0 10px 0 0; vertical-align:middle; }
+.header .userinfotent .sub_menu ul .nalsecimg{background:url(http://img1.7daysinn.cn/images/point_ind_sec.gif) no-repeat; width:5px;  }
+
+/* 页脚 */
+.footer{margin:0 auto;width:880px;text-align:center;}
+.footer p{margin:0;padding:0;}
+.footer .ab7dyas_n1{height:28px; padding-top:2px;background:#226399;line-height:26px;text-align:center;color:#fff;clear:both;}
+.footer .ab7dyas_n1 a{color:#fff;text-decoration:none;}
+.footer .ab7dyas_n2{margin:5px 0 0 0;color:#226399;line-height:20px;}
+.footer .ab7dyas_n2 a{color:#226399;}
+.footer .ab7dyas_n3{margin:2px 0 0 0;color:#226399;line-height:20px;}
+.footer .ab7dyas_n3 a {color:#226399;}
+.footer .ab7dyas_n4{margin:2px 0 0 0;color:#9f9f9e;line-height:20px;}
+.footer .footer_sec_1{float:left;width:680px; text-align:right;}
+.footer .footer_sec_1 .footer_sec_1_c{float:right; text-align:center;}
+.footer .footer_sec_2{float:right; text-align:left;width:180px;margin-left:10px;}
+
+/* 左边 */
+.left_con{width:218px;color:#226399;overflow:hidden;}
+.left_con a{color:#226399!important;}
+.left_con p{ margin:0; padding:0;}
+.left_con .lf_a1{height:36px; background:url(http://img1.7daysinn.cn/images/lf_a1.gif) center bottom no-repeat;}
+.left_con .lf_a2{background:url(http://img1.7daysinn.cn/images/lf_b2.gif) left repeat-y; text-align:center;}
+.left_con .lf_a3{height:6px; line-height:6px; font-size:1px;background:url(http://img1.7daysinn.cn/images/lf_b3.gif) left top no-repeat;}
+
+.left_con .lf_b1{height:36px; background:url(http://img1.7daysinn.cn/images/lf_b1.gif) center bottom no-repeat;}
+.left_con .lf_b2{background:url(http://img1.7daysinn.cn/images/lf_b2.gif) center repeat-y;text-align:center;}
+.left_con .lf_b3{height:6px; line-height:6px; font-size:1px;background:url(http://img1.7daysinn.cn/images/lf_b3.gif) center top no-repeat;}
+
+.left_con .lf_c1{height:39px; background:url(http://img1.7daysinn.cn/images/lf_c1.gif) center bottom no-repeat;}
+.left_con .lf_c2{background:url(http://img1.7daysinn.cn/images/lf_c2.gif) center repeat-y;text-align:center;}
+.left_con .lf_c3{height:6px; line-height:6px; font-size:1px;background:url(http://img1.7daysinn.cn/images/lf_c3.gif) center top no-repeat;}
+
+.left_hotel_con{margin:0 auto;width:200px; padding:10px 0;}
+.inp_lf01{ padding:0 0 10px 0;}
+.inp_lf01 input{background:url(http://img1.7daysinn.cn/images/lf_bn01.jpg);width:154px;height:21px;border:0;cursor:pointer;}
+
+table.left_tab01{ margin:0 auto;width:100%;}
+table.left_tab01 tr th{padding:2px 2px 0 0;line-height:22px; text-align:right;color:#226399;font-weight:normal;}
+table.left_tab01 tr td{padding:2px 2px 0 0;line-height:22px; text-align:left;color:#226399;}
+
+.left_map_con{margin:0 auto;width:160px; padding:10px 0 5px 0;}
+.left_map_con p{line-height:28px;}
+.left_map_con p.line{ background:url(http://img1.7daysinn.cn/images/lf_map_line.jpg) center bottom repeat-x;}
+.left_map_con .inp{float:left;width:110px;height:20px;background:url(http://img1.7daysinn.cn/images/lf_sou_bg_01.jpg) no-repeat;border:none; padding:6px 7px 4px 7px;}
+.left_map_con .btn{float:left;width:30px;height:30px;background:url(http://img1.7daysinn.cn/images/lf_sou_bg_02.jpg) no-repeat;border:none;cursor:pointer;}
+
+.left_tool_con{padding:15px 5px 5px 25px;}
+.left_tool_con li{float:left;width:80px;padding:0 0 0 10px;line-height:24px;height:24px;}
+.left_tool_con li.nt01{ background:url(http://img1.7daysinn.cn/images/ic_gg01.jpg) 0 3px no-repeat;}
+.left_tool_con li.nt02{ background:url(http://img1.7daysinn.cn/images/ic_gg02.jpg) 0 3px no-repeat;}
+.left_tool_con li.nt03{ background:url(http://img1.7daysinn.cn/images/ic_gg03.jpg) 0 3px no-repeat;}
+.left_tool_con li.nt04{ background:url(http://img1.7daysinn.cn/images/ic_gg04.jpg) 0 3px no-repeat;}
+.left_tool_con li.nt05{ background:url(http://img1.7daysinn.cn/images/ic_gg05.jpg) 0 3px no-repeat;}
+.left_tool_con li.nt06{ background:url(http://img1.7daysinn.cn/images/ic_gg06.jpg) 0 3px no-repeat;}
+.left_tool_con li.nt07{ background:url(http://img1.7daysinn.cn/images/ic_gg07.jpg) 0 3px no-repeat;}
+.left_tool_con li.nt08{ background:url(http://img1.7daysinn.cn/images/ic_gg08.jpg) 0 3px no-repeat;}
+.left218 {float:left;display:inline;margin-left:10px;}
+
+/*翻页*/
+.pagenum {margin:0 25px;text-align:center;}
+.pagenum .td1 {width:100px;text-align:left;}
+.pagenum .td2 {width:90px;}
+.pagenum .td3 {width:80px;}
+.pagenum .td4 {width:120px;}
+.pagenum .td5 {width:50px;}
+.pagenum .td4 a {display:block;float:left;padding:0 3px;margin:2px;}
+.pagenum .td4 .on {border:1px solid #FF7F02;background:#F1F3F0;color:#FE7E00;}
+.pagenum select {*height:15px;}
+
+/********* 4个广告图片 ***********/
+.piccont2, .piccont2 *{margin:0; padding:0;text-align:left;}
+.piccont2{width:638px; height:127px; overflow:hidden;position:relative;z-index:1;}
+.slider2{position:absolute;}
+.slider2 li{ list-style:none;display:inline;}
+.slider2 img{ width:638px; height:127px; display:block;}
+.num2{ position:absolute; right:5px; bottom:5px;}
+.num2 li{float: left;color: #00019A;text-align: center;line-height: 16px;width: 16px;height: 16px;font-family: Arial;font-size: 12px;cursor: pointer;overflow: hidden;margin:1px;border: 1px solid #E0D4C4; background-color:#FFF;}
+.num2 li.on{color: #fff;line-height:16px;width:16px;height:16px;font-size:14px;margin: 0 1px;border: 0;border: 1px solid #647684;background-color: #b5d6f9;font-weight: bold;}
+
+/********* 配置包样式 *********************/
+.caption{background-image:url(http://img1.7daysinn.cn/images/bg.jpg) ;background-repeat: no-repeat ;color:#065EB6;  height:26px;padding-left:22px; padding-top:8px;font-size:14px ; border:0;}
+.package_td{font-size: 9pt;background-color:#FFFFFF;}
+.package_th{font-size: 9pt;background-color:#f6f6f6;height:30px;}
+#red {color:#f37800;text-decoration: underline;}
+
+/* == clearfix == */
+.clearfix:after { /*/*/content: "."; /* IE8 hack */ display: block; height: 0; clear: both; visibility: hidden; }
+/* IE7 hack */
+.clearfix { display: inline-block; }
+/* IE-mac, IE5, IE6 */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.right626a {float:right;width:626px;display:inline;margin-right:10px;overflow:hidden;}
+.right626a .contbox {width:626px;background:url(http://img1.7daysinn.cn/images/bg_626.gif) repeat-y;}
+.right626a .bottom {height:10px;font-size:1px;line-height:10px;background:url(http://img1.7daysinn.cn/images/bottom_626.gif) no-repeat;}
+
+.intitle652{background:url(http://img1.7daysinn.cn/images/nav_top652.jpg) center top no-repeat;padding:2px 1px 0;}
+.intitle626{background:url(http://img1.7daysinn.cn/images/nav_top626.jpg) center top no-repeat;padding:2px 1px 0;}
+.intitle652 .navtt,.intitle626 .navtt{background-color:#ecf9ff;border-bottom:1px solid #aaaaa9; padding:0 6px 2px;}
+.intitle652 .navtt h4,.intitle626 .navtt h4{ float:left;display:inline;margin-top:3px;height:31px;line-height:31px;padding-left:40px;font-size:14px;font-weight:bold;color:#236298;overflow:hidden;}
+.intitle652 .navtt p,.intitle626 .navtt p{ float:right;display:inline;margin:0;padding:5px 5px 0 0;text-align:right; color:#656666; font-size:12px; font-weight:normal;vertical-align:middle;}
+.intitle652 .navtt p a,.intitle626 .navtt p a{color:#656666!important;}
+.intitle652 .navtt p a:hover,.intitle626 .navtt p a:hover{color:#FF8B00!important;}
+
+table.tab001{width:100%;border-collapse:collapse;}
+table.tab001 th{border:1px solid #d1d1d1;padding:4px 5px;text-align:left;line-height:20px;}
+table.tab001 td{border:1px solid #d1d1d1;padding:4px 5px;text-align:left;line-height:20px;}
+table.tab001 .bggray{background:#f2f2f2;}
+

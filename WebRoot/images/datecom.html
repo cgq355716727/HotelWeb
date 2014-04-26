@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<style type="text/css">
+<!--
+td {FONT-SIZE: 12px; FONT-FAMILY: arial; TEXT-ALIGN: center}
+
+A {COLOR: blue}
+A:hover	{COLOR: red}
+A.bt {COLOR: #888888}
+
+.DayCSS {width:24px; height:16px; padding-top:3px; text-align:center; cursor:default; overflow:hidden; }
+.linkDayCss {color:#000000; width:24px; height:16px; padding-top:3px; text-align:center; font-weight:bold; cursor:pointer; overflow:hidden; }
+.linkDayCss:hover { color:#F00; background-color:#ffe533;}
+
+.calendarbox {width:428px; height:160px; background-color:#ffffff; border:1px solid #ccc; padding:10px; -moz-box-shadow: 2px 2px 2px #d9d9d9; -webkit-box-shadow: 2px 2px 2px #d9d9d9; box-shadow: 2px 2px 2px #d9d9d9; overflow:hidden;}
+.btnclose { position:absolute; top:8px; right:10px; height:17px; text-align:right;}
+.btnleft {float:left; width:30px; text-align:left; padding-top:60px; overflow:hidden;}
+.btnright {float:left; width:30px; text-align:right; padding-top:60px; overflow:hidden;}
+.datetitle { font-size:12px; font-weight:bold; color:#404040; text-align:center; height:22px; margin-top:2px; }
+.tableday { border-left:1px solid #e5e5e5; border-top:1px solid #e5e5e5;}
+.daytd { width:23px; height:19px; border-bottom:1px solid #e5e5e5; border-right:1px solid #e5e5e5;}
+.daytitle { width:24px; height:20px; border-right:2px solid #dbeaf5; font-size:10px; color:#404040; text-align:center; background-color:#dbeaf5;}
+-->
+</style>
+
+<script language="javascript">
+<!--//
+var str='',i,j,yy,mm,openbound,callback;
+var fld1,fld2;
+var wp=window.parent;
+var cf=wp.document.getElementById("CalFrame");
+var fld,curday,ed,today=new Date();
+var sd= new Date();
+var n_position,n_textdate,startdate,enddate,vailidday,oddeven,vailiddate,nextvailiddate,objecttype,mmm,ddd,thirdfocus;
+mmm="";
+today.setHours(0);today.setMinutes(0);today.setSeconds(0);today.setMilliseconds(0);
+
+function parseDate(s)//解析日期
+{
+	var reg=new RegExp("[^0-9-]","")
+	if(s.search(reg)>=0)return today;
+	var ss=s.split("-");
+	if(ss.length!=3)return today;
+	if(isNaN(ss[0])||isNaN(ss[1])||isNaN(ss[2]))return today;
+	return new Date(parseFloat(ss[0]),parseFloat(ss[1])-1,parseFloat(ss[2]));
+}
+ 
+//设定日历宽高
+function resizeCalendar(){
+	cf.width=452;cf.height=190;
+}
+function initCalendar()//初始化
+{
+	curday=today;
+	if(fld1&&fld1.value.length>0){curday=parseDate(fld1.value);}
+	if(fld2&&fld2.value.length>0){curday=parseDate(fld2.value);}	
+	if (!startdate==""){sd=parseDate(startdate)}
+	if (!enddate==""){ed=parseDate(enddate)}
+	drawCalendar(curday.getFullYear(),curday.getMonth());
+}
+function drawCalendar(y,m)//画日历
+{
+	var yzzz = y;
+	var mzzz = m+1;
+	//old!!!
+	var x=new Date(y,m,1),mv=x.getDay(),d=x.getDate(),de;
+	yy=x.getFullYear();mm=x.getMonth();
+	document.getElementById("yyyymm").innerHTML=yy+"年"+(mm+1>9?mm+1:"0"+(mm+1))+"月";
+	//清空日历
+	for(var i=1;i<=mv;i++)
+	{
+		de=document.getElementById("d"+i);
+		de.innerHTML="";
+		de.bgColor="";
+	}
+	//画日历
+	while(x.getMonth()==mm)
+	{
+		de=document.getElementById("d"+(d+mv));
+		if(x.getTime()==curday.getTime())
+			de.bgColor="#ffe533";
+		else
+			de.bgColor="#FFFFFF";
+		if(x.getTime()==sd.getTime())
+		{
+			//window.alert(1);
+			if(ifDraw(x)){
+				de.innerHTML="<div class='linkDayCss' onclick='setDate("+d+","+mm+","+yy+");';><font color=red>"+d+"</font></div>";
+			}else{
+				de.innerHTML="<div class='DayCSS'><font color=#ff0000>"+d+"</font></div>";
+			}
+			
+		}
+		else if(x.getTime()<sd.getTime())
+		{
+			//window.alert(2);
+			if(ifDraw(x)){
+				if(openbound){de.innerHTML="<div class='linkDayCss' onclick='setDate("+d+","+mm+","+yy+");' class=bt>"+d+"</div>";}
+				else{de.innerHTML="<div class='DayCSS'><font color=#a6a6a6>"+d+"</font></div>";}
+			}else{
+				de.innerHTML="<div class='DayCSS'><font color=#a6a6a6>"+d+"</font></div>";
+			}			
+		}	
+		else
+		{
+			//window.alert(3);
+			if(ifDraw(x)){	
+				de.innerHTML="<div class='linkDayCss' onclick='setDate("+d+","+mm+","+yy+");'>"+d+"</div>";
+			}else{
+
+				de.innerHTML="<div class='DayCSS'><font color=#a6a6a6>"+d+"</font></div>";
+			}
+		}
+		x.setDate(++d,mm,yy);
+	}
+	while(d+mv<=42)
+	{
+		de=document.getElementById("d"+(d+mv));
+		de.innerHTML="";
+		de.bgColor="";
+		d++;
+	}
+	//old!!!
+	//new!!!
+	var xzzz=new Date(yzzz,mzzz,1),mvzzz=xzzz.getDay(),dzzz=xzzz.getDate(),dezzz;
+	yyzzz=xzzz.getFullYear();mmzzz=xzzz.getMonth();
+	document.getElementById("yyyymmzzz").innerHTML=yyzzz+"年"+(mmzzz+1>9?mmzzz+1:"0"+(mmzzz+1))+"月";
+	//清空日历
+	for(var i=1;i<=mvzzz;i++)
+	{
+		dezzz=document.getElementById("dzzz"+i);
+		dezzz.innerHTML="";
+		dezzz.bgColor="";
+	}
+	//画日历
+	while(xzzz.getMonth()==mmzzz)
+	{
+		dezzz=document.getElementById("dzzz"+(dzzz+mvzzz));
+		if(xzzz.getTime()==curday.getTime()){
+			dezzz.bgColor="#ffe533";
+		}else{
+			dezzz.bgColor="#FFFFFF";
+		}
+		if(xzzz.getTime()==today.getTime())
+		{
+			//window.alert(1);
+			if(ifDraw(xzzz)){
+				dezzz.innerHTML="<div class='linkDayCss' onclick='setDate("+dzzz+","+mmzzz+","+yyzzz+");'><font color=red>"+dzzz+"</font></div>";
+			}else{
+				dezzz.innerHTML="<div class='DayCSS'><font color=#ff0000>"+dzzz+"</font></div>";
+			}
+			
+		}
+		else if(xzzz.getTime()<today.getTime())
+		{
+			//window.alert(2);
+			if(ifDraw(xzzz)){
+				if(openbound){dezzz.innerHTML="<div class='linkDayCss' onclick='setDate("+dzzz+","+mmzzz+","+yyzzz+");' class=bt>"+dzzz+"</div>";}
+				else{dezzz.innerHTML="<div class='DayCSS'><font color=#a6a6a6>"+dzzz+"</font></div>";}
+			}else{
+				dezzz.innerHTML="<div class='DayCSS'><font color=#a6a6a6>"+dzzz+"</font></div>";
+			}			
+		}	
+		else
+		{
+			//window.alert(3);
+			if(ifDraw(xzzz)){	
+				dezzz.innerHTML="<div  class='linkDayCss' onclick='setDate("+dzzz+","+mmzzz+","+yyzzz+");'>"+dzzz+"</div>";
+			}else{
+				dezzz.innerHTML="<div class='DayCSS'><font color=#a6a6a6>"+dzzz+"</font></div>";
+			}
+		}
+		xzzz.setDate(++dzzz,mmzzz,yyzzz);
+	}
+	while(dzzz+mvzzz<=42)
+	{
+		dezzz=document.getElementById("dzzz"+(dzzz+mvzzz));
+		dezzz.innerHTML="";
+		dezzz.bgColor="";
+		dzzz++;
+	}
+	//new!!
+}
+function ifDraw(xd)
+{
+	if(!startdate==""&&!enddate=="")
+	{
+		
+		if(xd.getTime()>=sd.getTime()&&xd.getTime()<=ed.getTime())
+		{	
+			
+			if(returnOE(xd)&&returnVD(xd)&&returnVDE(xd))
+			{
+				return true
+			}
+			else
+			{
+				return false
+			}
+		}
+		else
+		{
+			return false;
+		}
+	}else if(!startdate==""){
+//		alert(startdate );
+		if(xd.getTime()>=sd.getTime() )
+		{	
+			
+			if(returnOE(xd)&&returnVD(xd)&&returnVDE(xd))
+			{
+				return true
+			}
+			else
+			{
+				return false
+			}
+		}
+		else
+		{
+			return false;
+		}
+	}
+	else
+	{
+		if(returnOE(xd)&&returnVD(xd)&&returnVDE(xd))
+		{
+			return true
+		}
+		else
+		{
+			return false
+		}
+		
+	}
+}
+function returnOE(xd)
+{
+	if(!oddeven=="")
+		{
+		if(oddeven=="0")
+		{
+			if(xd.getDate()%2==0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		else
+		{
+			if(!(xd.getDate()%2==0))
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+	
+	}
+	else
+	{
+		return true;
+	}
+}
+function returnVD(xd)
+{
+	if(!vailidday=="")
+	{
+		if(vailidday.indexOf(xd.getDay().toString())>=0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	else
+	{
+		return true;
+	}
+}
+function returnVDE(xd)
+{
+	if(!vailiddate=="")
+	{
+		if(vailiddate.indexOf(xd.getFullYear().toString()+"-"+(xd.getMonth()+1).toString()+"-"+xd.getDate().toString()+",")>=0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	else
+	{
+		return true;
+	}
+}
+
+function setDate(d,mm,yy)//设置日期
+{
+	wp.hideCalendar();
+	mmm=mm+1;
+	var dstr=yy+"-"+(mmm)+"-"+d;
+	if(callback&&callback.length>0){eval("wp."+callback+"(\""+dstr+"\")");}
+	else{fld1.value=dstr;}
+	if(!n_position==""&&!n_textdate=="")
+	{		
+		wp.document.getElementById(n_textdate).value = "";//重置
+		wp.document.getElementById(n_textdate).focus();//有下个控件，则获取焦点
+		var bt_s_date = wp.document.getElementById(fld1.id).value;
+		if(bt_s_date == '') {
+			bt_s_date = ''
+		} else {
+			var bt_s_arr = bt_s_date.split('-');
+			var bt_mydate = new Date(bt_s_arr[0], bt_s_arr[1]-1, bt_s_arr[2]);
+			bt_mydate.setDate(bt_mydate.getDate() + 1);
+			var bt_y = bt_mydate.getFullYear();
+			var bt_m = bt_mydate.getMonth()+1;
+			var bt_d = bt_mydate.getDate();
+			bt_s_date = bt_y + "-" + bt_m + "-" + bt_d;
+		}
+		wp.showCalendar(n_position,false,n_textdate,'','',bt_s_date,enddate,vailidday,oddeven,nextvailiddate,objecttype,thirdfocus,fld1.id,true);	
+	}
+	else
+	{
+		if(!thirdfocus==""){
+			otd=wp.document.getElementById(thirdfocus);
+			otd.focus();
+		}
+	}
+	
+}
+//-->
+</script>
+<meta content="MSHTML 6.00.2800.1476" name="generator">
+<style id="clearly_highlighting_css" type="text/css">/* selection */ html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } /* cursor */ html.clearly_highlighting_enabled {    /* cursor and hot-spot position -- requires a default cursor, after the URL one */    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text; } /* highlight tag */ em.clearly_highlight_element {    font-style: inherit !important; font-weight: inherit !important;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; } /* the delete-buttons are positioned relative to this */ em.clearly_highlight_element.clearly_highlight_first { position: relative; } /* delete buttons */ em.clearly_highlight_element a.clearly_highlight_delete_element {    display: none; cursor: pointer;    padding: 0; margin: 0; line-height: 0;    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png"); background-repeat: no-repeat; background-position: 0px 0px; } em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } /* retina */ @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {    em.clearly_highlight_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png"); }    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } } </style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style></head>
+
+<body leftmargin="0" topmargin="0" onload="resizeCalendar();" marginwidth="0" marginheight="0">
+
+<div class="calendarbox">
+	<div class="btnclose"><a href="javascript:wp.hideCalendar();"><img src="images/close.gif" border="0"></a></div>
+
+	<div class="btnleft"><a href="javascript:drawCalendar(yy,mm-1);"><img src="images/prev.gif" border="0"></a></div>
+
+<!-- old table! -->
+	<div style="float:left; width:176px; height:169px; overflow:hidden;">
+		<div id="yyyymm" class="datetitle"></div>
+              <table cellspacing="0" cellpadding="0" border="0" style="border-bottom:2px solid #FFF;">
+                <tbody><tr>
+                  <td class="daytitle">日</td>
+                  <td class="daytitle">一</td>
+                  <td class="daytitle">二</td>
+                  <td class="daytitle">三</td>
+                  <td class="daytitle">四</td>
+                  <td class="daytitle">五</td>
+                  <td class="daytitle">六</td>
+                </tr>
+              </tbody></table>
+              <table cellspacing="0" cellpadding="0" border="0" class="tableday">
+                    <script language="javascript">
+						var str = "";
+                        for(i=0;i<6;i++)
+                        {	
+                            str+="<tr>";
+                            for(j=1;j<=7;j++)str+="<td id=d"+(i*7+j)+" class='daytd'></td>";
+                            str+="</tr>";
+                        }
+                        document.write(str);
+                    </script><tbody><tr><td id="d1" class="daytd"></td><td id="d2" class="daytd"></td><td id="d3" class="daytd"></td><td id="d4" class="daytd"></td><td id="d5" class="daytd"></td><td id="d6" class="daytd"></td><td id="d7" class="daytd"></td></tr><tr><td id="d8" class="daytd"></td><td id="d9" class="daytd"></td><td id="d10" class="daytd"></td><td id="d11" class="daytd"></td><td id="d12" class="daytd"></td><td id="d13" class="daytd"></td><td id="d14" class="daytd"></td></tr><tr><td id="d15" class="daytd"></td><td id="d16" class="daytd"></td><td id="d17" class="daytd"></td><td id="d18" class="daytd"></td><td id="d19" class="daytd"></td><td id="d20" class="daytd"></td><td id="d21" class="daytd"></td></tr><tr><td id="d22" class="daytd"></td><td id="d23" class="daytd"></td><td id="d24" class="daytd"></td><td id="d25" class="daytd"></td><td id="d26" class="daytd"></td><td id="d27" class="daytd"></td><td id="d28" class="daytd"></td></tr><tr><td id="d29" class="daytd"></td><td id="d30" class="daytd"></td><td id="d31" class="daytd"></td><td id="d32" class="daytd"></td><td id="d33" class="daytd"></td><td id="d34" class="daytd"></td><td id="d35" class="daytd"></td></tr><tr><td id="d36" class="daytd"></td><td id="d37" class="daytd"></td><td id="d38" class="daytd"></td><td id="d39" class="daytd"></td><td id="d40" class="daytd"></td><td id="d41" class="daytd"></td><td id="d42" class="daytd"></td></tr>
+              </tbody></table>
+	</div>
+<!-- old table end! -->
+    
+	<div style="width:12px; float:left;">&nbsp;</div>
+<!-- new table!! -->
+	<div style="float:left; width:176px; height:169px; overflow:hidden;">
+		<div id="yyyymmzzz" class="datetitle"></div>
+              <table cellspacing="0" cellpadding="0" border="0" style="border-bottom:2px solid #FFF;">
+                <tbody><tr height="20">
+                  <td class="daytitle">日</td>
+                  <td class="daytitle">一</td>
+                  <td class="daytitle">二</td>
+                  <td class="daytitle">三</td>
+                  <td class="daytitle">四</td>
+                  <td class="daytitle">五</td>
+                  <td class="daytitle">六</td>
+                </tr>
+              </tbody></table>
+              <table cellspacing="0" cellpadding="0" border="0" class="tableday">
+				<script language="javascript">
+                    var str = "";
+                    for(i=0;i<6;i++){
+                        str+="<tr>";
+                        for(j=1;j<=7;j++)str+="<td id=dzzz"+(i*7+j)+" class='daytd'></td>";
+                        str+="</tr>";
+                    }
+                    document.write(str);
+                </script><tbody><tr><td id="dzzz1" class="daytd"></td><td id="dzzz2" class="daytd"></td><td id="dzzz3" class="daytd"></td><td id="dzzz4" class="daytd"></td><td id="dzzz5" class="daytd"></td><td id="dzzz6" class="daytd"></td><td id="dzzz7" class="daytd"></td></tr><tr><td id="dzzz8" class="daytd"></td><td id="dzzz9" class="daytd"></td><td id="dzzz10" class="daytd"></td><td id="dzzz11" class="daytd"></td><td id="dzzz12" class="daytd"></td><td id="dzzz13" class="daytd"></td><td id="dzzz14" class="daytd"></td></tr><tr><td id="dzzz15" class="daytd"></td><td id="dzzz16" class="daytd"></td><td id="dzzz17" class="daytd"></td><td id="dzzz18" class="daytd"></td><td id="dzzz19" class="daytd"></td><td id="dzzz20" class="daytd"></td><td id="dzzz21" class="daytd"></td></tr><tr><td id="dzzz22" class="daytd"></td><td id="dzzz23" class="daytd"></td><td id="dzzz24" class="daytd"></td><td id="dzzz25" class="daytd"></td><td id="dzzz26" class="daytd"></td><td id="dzzz27" class="daytd"></td><td id="dzzz28" class="daytd"></td></tr><tr><td id="dzzz29" class="daytd"></td><td id="dzzz30" class="daytd"></td><td id="dzzz31" class="daytd"></td><td id="dzzz32" class="daytd"></td><td id="dzzz33" class="daytd"></td><td id="dzzz34" class="daytd"></td><td id="dzzz35" class="daytd"></td></tr><tr><td id="dzzz36" class="daytd"></td><td id="dzzz37" class="daytd"></td><td id="dzzz38" class="daytd"></td><td id="dzzz39" class="daytd"></td><td id="dzzz40" class="daytd"></td><td id="dzzz41" class="daytd"></td><td id="dzzz42" class="daytd"></td></tr>
+              </tbody></table>
+	</div>
+<!-- new table end! -->
+
+	<div class="btnright"><a href="javascript:drawCalendar(yy,mm+1);"><img src="next.gif" border="0"></a></div>
+
+</div>
+
+
+
+<script language="javascript">
+<!--//
+var bCalLoaded=true;
+//-->
+</script>
+
+
+</body></html>
